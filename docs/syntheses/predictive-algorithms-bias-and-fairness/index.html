@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Predictive Algorithms, Bias, and Fairness · Digital Nudging Wiki</title>
+  <link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+  <nav class="sidebar">
+<a class="brand" href="/digital-nudging-wiki/">Digital Nudging Wiki</a>
+<form class="search-form" role="search"><input id="search" type="search" placeholder="Search the wiki" autocomplete="off"><div id="search-results"></div></form>
+<details open><summary>Concepts</summary>
+<a class="nav-link" href="../../concepts/adaptive-armor/index.html">Adaptive Armor</a>
+<a class="nav-link" href="../../concepts/adversarial-choice-architecture/index.html">Adversarial Choice Architecture</a>
+<a class="nav-link" href="../../concepts/ai-heterogeneity-and-multifunctionality/index.html">AI Heterogeneity and Multifunctionality</a>
+<a class="nav-link" href="../../concepts/algorithmic-accountability-and-fairness/index.html">Algorithmic Accountability and Fairness</a>
+<a class="nav-link" href="../../concepts/algorithmic-decision-support-efficiency/index.html">Algorithmic Decision Support Efficiency</a>
+<a class="nav-link" href="../../concepts/algorithmic-fairness-as-political-philosophy/index.html">Algorithmic Fairness as Political Philosophy</a>
+<a class="nav-link" href="../../concepts/algorithmic-governance-and-the-automated-state/index.html">Algorithmic Governance and the Automated State</a>
+<a class="nav-link" href="../../concepts/algorithmic-thought-partners/index.html">Algorithmic Thought Partners</a>
+<a class="nav-link" href="../../concepts/behavioral-economics/index.html">Behavioral Economics</a>
+<a class="nav-link" href="../../concepts/behavioral-economics-2-0/index.html">Behavioral Economics 2.0</a>
+<a class="nav-link" href="../../concepts/choice-architecture/index.html">Choice Architecture</a>
+<a class="nav-link" href="../../concepts/chooser-welfare/index.html">Chooser Welfare</a>
+<a class="nav-link" href="../../concepts/compas-controversy/index.html">COMPAS Controversy</a>
+<a class="nav-link" href="../../concepts/continuous-optimization-and-experimentation/index.html">Continuous Optimization and Experimentation</a>
+<a class="nav-link" href="../../concepts/dark-pattern-regulation/index.html">Dark Pattern Regulation</a>
+<a class="nav-link" href="../../concepts/dark-pattern-taxonomy/index.html">Dark Pattern Taxonomy</a>
+<a class="nav-link" href="../../concepts/dark-patterns/index.html">Dark Patterns</a>
+<a class="nav-link" href="../../concepts/defaults/index.html">Defaults</a>
+<a class="nav-link" href="../../concepts/east-framework/index.html">EAST Framework</a>
+<a class="nav-link" href="../../concepts/error-rate-parity/index.html">Error Rate Parity</a>
+<a class="nav-link" href="../../concepts/ethics-of-nudging/index.html">Ethics of Nudging</a>
+<a class="nav-link" href="../../concepts/fairness-as-policy-alignment/index.html">Fairness as Policy Alignment</a>
+<a class="nav-link" href="../../concepts/fairness-impossibility-results/index.html">Fairness Impossibility Results</a>
+<a class="nav-link" href="../../concepts/fairness-metrics/index.html">Fairness Metrics</a>
+<a class="nav-link" href="../../concepts/human-oversight-in-ai-governance/index.html">Human Oversight in AI Governance</a>
+<a class="nav-link" href="../../concepts/human-guided-ai-training/index.html">Human-Guided AI Training</a>
+<a class="nav-link" href="../../concepts/hypernudge/index.html">Hypernudge</a>
+<a class="nav-link" href="../../concepts/management-based-ai-regulation/index.html">Management-Based AI Regulation</a>
+<a class="nav-link" href="../../concepts/manipulation/index.html">Manipulation</a>
+<a class="nav-link" href="../../concepts/nudge/index.html">Nudge</a>
+<a class="nav-link" href="../../concepts/nudge-typology/index.html">Nudge Typology</a>
+<a class="nav-link" href="../../concepts/omitted-payoff-bias/index.html">Omitted Payoff Bias</a>
+<a class="nav-link" href="../../concepts/override-problem/index.html">Override Problem</a>
+<a class="nav-link" href="../../concepts/personalized-choice-architecture/index.html">Personalized Choice Architecture</a>
+<a class="nav-link" href="../../concepts/personalized-nudging/index.html">Personalized Nudging</a>
+<a class="nav-link" href="../../concepts/precision-nudging/index.html">Precision Nudging</a>
+<a class="nav-link" href="../../concepts/prediction-policy-problems/index.html">Prediction Policy Problems</a>
+<a class="nav-link" href="../../concepts/predictive-parity/index.html">Predictive Parity</a>
+<a class="nav-link" href="../../concepts/privacy-and-consent/index.html">Privacy and Consent</a>
+<a class="nav-link" href="../../concepts/reasoned-transparency/index.html">Reasoned Transparency</a>
+<a class="nav-link" href="../../concepts/recommendation-systems/index.html">Recommendation Systems</a>
+<a class="nav-link" href="../../concepts/reflective-equilibrium/index.html">Reflective Equilibrium</a>
+<a class="nav-link" href="../../concepts/risk-assessment-in-criminal-justice/index.html">Risk Assessment in Criminal Justice</a>
+<a class="nav-link" href="../../concepts/selective-labels/index.html">Selective Labels</a>
+<a class="nav-link" href="../../concepts/sludge/index.html">Sludge</a>
+<a class="nav-link" href="../../concepts/smart-disclosure/index.html">Smart Disclosure</a>
+<a class="nav-link" href="../../concepts/sociotechnical-fairness/index.html">Sociotechnical Fairness</a>
+<a class="nav-link" href="../../concepts/transparency-and-publicity/index.html">Transparency and Publicity</a>
+</details>
+<details open><summary>Entities</summary>
+<a class="nav-link" href="../../entities/arunesh-mathur/index.html">Arunesh Mathur</a>
+<a class="nav-link" href="../../entities/arvind-narayanan/index.html">Arvind Narayanan</a>
+<a class="nav-link" href="../../entities/ashesh-rambachan/index.html">Ashesh Rambachan</a>
+<a class="nav-link" href="../../entities/avi-feller/index.html">Avi Feller</a>
+<a class="nav-link" href="../../entities/aziz-huq/index.html">Aziz Huq</a>
+<a class="nav-link" href="../../entities/behavioural-insights-team/index.html">Behavioural Insights Team</a>
+<a class="nav-link" href="../../entities/brian-hedden/index.html">Brian Hedden</a>
+<a class="nav-link" href="../../entities/cary-coglianese/index.html">Cary Coglianese</a>
+<a class="nav-link" href="../../entities/cass-r-sunstein/index.html">Cass R. Sunstein</a>
+<a class="nav-link" href="../../entities/colin-m-gray/index.html">Colin M. Gray</a>
+<a class="nav-link" href="../../entities/colton-r-crum/index.html">Colton R. Crum</a>
+<a class="nav-link" href="../../entities/david-lehr/index.html">David Lehr</a>
+<a class="nav-link" href="../../entities/deborah-hellman/index.html">Deborah Hellman</a>
+<a class="nav-link" href="../../entities/emma-pierson/index.html">Emma Pierson</a>
+<a class="nav-link" href="../../entities/himabindu-lakkaraju/index.html">Himabindu Lakkaraju</a>
+<a class="nav-link" href="../../entities/jamie-luguri/index.html">Jamie Luguri</a>
+<a class="nav-link" href="../../entities/jeff-larson/index.html">Jeff Larson</a>
+<a class="nav-link" href="../../entities/jens-ludwig/index.html">Jens Ludwig</a>
+<a class="nav-link" href="../../entities/jon-kleinberg/index.html">Jon Kleinberg</a>
+<a class="nav-link" href="../../entities/julia-angwin/index.html">Julia Angwin</a>
+<a class="nav-link" href="../../entities/jure-leskovec/index.html">Jure Leskovec</a>
+<a class="nav-link" href="../../entities/karen-yeung/index.html">Karen Yeung</a>
+<a class="nav-link" href="../../entities/lauren-kirchner/index.html">Lauren Kirchner</a>
+<a class="nav-link" href="../../entities/lior-jacob-strahilevitz/index.html">Lior Jacob Strahilevitz</a>
+<a class="nav-link" href="../../entities/manish-raghavan/index.html">Manish Raghavan</a>
+<a class="nav-link" href="../../entities/reuben-binns/index.html">Reuben Binns</a>
+<a class="nav-link" href="../../entities/richard-h-thaler/index.html">Richard H. Thaler</a>
+<a class="nav-link" href="../../entities/sam-corbett-davies/index.html">Sam Corbett-Davies</a>
+<a class="nav-link" href="../../entities/sendhil-mullainathan/index.html">Sendhil Mullainathan</a>
+<a class="nav-link" href="../../entities/sharad-goel/index.html">Sharad Goel</a>
+<a class="nav-link" href="../../entities/sophia-l-pink/index.html">Sophia L. Pink</a>
+<a class="nav-link" href="../../entities/stuart-mills/index.html">Stuart Mills</a>
+<a class="nav-link" href="../../entities/surya-mattu/index.html">Surya Mattu</a>
+</details>
+<details open><summary>Home</summary>
+<a class="nav-link" href="../../index.html">Digital Nudging Wiki</a>
+<a class="nav-link" href="../../catalog/index.html">Wiki Catalog</a>
+</details>
+<details open><summary>Sources</summary>
+<a class="nav-link" href="../../sources/angwin-et-al-2016/index.html">Angwin et al., 2016</a>
+<a class="nav-link" href="../../sources/behavioural-insights-team-2024/index.html">Behavioural Insights Team, 2024</a>
+<a class="nav-link" href="../../sources/binns-2018/index.html">Binns, 2018</a>
+<a class="nav-link" href="../../sources/coglianese-and-crum-2024/index.html">Coglianese and Crum, 2024</a>
+<a class="nav-link" href="../../sources/coglianese-and-crum-2025a/index.html">Coglianese and Crum, 2025a</a>
+<a class="nav-link" href="../../sources/coglianese-and-crum-2025b/index.html">Coglianese and Crum, 2025b</a>
+<a class="nav-link" href="../../sources/coglianese-and-lehr-2017/index.html">Coglianese and Lehr, 2017</a>
+<a class="nav-link" href="../../sources/coglianese-and-lehr-2019/index.html">Coglianese and Lehr, 2019</a>
+<a class="nav-link" href="../../sources/coglianese-2021/index.html">Coglianese, 2021</a>
+<a class="nav-link" href="../../sources/corbett-davies-et-al-2017/index.html">Corbett-Davies et al., 2017</a>
+<a class="nav-link" href="../../sources/gray-et-al-2018/index.html">Gray et al., 2018</a>
+<a class="nav-link" href="../../sources/gray-et-al-2024/index.html">Gray et al., 2024</a>
+<a class="nav-link" href="../../sources/hansen-and-jespersen-2013/index.html">Hansen and Jespersen, 2013</a>
+<a class="nav-link" href="../../sources/hedden-2021/index.html">Hedden, 2021</a>
+<a class="nav-link" href="../../sources/hellman-2020/index.html">Hellman, 2020</a>
+<a class="nav-link" href="../../sources/kleinberg-et-al-2016/index.html">Kleinberg et al., 2016</a>
+<a class="nav-link" href="../../sources/kleinberg-et-al-2018/index.html">Kleinberg et al., 2018</a>
+<a class="nav-link" href="../../sources/ludwig-and-mullainathan-2021/index.html">Ludwig and Mullainathan, 2021</a>
+<a class="nav-link" href="../../sources/ludwig-et-al-2024/index.html">Ludwig et al., 2024</a>
+<a class="nav-link" href="../../sources/ludwig-et-al-2025/index.html">Ludwig et al., 2025</a>
+<a class="nav-link" href="../../sources/luguri-and-strahilevitz-2021/index.html">Luguri and Strahilevitz, 2021</a>
+<a class="nav-link" href="../../sources/mathur-et-al-2019/index.html">Mathur et al., 2019</a>
+<a class="nav-link" href="../../sources/mathur-et-al-2021/index.html">Mathur et al., 2021</a>
+<a class="nav-link" href="../../sources/mills-2022/index.html">Mills, 2022</a>
+<a class="nav-link" href="../../sources/mullainathan-2025/index.html">Mullainathan, 2025</a>
+<a class="nav-link" href="../../sources/narayanan-et-al-2020/index.html">Narayanan et al., 2020</a>
+<a class="nav-link" href="../../sources/narayanan-2026/index.html">Narayanan, 2026</a>
+<a class="nav-link" href="../../sources/sunstein-2016/index.html">Sunstein, 2016</a>
+<a class="nav-link" href="../../sources/thaler-and-sunstein-2021/index.html">Thaler and Sunstein, 2021</a>
+<a class="nav-link" href="../../sources/yeung-2017/index.html">Yeung, 2017</a>
+</details>
+<details open><summary>Syntheses</summary>
+<a class="nav-link" href="../../syntheses/algorithmic-governance-management-and-the-automated-state/index.html">Algorithmic Governance, Management, and the Automated State</a>
+<a class="nav-link" href="../../syntheses/dark-patterns-as-adversarial-choice-architecture/index.html">Dark Patterns as Adversarial Choice Architecture</a>
+<a class="nav-link" href="../../syntheses/nudging-and-the-ethics-of-nudging/index.html">Nudging and the Ethics of Nudging</a>
+<a class="nav-link active" href="../../syntheses/predictive-algorithms-bias-and-fairness/index.html">Predictive Algorithms, Bias, and Fairness</a>
+</details>
+<details open><summary>Topics</summary>
+<a class="nav-link" href="../../topics/subtopics/algorithmic-fairness/index.html">Algorithmic Fairness</a>
+<a class="nav-link" href="../../topics/digital-nudging/index.html">Digital Nudging</a>
+</details>
+<details open><summary>Units</summary>
+<a class="nav-link" href="../../units/nudge-chapter-4-when-do-we-need-a-nudge/index.html">Nudge - Chapter 4 When Do We Need a Nudge</a>
+<a class="nav-link" href="../../units/nudge-chapter-5-choice-architecture/index.html">Nudge - Chapter 5 Choice Architecture</a>
+<a class="nav-link" href="../../units/nudge-chapter-7-smart-disclosure/index.html">Nudge - Chapter 7 Smart Disclosure</a>
+<a class="nav-link" href="../../units/nudge-chapter-8-sludge/index.html">Nudge - Chapter 8 Sludge</a>
+<a class="nav-link" href="../../units/nudge-introduction/index.html">Nudge - Introduction</a>
+<a class="nav-link" href="../../units/nudge-part-i-humans-and-econs/index.html">Nudge - Part I Humans and Econs</a>
+<a class="nav-link" href="../../units/the-ethics-of-influence-chapter-3-as-judged-by-themselves/index.html">The Ethics of Influence - Chapter 3 As Judged by Themselves</a>
+<a class="nav-link" href="../../units/the-ethics-of-influence-chapter-4-values/index.html">The Ethics of Influence - Chapter 4 Values</a>
+<a class="nav-link" href="../../units/the-ethics-of-influence-chapter-5-fifty-shades-of-manipulation/index.html">The Ethics of Influence - Chapter 5 Fifty Shades of Manipulation</a>
+<a class="nav-link" href="../../units/the-ethics-of-influence-chapter-6-do-people-like-nudges/index.html">The Ethics of Influence - Chapter 6 Do People Like Nudges</a>
+<a class="nav-link" href="../../units/the-ethics-of-influence-chapter-7-green-by-default/index.html">The Ethics of Influence - Chapter 7 Green by Default</a>
+</details>
+</nav>
+  <main class="page">
+    <header class="page-header">
+      <div class="eyebrow">synthesis</div>
+      <h1>Predictive Algorithms, Bias, and Fairness</h1>
+      <div class="tags"><span>synthesis</span><span>algorithmic-fairness</span><span>predictive-algorithms</span><span>bias</span><span>digital-nudging</span></div>
+    </header>
+    <div class="content-grid">
+      <article class="content">
+        <h1 id="predictive-algorithms-bias-and-fairness">Predictive Algorithms, Bias, and Fairness</h1>
+<h2 id="core-thesis">Core thesis</h2>
+<p>Predictive algorithms are powerful because many institutional and digital decisions are <a href="../../concepts/prediction-policy-problems/index.html">Prediction Policy Problems</a>: they depend on forecasting who is likely to reoffend, fail to appear, repay, need help, click, churn, benefit, cause harm, or respond to an intervention. The fairness problem begins because prediction is never merely prediction once it enters a decision system. A score becomes a threshold, a recommendation, a priority ranking, a detention decision, a fraud flag, a search result, a prompt, or a nudge.</p>
+<p>The course should therefore treat predictive algorithms through a double lens. The efficiency lens asks whether algorithmic decision support can improve on noisy, biased, or inconsistent human judgment. The fairness lens asks how the benefits and burdens of prediction are distributed, justified, contested, and embedded in institutions. Neither lens is dispensable. Efficiency without fairness can rationalize harmful systems. Fairness without efficiency can ignore avoidable crime, detention, exclusion, or waste produced by human decision-making.</p>
+<p>The central hinge is the impossibility result. <a href="../../concepts/predictive-parity/index.html">Predictive Parity</a> and <a href="../../concepts/error-rate-parity/index.html">Error Rate Parity</a> express two compelling ideas: scores should mean the same thing across groups, and the burdens of mistakes should not fall differently across groups. But when base rates differ and prediction is imperfect, these demands generally cannot both be satisfied. That impossibility is what opens the fairness branch. We have to choose which fairness demand governs a setting, and that choice is legal, political, philosophical, and institutional, not merely technical.</p>
+<h2 id="why-predictive-algorithms-matter">Why Predictive Algorithms Matter</h2>
+<p>Predictive algorithms matter because many decisions are ranking decisions. A judge decides which defendants are too risky to release. A doctor decides which patients should receive additional testing. A regulator decides which worksites to inspect. A college decides which students should enter remedial courses. A platform decides which options, warnings, recommendations, or prompts to show.</p>
+<p>In such cases, a better prediction can improve the decision frontier. <a href="../../sources/kleinberg-et-al-2018/index.html">Human Decisions and Machine Predictions</a> gives the canonical example. In pretrial release, Kleinberg et al. estimate that an algorithmic release rule could reduce crime by up to 24.7 percent at the same jailing rate, or reduce jailing by up to 41.9 percent with no increase in crime. This is not merely administrative efficiency. Less crime and less incarceration are both morally serious gains.</p>
+<p><a href="../../sources/mullainathan-2025/index.html">Economics in the Age of Algorithms</a> generalizes the point: economists have historically emphasized causal inference, but many important decisions hinge on prediction. <a href="../../sources/ludwig-et-al-2024/index.html">The Unreasonable Effectiveness of Algorithms</a> then reinforces the policy case. Algorithmic interventions can look unusually effective when they improve misranked decisions and scale cheaply. The reason is not mystical. If human decision-makers routinely misorder cases, better ranking can reduce deadweight loss without expanding the coercive or administrative apparatus.</p>
+<p>This is the positive case for predictive algorithms: human judgment is not a neutral baseline. It can be noisy, inconsistent, biased, and inaccurate. Algorithms can reveal patterns humans miss, standardize aspects of decision-making, and support better allocation.</p>
+<h2 id="the-compas-entry-point">The COMPAS Entry Point</h2>
+<p>The <a href="../../concepts/compas-controversy/index.html">COMPAS Controversy</a> is the best opening case because it makes all the tensions visible at once. <a href="../../sources/angwin-et-al-2016/index.html">Machine Bias</a> showed that COMPAS risk scores in Broward County produced racially asymmetric errors: Black defendants were more likely to be falsely labeled high risk, while white defendants were more likely to be falsely labeled low risk. The public concern was not simply that an algorithm made mistakes. It was that the mistakes were patterned across race and embedded in legal decisions about liberty.</p>
+<p>The controversy also showed why &quot;bias&quot; is not one thing. A score can be criticized because it produces unequal false positives. It can be defended because it is calibrated, so the same score has roughly the same empirical meaning across groups. It can be criticized again because the model is proprietary, hard to contest, and used in a coercive institutional setting. It can be criticized still more broadly because pretrial risk detention itself may be objectionable even if the model satisfies a metric.</p>
+<p>This layered structure is why COMPAS should not be taught as a simple morality tale about bad algorithms. It is a case about prediction, measurement, legal burden, institutional authority, racialized error, proprietary opacity, and sociotechnical governance.</p>
+<p>But the pedagogical pivot comes immediately after the case: ProPublica&#x27;s error-rate critique and Northpointe-style calibration defenses can each point to something real. <a href="../../sources/kleinberg-et-al-2016/index.html">Inherent Trade-Offs in the Fair Determination of Risk Scores</a> explains why that is not an accident. In ordinary conditions, a risk score cannot give scores the same meaning across groups and also equalize the relevant error burdens. The case therefore forces the question: if both ideals are attractive and jointly unavailable, which one should govern this domain?</p>
+<p>That is the entry into fairness as a branch of inquiry. Not &quot;which metric is the fair one?&quot; but &quot;what kind of fairness is at stake here, and what institutional choice follows when metrics conflict?&quot;</p>
+<h2 id="bias-is-not-one-concept">Bias Is Not One Concept</h2>
+<p>In the algorithmic fairness branch, bias should be separated into at least five questions.</p>
+<p>First, there is measurement bias: are the data and labels themselves distorted by policing, surveillance, reporting, access, or historical inequality?</p>
+<p>Second, there is predictive meaning: does a score mean the same thing across groups? This is the concern behind <a href="../../concepts/predictive-parity/index.html">Predictive Parity</a> and calibration.</p>
+<p>Third, there is error burden: who bears false positives and false negatives? This is the concern behind <a href="../../concepts/error-rate-parity/index.html">Error Rate Parity</a>, especially when mistakes lead to detention, exclusion, denial, surveillance, or loss of opportunity.</p>
+<p>Fourth, there is policy alignment: does the metric serve the legitimate goal of the decision system, or does it optimize a proxy that omits relevant values?</p>
+<p>Fifth, there is sociotechnical harm: does the whole decision system remain unjust even if the model performs well by some statistical measure?</p>
+<p>These questions overlap, but they are not interchangeable. A system can be well calibrated and still distribute error burdens unequally. A system can equalize error rates and still optimize the wrong institutional goal. A system can serve a stated policy goal and still be procedurally opaque, politically illegitimate, or harmful in its broader social effects.</p>
+<h2 id="the-impossibility-hinge">The Impossibility Hinge</h2>
+<p>The first formal lesson is the impossibility result from <a href="../../sources/kleinberg-et-al-2016/index.html">Inherent Trade-Offs in the Fair Determination of Risk Scores</a>. In the COMPAS setting, the relevant clash is between predictive meaning and error burden.</p>
+<p><a href="../../concepts/predictive-parity/index.html">Predictive Parity</a> says that scores should have the same evidential meaning across groups. For risk scores, the related condition is calibration within groups: among people assigned the same score, the observed outcome rate should be the same in each group. This is the Northpointe-style defense in the COMPAS debate and the view Hedden later strengthens philosophically: a score is not fair as evidence if the same number means different things for different groups.</p>
+<p><a href="../../concepts/error-rate-parity/index.html">Error Rate Parity</a> asks a different question. It asks whether false positives and false negatives are distributed similarly across groups. This is the ProPublica-style critique in the COMPAS debate and the view Hellman later strengthens legally: fairness often concerns action, burden, and treatment, not only evidential meaning.</p>
+<p>The impossibility result says that, outside special cases, these desiderata cannot all hold together. If groups have different base rates and prediction is imperfect, calibration or predictive parity will generally conflict with equalized error burdens. Perfect prediction would dissolve the conflict because there would be no errors to allocate. Equal base rates can also dissolve it. But in the real settings that motivate the course, neither condition can be assumed.</p>
+<p>This is crucial because it blocks the fantasy of a neutral technical fix. If predictive parity and error-rate parity cannot both be satisfied, the designer, court, regulator, platform, or public agency must choose. That choice decides what kind of unfairness is treated as most important:</p>
+<ul>
+<li>If we prioritize predictive parity, we prioritize the same evidential meaning of scores across groups.</li>
+<li>If we prioritize error-rate parity, we prioritize the distribution of mistake burdens across groups.</li>
+<li>If we prioritize policy alignment, we ask which metric best serves the legitimate goal of the decision system.</li>
+<li>If we prioritize sociotechnical fairness, we ask whether the whole decision system is the right object of reform.</li>
+</ul>
+<p>The impossibility result is therefore not an abstract theorem on the side. It is the branch point. It forces the course from statistics into normative theory, legal reasoning, public policy, and institutional design.</p>
+<h2 id="from-metrics-to-normative-theory">From Metrics to Normative Theory</h2>
+<p><a href="../../sources/binns-2018/index.html">Fairness in Machine Learning: Lessons from Political Philosophy</a> moves the discussion from metric selection to normative justification. Fairness metrics operationalize theories of equality, discrimination, opportunity, desert, representation, and historical injustice. There is no purely technical way to decide whether demographic parity, predictive parity, equality of opportunity, error-rate parity, or another criterion is the right one.</p>
+<p><a href="../../sources/corbett-davies-et-al-2017/index.html">Algorithmic Decision Making and the Cost of Fairness</a> adds a policy-design layer. A fairness constraint can reduce one disparity while worsening the decision system&#x27;s stated objective. That does not mean fairness should be sacrificed to efficiency. It means the trade-off must be explicit: what goal is the system supposed to serve, what cost does the fairness constraint impose, and is that cost justified by the legal and moral stakes?</p>
+<p>Together, Hedden, Hellman, Binns, and Corbett-Davies et al. are best read as responses to the impossibility hinge. Hedden says predictive parity has a special epistemic role. Hellman says legal fairness usually cares more about the pragmatic distribution of errors. Binns says the choice among metrics requires political philosophy. Corbett-Davies et al. say the choice must also be assessed against policy goals and decision costs.</p>
+<p>Metrics are therefore instruments. Their legitimacy depends on the theory of justice and the policy context in which they are used.</p>
+<h2 id="the-efficiency-branch">The Efficiency Branch</h2>
+<p>The efficiency branch matters because fairness debates often treat human decision-making as the implicit alternative to algorithmic prediction. But the human baseline can be bad. Judges can release high-risk defendants while jailing low-risk ones. Doctors can overtest some low-risk patients while missing high-risk patients. Agencies can misrank worksites, students, applicants, cases, or users.</p>
+<p><a href="../../concepts/algorithmic-decision-support-efficiency/index.html">Algorithmic Decision Support Efficiency</a> captures this point. If an algorithm can reduce jail without increasing crime, that is a fairness-relevant fact, not a technocratic distraction. Avoided detention is a liberty gain. Avoided crime is a welfare gain. Better ranking can reduce harm without increasing the overall burden of intervention.</p>
+<p>But <a href="../../sources/ludwig-and-mullainathan-2021/index.html">Fragile Algorithms and Fallible Decision-Makers</a> warns against the naive version of the efficiency argument. The hardest part is not always building a predictor. It is evaluating whether the predictor improves decisions. <a href="../../concepts/selective-labels/index.html">Selective Labels</a> make counterfactual evaluation difficult because we do not observe outcomes for people whose earlier human decision prevented the label from appearing. <a href="../../concepts/omitted-payoff-bias/index.html">Omitted Payoff Bias</a> arises when the algorithm predicts one outcome while the real decision depends on a richer objective function. The <a href="../../concepts/override-problem/index.html">Override Problem</a> arises because algorithms are often decision aids, not decision-makers; humans may have useful private information, or they may add noise and bias.</p>
+<p>The efficiency branch therefore does not say &quot;algorithms are better.&quot; It says: predictive algorithms can improve decision frontiers, but only when the decision, payoff function, counterfactual evaluation, and human-machine workflow are specified carefully.</p>
+<h2 id="the-sociotechnical-turn">The Sociotechnical Turn</h2>
+<p><a href="../../sources/narayanan-2026/index.html">What If Algorithmic Fairness Is a Category Error?</a> pushes the argument further. Narayanan&#x27;s central claim is that fairness is not a property of a predictive algorithm alone. It is a property of a sociotechnical decision system: data, model, threshold, user interface, human discretion, institutional goal, legal context, appeal procedure, procurement process, and downstream consequence.</p>
+<p>This is not a rejection of fairness metrics. It is a demotion of metrics from final verdicts to diagnostics. Unequal false positive rates can reveal a serious problem. Calibration can preserve the meaning of scores. Policy alignment can discipline metric choice. But none of these proves that the system is fair.</p>
+<p>The COMPAS example makes the point stark. Even if a risk score were calibrated and error-balanced, the broader use of pretrial detention based on predicted future conduct could still be morally troubling. The model might be transparent and still be embedded in an unjust institution. The decision aid might improve ranking and still legitimate a coercive system that deserves deeper reform.</p>
+<p>Sociotechnical fairness is the capstone because it keeps both branches in view. Efficiency is also a property of the system, not just the model. Fairness is also a property of the system, not just the metric.</p>
+<h2 id="implications-for-digital-nudging">Implications for Digital Nudging</h2>
+<p>For <a href="../../topics/digital-nudging/index.html">Digital Nudging</a>, predictive algorithms are everywhere: recommendation systems, search rankings, fraud detection, content moderation, risk scores, personalization engines, targeting systems, adaptive prompts, and AI assistants. These systems often do not formally deny a benefit or impose a sentence. They shape choice environments by changing visibility, salience, timing, friction, defaults, and recommendations.</p>
+<p>That makes fairness harder, not easier. A user may be nudged away from an opportunity without seeing the opportunity. A group may receive more friction, fewer beneficial recommendations, or more manipulative prompts without a clear adverse decision. A platform may optimize engagement, conversion, retention, or risk reduction while omitting welfare, autonomy, privacy, dignity, and long-term learning.</p>
+<p>The course should therefore carry over four lessons:</p>
+<ul>
+<li>Predictive performance is not enough; the question is what decision frontier the system changes.</li>
+<li>Fairness metrics are necessary but incomplete; they identify possible harms but do not settle legitimacy.</li>
+<li>Bias must be analyzed at the level of data, prediction, action, policy goal, and sociotechnical system.</li>
+<li>Digital nudging systems should be audited as choice architectures, not just as models.</li>
+</ul>
+<h2 id="teaching-sequence">Teaching Sequence</h2>
+<p>A clean teaching sequence would move in four stages.</p>
+<p>First, start with <a href="../../sources/angwin-et-al-2016/index.html">Machine Bias</a> and the <a href="../../concepts/compas-controversy/index.html">COMPAS Controversy</a>. Students see the concrete stakes: risk scores, race, errors, opacity, and liberty.</p>
+<p>Second, introduce <a href="../../concepts/fairness-impossibility-results/index.html">Fairness Impossibility Results</a> immediately, using <a href="../../concepts/predictive-parity/index.html">Predictive Parity</a> and <a href="../../concepts/error-rate-parity/index.html">Error Rate Parity</a> as the two live ideals. Students should see that the fairness branch exists because these two attractive demands generally cannot both be satisfied. The next question is not how to avoid choosing, but how to justify the choice.</p>
+<p>Third, move to normative and policy interpretation: <a href="../../concepts/algorithmic-fairness-as-political-philosophy/index.html">Algorithmic Fairness as Political Philosophy</a>, <a href="../../concepts/fairness-as-policy-alignment/index.html">Fairness as Policy Alignment</a>, and <a href="../../concepts/sociotechnical-fairness/index.html">Sociotechnical Fairness</a>. Students learn that metrics require moral and institutional justification.</p>
+<p>Fourth, introduce the efficiency branch: <a href="../../sources/kleinberg-et-al-2018/index.html">Human Decisions and Machine Predictions</a>, <a href="../../sources/ludwig-and-mullainathan-2021/index.html">Fragile Algorithms and Fallible Decision-Makers</a>, <a href="../../sources/mullainathan-2025/index.html">Economics in the Age of Algorithms</a>, and <a href="../../sources/ludwig-et-al-2024/index.html">The Unreasonable Effectiveness of Algorithms</a>. Students see that algorithmic decision support can produce real gains, but only under careful evaluation and governance.</p>
+<p>The resulting synthesis is deliberately ambivalent. Predictive algorithms are neither neutral technical tools nor inherently illegitimate machines. They are powerful components of decision systems. Their promise lies in better prediction, ranking, and support. Their danger lies in hidden objectives, unequal errors, metric laundering, institutional opacity, and the temptation to treat a model&#x27;s score as a moral conclusion.</p>
+<h2 id="working-formulation">Working Formulation</h2>
+<p>Predictive algorithms should be evaluated by asking:</p>
+<ul>
+<li>What decision does the prediction support?</li>
+<li>What outcome is predicted, and is it the right target?</li>
+<li>What are the costs of false positives and false negatives?</li>
+<li>Do scores have the same evidential meaning across groups?</li>
+<li>Who bears the burdens of errors?</li>
+<li>When predictive parity and error-rate parity conflict, which one is justified in this setting?</li>
+<li>What fairness metric, if any, matches the relevant theory of justice?</li>
+<li>What policy goal is being optimized, and what values are omitted?</li>
+<li>How does the human-machine workflow function in practice?</li>
+<li>Can affected people understand, contest, or exit the system?</li>
+<li>Does the whole sociotechnical system deserve to exist in this role?</li>
+</ul>
+<p>That checklist keeps the core lesson alive: predictive algorithms can improve decisions, but fairness belongs to the governed decision system, not to the prediction alone.</p>
+        <section class="backlinks"><h2>Backlinks</h2><ul><li><a href="../../index.html">Digital Nudging Wiki</a></li><li><a href="../../catalog/index.html">Wiki Catalog</a></li></ul></section>
+      </article>
+      <aside class="toc"><div class="toc-title">On This Page</div><a class="toc-level-1" href="#predictive-algorithms-bias-and-fairness">Predictive Algorithms, Bias, and Fairness</a><a class="toc-level-2" href="#core-thesis">Core thesis</a><a class="toc-level-2" href="#why-predictive-algorithms-matter">Why Predictive Algorithms Matter</a><a class="toc-level-2" href="#the-compas-entry-point">The COMPAS Entry Point</a><a class="toc-level-2" href="#bias-is-not-one-concept">Bias Is Not One Concept</a><a class="toc-level-2" href="#the-impossibility-hinge">The Impossibility Hinge</a><a class="toc-level-2" href="#from-metrics-to-normative-theory">From Metrics to Normative Theory</a><a class="toc-level-2" href="#the-efficiency-branch">The Efficiency Branch</a><a class="toc-level-2" href="#the-sociotechnical-turn">The Sociotechnical Turn</a><a class="toc-level-2" href="#implications-for-digital-nudging">Implications for Digital Nudging</a><a class="toc-level-2" href="#teaching-sequence">Teaching Sequence</a><a class="toc-level-2" href="#working-formulation">Working Formulation</a></aside>
+    </div>
+  </main>
+  <script src="../../assets/site.js"></script>
+</body>
+</html>
