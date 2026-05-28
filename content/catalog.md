@@ -1,3 +1,8 @@
+---
+title: Wiki Catalog
+unlisted: true
+---
+
 # Wiki Catalog
 
 Updated: 2026-05-27
