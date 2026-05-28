@@ -1,25 +1,29 @@
 # Digital Nudging Wiki
 
-Public static site for the Digital Nudging course wiki.
+Public Quartz build of the Digital Nudging course wiki.
 
-The public repository contains only compiled wiki notes and generated HTML. The private working vault keeps the raw PDFs, books, logs, and ingestion machinery.
+Only compiled Markdown notes from the private working vault's `wiki/` directory are copied into this repository as `content/`. Raw PDFs, books, EPUBs, and other source files are intentionally not published.
 
-## Local Build
+## Local Preview
+
+```sh
+NPM_CONFIG_CACHE=.npm-cache npm ci
+NPM_CONFIG_CACHE=.npm-cache npm run serve
+```
+
+Quartz serves the local site at `http://localhost:8080`.
+
+## Update Content
 
 From this repository:
 
-```bash
-python3 scripts/build_static_wiki.py --out docs
+```sh
+rsync -a --delete /path/to/private-vault/wiki/ content/
+NPM_CONFIG_CACHE=.npm-cache npm run build
 ```
 
-GitHub Pages can serve the site from the `docs/` folder on the `main` branch.
+Deploy the generated `public/` directory to the `gh-pages` branch.
 
-## Public URL
+## Published Site
 
-The expected GitHub Pages project URL is:
-
-```text
 https://gsillari.github.io/digital-nudging-wiki/
-```
-
-If a different GitHub owner is used, replace `gsillari` accordingly.

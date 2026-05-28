@@ -1,0 +1,22 @@
+{
+  "name": "digital-nudging-frontmatter",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "quartz": {
+    "name": "frontmatter",
+    "displayName": "Frontmatter",
+    "description": "Parse YAML frontmatter for the Digital Nudging Quartz site.",
+    "version": "1.0.0",
+    "category": "transformer",
+    "defaultOrder": 5
+  },
+  "peerDependencies": {
+    "@quartz-community/types": "*",
+    "gray-matter": "^4.0.3",
+    "remark-frontmatter": "^5.0.0"
+  }
+}
