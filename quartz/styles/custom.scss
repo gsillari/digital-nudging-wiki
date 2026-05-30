@@ -1,3 +1,50 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+article figure.wiki-figure {
+  margin: 1.4rem 0 1.7rem;
+  padding: 0.85rem;
+  border: 1px solid color-mix(in srgb, var(--lightgray), var(--darkgray) 18%);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--light), white 38%);
+}
+
+article figure.wiki-figure img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  border-radius: 5px;
+  background: white;
+}
+
+article figure.wiki-figure figcaption {
+  margin-top: 0.65rem;
+  color: var(--darkgray);
+  font-size: 0.92rem;
+  line-height: 1.42;
+}
+
+article figure.wiki-figure figcaption strong {
+  color: var(--dark);
+}
+
+article figure.wiki-figure--right {
+  float: right;
+  width: min(42%, 360px);
+  margin: 0.35rem 0 1.1rem 1.35rem;
+}
+
+article h2,
+article h3 {
+  clear: both;
+}
+
+@media #{$mobile} {
+  article figure.wiki-figure,
+  article figure.wiki-figure--right {
+    float: none;
+    width: 100%;
+    margin: 1.25rem 0 1.55rem;
+  }
+}

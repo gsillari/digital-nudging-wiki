@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">High-level dark pattern families</title>
+  <desc id="desc">A schematic taxonomy of five high-level dark pattern families with short examples: nagging, obstruction, sneaking, interface interference, and forced action.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1f2937" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .bg { fill: #fbfaf6; }
+      .title { font-family: Inter, Arial, sans-serif; font-size: 40px; font-weight: 780; fill: #202020; }
+      .subtitle { font-family: Inter, Arial, sans-serif; font-size: 22px; fill: #605b52; }
+      .card { fill: #ffffff; stroke: #d9d2c6; stroke-width: 2; filter: url(#shadow); }
+      .card-title { font-family: Inter, Arial, sans-serif; font-size: 27px; font-weight: 760; fill: #202020; }
+      .card-copy { font-family: Inter, Arial, sans-serif; font-size: 20px; fill: #4f4a43; }
+      .tag { font-family: Inter, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #3a454a; }
+      .tagbox { fill: #eef3f1; stroke: #b8c9c3; stroke-width: 1.4; }
+      .accent1 { fill: #e46b5d; }
+      .accent2 { fill: #2f7d73; }
+      .accent3 { fill: #d39a2d; }
+      .accent4 { fill: #5f6fa8; }
+      .accent5 { fill: #8b6f47; }
+      .icon-line { stroke: #ffffff; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .icon-fill { fill: #ffffff; }
+    </style>
+  </defs>
+  <rect class="bg" width="1400" height="860" rx="0"/>
+  <text class="title" x="80" y="84">High-level dark pattern families</text>
+  <text class="subtitle" x="80" y="122">The same strategic families can appear as many concrete interface tricks.</text>
+
+  <g transform="translate(80 178)">
+    <rect class="card" width="384" height="236" rx="18"/>
+    <circle class="accent1" cx="64" cy="64" r="34"/>
+    <path class="icon-line" d="M50 64h28M64 50v28"/>
+    <text class="card-title" x="116" y="58">Nagging</text>
+    <text class="card-copy" x="116" y="91">Repeated prompts that</text>
+    <text class="card-copy" x="116" y="121">wear down refusal.</text>
+    <rect class="tagbox" x="36" y="162" width="148" height="36" rx="18"/>
+    <text class="tag" x="56" y="185">pop-ups</text>
+    <rect class="tagbox" x="196" y="162" width="152" height="36" rx="18"/>
+    <text class="tag" x="216" y="185">reminders</text>
+  </g>
+
+  <g transform="translate(508 178)">
+    <rect class="card" width="384" height="236" rx="18"/>
+    <circle class="accent2" cx="64" cy="64" r="34"/>
+    <path class="icon-line" d="M47 48l34 34M81 48L47 82"/>
+    <text class="card-title" x="116" y="58">Obstruction</text>
+    <text class="card-copy" x="116" y="91">Friction that blocks exit,</text>
+    <text class="card-copy" x="116" y="121">comparison, or reversal.</text>
+    <rect class="tagbox" x="36" y="162" width="152" height="36" rx="18"/>
+    <text class="tag" x="56" y="185">hard cancel</text>
+    <rect class="tagbox" x="200" y="162" width="148" height="36" rx="18"/>
+    <text class="tag" x="220" y="185">extra steps</text>
+  </g>
+
+  <g transform="translate(936 178)">
+    <rect class="card" width="384" height="236" rx="18"/>
+    <circle class="accent3" cx="64" cy="64" r="34"/>
+    <path class="icon-line" d="M48 70h32l8-20H58"/>
+    <circle class="icon-fill" cx="58" cy="84" r="5"/>
+    <circle class="icon-fill" cx="80" cy="84" r="5"/>
+    <text class="card-title" x="116" y="58">Sneaking</text>
+    <text class="card-copy" x="116" y="91">Costs, terms, or actions</text>
+    <text class="card-copy" x="116" y="121">are hidden until late.</text>
+    <rect class="tagbox" x="36" y="162" width="150" height="36" rx="18"/>
+    <text class="tag" x="56" y="185">hidden fees</text>
+    <rect class="tagbox" x="198" y="162" width="150" height="36" rx="18"/>
+    <text class="tag" x="218" y="185">add-ons</text>
+  </g>
+
+  <g transform="translate(294 474)">
+    <rect class="card" width="384" height="246" rx="18"/>
+    <circle class="accent4" cx="64" cy="64" r="34"/>
+    <rect x="46" y="50" width="36" height="28" rx="5" fill="#ffffff"/>
+    <path d="M54 60h20M54 69h14" stroke="#5f6fa8" stroke-width="5" stroke-linecap="round"/>
+    <text class="card-title" x="116" y="58">Interface interference</text>
+    <text class="card-copy" x="116" y="91">Visual hierarchy, wording,</text>
+    <text class="card-copy" x="116" y="121">or timing misdirects choice.</text>
+    <rect class="tagbox" x="36" y="172" width="154" height="36" rx="18"/>
+    <text class="tag" x="56" y="195">trick question</text>
+    <rect class="tagbox" x="202" y="172" width="146" height="36" rx="18"/>
+    <text class="tag" x="222" y="195">bad default</text>
+  </g>
+
+  <g transform="translate(722 474)">
+    <rect class="card" width="384" height="246" rx="18"/>
+    <circle class="accent5" cx="64" cy="64" r="34"/>
+    <path class="icon-line" d="M50 62h28M72 52l12 10-12 10"/>
+    <text class="card-title" x="116" y="58">Forced action</text>
+    <text class="card-copy" x="116" y="91">Access is conditioned on</text>
+    <text class="card-copy" x="116" y="121">an unwanted concession.</text>
+    <rect class="tagbox" x="36" y="172" width="146" height="36" rx="18"/>
+    <text class="tag" x="56" y="195">sign in</text>
+    <rect class="tagbox" x="194" y="172" width="154" height="36" rx="18"/>
+    <text class="tag" x="214" y="195">share data</text>
+  </g>
+</svg>

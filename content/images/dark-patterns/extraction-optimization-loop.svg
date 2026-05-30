@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="920" viewBox="0 0 920 920" role="img" aria-labelledby="title desc">
+  <title id="title">Extraction-oriented optimization loop</title>
+  <desc id="desc">A circular diagram showing how dark pattern variants are tested, measured, personalized, and redeployed to extract money, data, and attention.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#54606a"/>
+    </marker>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1f2937" flood-opacity="0.13"/>
+    </filter>
+    <style>
+      .bg { fill: #fbfaf6; }
+      .center { fill: #ffffff; stroke: #d9d2c6; stroke-width: 2; filter: url(#soft); }
+      .node { fill: #ffffff; stroke: #d9d2c6; stroke-width: 2; filter: url(#soft); }
+      .title { font-family: Inter, Arial, sans-serif; font-size: 38px; font-weight: 780; fill: #202020; text-anchor: middle; }
+      .copy { font-family: Inter, Arial, sans-serif; font-size: 25px; fill: #4f4a43; text-anchor: middle; }
+      .label { font-family: Inter, Arial, sans-serif; font-size: 35px; font-weight: 760; fill: #202020; text-anchor: middle; }
+      .arrow { fill: none; stroke: #54606a; stroke-width: 4; stroke-linecap: round; marker-end: url(#arrow); }
+      .accent-red { fill: #e46b5d; }
+      .accent-teal { fill: #2f7d73; }
+      .accent-gold { fill: #d39a2d; }
+      .accent-blue { fill: #5f6fa8; }
+      .icon { fill: none; stroke: #ffffff; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect class="bg" width="920" height="920"/>
+
+  <path class="arrow" d="M460 186 C590 186 734 280 746 417"/>
+  <path class="arrow" d="M734 520 C700 654 590 734 462 742"/>
+  <path class="arrow" d="M356 728 C226 688 156 584 176 452"/>
+  <path class="arrow" d="M190 354 C226 230 330 178 460 186"/>
+
+  <circle class="center" cx="460" cy="460" r="156"/>
+  <text class="title" x="460" y="423">Optimize</text>
+  <text class="title" x="460" y="468">pressure</text>
+  <text class="copy" x="460" y="515">Money, data, attention</text>
+
+  <g transform="translate(332 70)">
+    <rect class="node" width="256" height="144" rx="22"/>
+    <circle class="accent-blue" cx="58" cy="58" r="30"/>
+    <path class="icon" d="M45 60h26M58 47v26"/>
+    <text class="label" x="164" y="88">Variants</text>
+  </g>
+
+  <g transform="translate(652 388)">
+    <rect class="node" width="218" height="144" rx="22"/>
+    <circle class="accent-teal" cx="58" cy="58" r="30"/>
+    <path class="icon" d="M44 72l18-30 18 30M53 59h18"/>
+    <text class="label" x="146" y="88">Test</text>
+  </g>
+
+  <g transform="translate(330 706)">
+    <rect class="node" width="260" height="144" rx="22"/>
+    <circle class="accent-gold" cx="58" cy="58" r="30"/>
+    <path class="icon" d="M46 70h24M52 58h28M58 46h16"/>
+    <text class="label" x="168" y="88">Extract</text>
+  </g>
+
+  <g transform="translate(50 388)">
+    <rect class="node" width="218" height="144" rx="22"/>
+    <circle class="accent-red" cx="58" cy="58" r="30"/>
+    <path class="icon" d="M43 58c20-22 40-22 60 0M52 74c14-12 28-12 42 0"/>
+    <text class="label" x="146" y="88">Target</text>
+  </g>
+</svg>
