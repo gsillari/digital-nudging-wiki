@@ -14,8 +14,7 @@ related_pages:
   - [[Mathur et al., 2021|What Makes a Dark Pattern... Dark?]]
   - [[Narayanan et al., 2020|Dark Patterns: Past, Present, and Future]]
   - [[Dark Patterns]]
-  - [[Dark Pattern Taxonomy]]
-  - [[Dark Pattern Regulation]]
+
 ---
 
 # Arunesh Mathur
@@ -30,7 +29,7 @@ Mathur's work supplies both the empirical and normative spine of the dark-patter
 
 ## Key relationships
 
-- Linked to [[Dark Patterns]], [[Dark Pattern Taxonomy]], [[Dark Pattern Regulation]], and [[Adversarial Choice Architecture]]
+- Linked to [[Dark Patterns]], dark pattern taxonomy ([[Dark Patterns]]), dark pattern regulation ([[Dark Patterns]]), and adversarial choice architecture ([[Dark Patterns]])
 - Bridges empirical web measurement with normative and legal evaluation
 
 ## Related sources

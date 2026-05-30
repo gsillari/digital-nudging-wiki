@@ -18,7 +18,7 @@ priority: important
 related_pages:
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
   - [[Ethics of Nudging]]
-  - [[Transparency and Publicity]]
+  - [[Transparency and Disclosure]]
   - [[Nudge]]
   - [[Digital Nudging]]
 ---

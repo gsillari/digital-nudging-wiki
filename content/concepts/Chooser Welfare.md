@@ -7,16 +7,20 @@ tags:
   - welfare
   - preferences
   - nudging
-updated_on: 2026-05-26
-source_count: 5
+updated_on: 2026-05-30
+source_count: 10
 related_pages:
   - [[Digital Nudging]]
+  - [[AI as Choice Aid]]
   - [[Ethics of Nudging]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
+  - [[Sunstein, 2023|Behavioral Biases, Choice Engines, and Paternalistic AI]]
   - [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]]
   - [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]]
   - [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]]
-  - [[Reflective Equilibrium]]
+  - [[Kleinberg et al., 2023|The Challenge of Understanding What Users Want]]
+  - [[Bhargava et al., 2017|Choose to Lose]]
+  - [[Behavior-Welfare Gap]]
   - [[Algorithmic Thought Partners]]
   - [[Hypernudge]]
   - [[Nudge]]
@@ -28,9 +32,11 @@ related_pages:
 
 ## Core idea
 
-[[Chooser Welfare]] is the standard that a nudge should help people by their own lights. In [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]], this is framed as making people better off as judged by themselves. The standard is meant to avoid both crude revealed preference and arrogant expert paternalism.
+[[Chooser Welfare]] is the standard that a nudge should help people by their own lights. The point is to avoid two mistakes at once: treating every observed choice as welfare-revealing, and treating the planner's judgment as automatically superior to the chooser's. Sunstein's formulation in [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]] is the anchor: people should be made better off as judged by themselves.
 
 The concept matters because observed behavior may not equal welfare. People can click, consent, buy, scroll, or accept defaults while uninformed, rushed, confused, emotionally activated, or subject to self-control problems.
+
+The choice-aid cluster makes this point empirical and digital. Choosers can actively select dominated health plans, fail to use free comparison information, or engage heavily with systems they later wish they had used less. [[Bhargava et al., 2017|Bhargava et al.]], [[Kling et al., 2012|Kling et al.]], and [[Kleinberg et al., 2023|Kleinberg et al.]] make the [[Behavior-Welfare Gap]] the operational problem behind chooser welfare.
 
 ## Key distinctions
 
@@ -47,11 +53,13 @@ Digital systems often use behavioral traces as welfare proxies: clicks, dwell ti
 
 For digital nudging, a stronger welfare claim should connect system behavior to user-endorsed goals. Examples include explicit goal setting, post-choice satisfaction, long-term outcomes, reversibility, complaint and exit patterns, and whether users would endorse the design after learning how it works.
 
-[[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]] adds a caution about the plasticity of preferences. Even asking users what interventions they accept can produce different answers depending on how abstractly or concretely the question is framed.
+The first digital difficulty is preference plasticity. If answers change depending on whether an intervention is described abstractly or concretely, then endorsement itself is partly shaped by framing. Hansen and Jespersen's [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]] is the useful anchor here because it keeps attention on the conditions under which consent and acceptance are formed.
 
-[[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]] adds a stronger platform metric problem. A system may optimize for engagement, relevance, time on platform, click-through, ad value, or retention while presenting the result as personalization or user convenience.
+The second difficulty is metric substitution. A system may optimize engagement, relevance, time on platform, click-through, ad value, or retention while presenting the result as personalization or user convenience. Yeung's [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]] makes that platform-metric problem especially sharp.
 
-[[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]] gives the concept a constructive target: [[Reflective Equilibrium]]. Instead of inferring welfare from observed behavior or platform metrics, a digital tool should help users choose what they would endorse under feasible information and considered judgment.
+The constructive target is reflective endorsement rather than mere predicted compliance. Instead of inferring welfare from observed behavior or platform metrics, a digital tool should help users choose what they would endorse under feasible information and considered judgment. That is the direction of reflective equilibrium ([[Algorithmic Thought Partners]]) in Ludwig and coauthors' [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]].
+
+The practical instrument is the choice engine: an AI system that compares options, surfaces future costs, and recommends suitable alternatives while preserving meaningful choice. Sunstein's [[Sunstein, 2023|Behavioral Biases, Choice Engines, and Paternalistic AI]] frames the ethical question: whether such systems genuinely serve chooser welfare or merely replace one architect's objective with another.
 
 ## Related pages
 
@@ -61,7 +69,8 @@ For digital nudging, a stronger welfare claim should connect system behavior to 
 - [[Defaults]]
 - [[Manipulation]]
 - [[Hypernudge]]
-- [[Reflective Equilibrium]]
+- [[AI as Choice Aid]]
+- [[Behavior-Welfare Gap]]
 - [[Algorithmic Thought Partners]]
 - [[Recommendation Systems]]
 - [[Personalized Choice Architecture]]

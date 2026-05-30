@@ -13,14 +13,10 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Digital Nudging]]
-  - [[Personalized Nudging]]
   - [[Personalized Choice Architecture]]
-  - [[Precision Nudging]]
-  - [[Behavioral Economics 2.0]]
-  - [[Reflective Equilibrium]]
   - [[Hypernudge]]
   - [[Privacy and Consent]]
-  - [[Transparency and Publicity]]
+  - [[Transparency and Disclosure]]
   - [[Stuart Mills]]
 ---
 
@@ -54,7 +50,7 @@ This distinction is the paper's durable value for the course. It lets us separat
 
 Mills is conceptually related to [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]], but less radical. Mills systematizes personalization within the nudge paradigm: the architect can personalize what is nudged toward or how the nudge is delivered.
 
-Ludwig et al. push further. Their [[Behavioral Economics 2.0]] asks whether algorithms can help determine what direction is right for the person under [[Reflective Equilibrium]]. Mills therefore complements the programmatic paper by supplying a cleaner vocabulary for the levels at which personalization can occur.
+Ludwig et al. push further. Their Behavioral Economics 2.0 ([[Algorithmic Thought Partners]]) asks whether algorithms can help determine what direction is right for the person under reflective equilibrium ([[Algorithmic Thought Partners]]). Mills therefore complements the programmatic paper by supplying a cleaner vocabulary for the levels at which personalization can occur.
 
 ## Why it matters for Digital Nudging
 
@@ -65,15 +61,15 @@ This paper helps prevent a common ambiguity in [[Digital Nudging]]. When a platf
 
 Those are ethically and technically different. Delivery personalization can improve effectiveness without changing the behavioral target. Content or target personalization can change the welfare claim itself, because the system is asserting that a different outcome is better for this particular person.
 
-The paper also sits between [[Hypernudge]] and [[Precision Nudging]]. Like Yeung, Mills treats data-driven personalization as powerful and governance-sensitive. Unlike Yeung, the paper is not primarily a critique of structural harms. It offers a practical conceptual framework for distinguishing kinds of personalization, while still warning about universality, data access, and privacy.
+The paper also sits between [[Hypernudge]] and precision nudging ([[Personalized Choice Architecture]]). Like Yeung, Mills treats data-driven personalization as powerful and governance-sensitive. Unlike Yeung, the paper is not primarily a critique of structural harms. It offers a practical conceptual framework for distinguishing kinds of personalization, while still warning about universality, data access, and privacy.
 
 ## Links into the wiki
 
-- [[Personalized Nudging]]: main concept extracted from the article.
+- personalized nudging ([[Personalized Choice Architecture]]): main concept extracted from the article.
 - [[Personalized Choice Architecture]]: broader digital choice-environment concept updated with the two-component distinction.
-- [[Precision Nudging]]: related concept; often emphasizes delivery precision, but Mills shows that target personalization is distinct.
-- [[Behavioral Economics 2.0]] and [[Reflective Equilibrium]]: more radical extension that asks what the right target is for the person.
-- [[Privacy and Consent]] and [[Transparency and Publicity]]: policy challenges around data access, data protection, universality, and public scrutiny.
+- precision nudging ([[Personalized Choice Architecture]]): related concept; often emphasizes delivery precision, but Mills shows that target personalization is distinct.
+- Behavioral Economics 2.0 ([[Algorithmic Thought Partners]]) and reflective equilibrium ([[Algorithmic Thought Partners]]): more radical extension that asks what the right target is for the person.
+- [[Privacy and Consent]] and [[Transparency and Disclosure]]: policy challenges around data access, data protection, universality, and public scrutiny.
 
 ## Bibliographic reference
 

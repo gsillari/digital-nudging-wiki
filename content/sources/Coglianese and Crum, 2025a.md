@@ -13,11 +13,9 @@ tags:
   - human-oversight
 updated_on: 2026-05-27
 related_pages:
-  - [[Management-Based AI Regulation]]
-  - [[Human-Guided AI Training]]
-  - [[AI Heterogeneity and Multifunctionality]]
-  - [[Algorithmic Governance and the Automated State]]
-  - [[Algorithmic Accountability and Fairness]]
+
+  - [[Algorithmic Governance]]
+  - [[Algorithmic Fairness]]
   - [[Digital Nudging]]
   - [[Cary Coglianese]]
   - [[Colton R. Crum]]
@@ -29,7 +27,7 @@ related_pages:
 
 [[Coglianese and Crum, 2025a|Leashes, Not Guardrails]] rejects the common metaphor of AI "guardrails." Guardrails imply fixed barriers that keep a technology within a bounded lane. Coglianese and Crum argue that this is a poor fit for AI because AI is too heterogeneous, dynamic, and innovative to be governed mainly by static constraints.
 
-The alternative metaphor is the leash. A leash allows movement and exploration, but only if a human retains control of the handle. In regulatory terms, this means [[Management-Based AI Regulation]]: a flexible system that requires developers and deployers to identify risks, design controls, document decisions, audit performance, and maintain human oversight throughout the lifecycle.
+The alternative metaphor is the leash. A leash allows movement and exploration, but only if a human retains control of the handle. In regulatory terms, this means management-based AI regulation ([[Algorithmic Governance]]): a flexible system that requires developers and deployers to identify risks, design controls, document decisions, audit performance, and maintain human oversight throughout the lifecycle.
 
 ## Key claims
 

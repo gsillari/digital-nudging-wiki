@@ -13,12 +13,8 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Algorithmic Fairness]]
-  - [[Algorithmic Fairness as Political Philosophy]]
-  - [[Fairness Metrics]]
   - [[Fairness Impossibility Results]]
-  - [[COMPAS Controversy]]
-  - [[Risk Assessment in Criminal Justice]]
-  - [[Algorithmic Accountability and Fairness]]
+  - [[Algorithmic Fairness]]
   - [[Reuben Binns]]
 ---
 
@@ -28,7 +24,7 @@ related_pages:
 
 Reuben Binns argues that fair machine learning cannot define fairness or bias by technical statistical criteria alone. Statistical definitions such as demographic parity, equality of opportunity, accuracy equity, disparate mistreatment, and counterfactual fairness each presuppose normative ideas about discrimination, equality, justice, responsibility, and legitimate grounds for differential treatment.
 
-The paper is the course's first explicit bridge from [[Fairness Metrics]] to political philosophy. It does not reject formalization. Instead, it argues that formalization has to be guided by the philosophical question: what kind of equality, discrimination, or injustice is at stake in this specific decision context?
+The paper is the course's first explicit bridge from fairness metrics ([[Algorithmic Fairness]]) to political philosophy. It does not reject formalization. Instead, it argues that formalization has to be guided by the philosophical question: what kind of equality, discrimination, or injustice is at stake in this specific decision context?
 
 ## Key claims
 
@@ -54,11 +50,11 @@ For the course, this paper shifts algorithmic fairness from "which metric should
 
 ## Links into the wiki
 
-- [[Algorithmic Fairness as Political Philosophy]]: the main concept extracted from the paper.
-- [[Fairness Metrics]]: Binns explains why metrics need normative justification.
+- algorithmic fairness as political philosophy ([[Algorithmic Fairness]]): the main concept extracted from the paper.
+- fairness metrics ([[Algorithmic Fairness]]): Binns explains why metrics need normative justification.
 - [[Fairness Impossibility Results]]: metric incompatibility creates a need for philosophical choice.
-- [[COMPAS Controversy]]: Binns helps interpret why COMPAS cannot be resolved by statistical analysis alone.
-- [[Algorithmic Accountability and Fairness]]: connects metric choice to accountable institutional design.
+- COMPAS controversy ([[Algorithmic Fairness]]): Binns helps interpret why COMPAS cannot be resolved by statistical analysis alone.
+- [[Algorithmic Fairness]]: connects metric choice to accountable institutional design.
 
 ## Open questions
 

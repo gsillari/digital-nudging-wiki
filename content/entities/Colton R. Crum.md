@@ -12,9 +12,6 @@ related_pages:
   - [[Coglianese and Crum, 2024|Taking Training Seriously]]
   - [[Coglianese and Crum, 2025b|Regulating Multifunctionality]]
   - [[Coglianese and Crum, 2025a|Leashes, Not Guardrails]]
-  - [[Management-Based AI Regulation]]
-  - [[Human-Guided AI Training]]
-  - [[AI Heterogeneity and Multifunctionality]]
   - [[Digital Nudging]]
 ---
 
@@ -27,5 +24,4 @@ Colton R. Crum is a computer science researcher and coauthor, with [[Cary Coglia
 - [[Coglianese and Crum, 2024|Taking Training Seriously]]
 - [[Coglianese and Crum, 2025b|Regulating Multifunctionality]]
 - [[Coglianese and Crum, 2025a|Leashes, Not Guardrails]]
-- [[Management-Based AI Regulation]]
-- [[Human-Guided AI Training]]
+

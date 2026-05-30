@@ -10,7 +10,7 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Kleinberg et al., 2018|Human Decisions and Machine Predictions]]
-  - [[Algorithmic Decision Support Efficiency]]
+  - [[Algorithmic Policy Efficiency]]
 ---
 
 # Jure Leskovec

@@ -13,11 +13,9 @@ tags:
   - human-guided-training
 updated_on: 2026-05-27
 related_pages:
-  - [[Management-Based AI Regulation]]
-  - [[Human-Guided AI Training]]
-  - [[AI Heterogeneity and Multifunctionality]]
-  - [[Algorithmic Governance and the Automated State]]
-  - [[Algorithmic Accountability and Fairness]]
+
+  - [[Algorithmic Governance]]
+  - [[Algorithmic Fairness]]
   - [[Digital Nudging]]
   - [[Cary Coglianese]]
   - [[Colton R. Crum]]
@@ -27,7 +25,7 @@ related_pages:
 
 ## Summary
 
-[[Coglianese and Crum, 2024|Taking Training Seriously]] connects emerging AI regulation to the technical stage at which models are trained and developed. Coglianese and Crum argue that major governance frameworks, including the EU AI Act, U.S. executive initiatives, and ISO risk-management standards, share a [[Management-Based AI Regulation]] logic: instead of trying to specify every permitted or forbidden AI output in advance, they require organizations to build internal systems for identifying, managing, documenting, and mitigating risks.
+[[Coglianese and Crum, 2024|Taking Training Seriously]] connects emerging AI regulation to the technical stage at which models are trained and developed. Coglianese and Crum argue that major governance frameworks, including the EU AI Act, U.S. executive initiatives, and ISO risk-management standards, share a management-based AI regulation ([[Algorithmic Governance]]) logic: instead of trying to specify every permitted or forbidden AI output in advance, they require organizations to build internal systems for identifying, managing, documenting, and mitigating risks.
 
 The paper's distinctive move is to say that this regulatory model should push oversight upstream. Human oversight should not be treated only as post-deployment monitoring, user review, or after-the-fact audit. For high-stakes AI, the training process itself should be designed to include human guidance.
 

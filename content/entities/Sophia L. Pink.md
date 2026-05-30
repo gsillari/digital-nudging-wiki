@@ -10,7 +10,6 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]]
-  - [[Behavioral Economics 2.0]]
   - [[Algorithmic Thought Partners]]
 ---
 
@@ -27,7 +26,7 @@ Pink is linked in this vault to the programmatic argument for algorithmic though
 ## Key relationships
 
 - Coauthor of [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]]
-- Linked to [[Behavioral Economics 2.0]] and [[Algorithmic Thought Partners]]
+- Linked to Behavioral Economics 2.0 ([[Algorithmic Thought Partners]]) and [[Algorithmic Thought Partners]]
 
 ## Related sources
 

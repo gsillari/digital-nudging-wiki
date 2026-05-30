@@ -12,7 +12,7 @@ related_pages:
   - [[Kleinberg et al., 2016|Inherent Trade-Offs in the Fair Determination of Risk Scores]]
   - [[Kleinberg et al., 2018|Human Decisions and Machine Predictions]]
   - [[Fairness Impossibility Results]]
-  - [[Algorithmic Decision Support Efficiency]]
+  - [[Algorithmic Policy Efficiency]]
   - [[Algorithmic Fairness]]
 ---
 
@@ -30,8 +30,8 @@ His role in this vault is tied to formal work on algorithmic fairness and the ef
 
 - Coauthor of [[Kleinberg et al., 2016|Inherent Trade-Offs in the Fair Determination of Risk Scores]]
 - Coauthor of [[Kleinberg et al., 2018|Human Decisions and Machine Predictions]]
-- Linked to [[Fairness Impossibility Results]] and [[Fairness Metrics]]
-- Linked to [[Algorithmic Decision Support Efficiency]], [[Selective Labels]], and [[Omitted Payoff Bias]]
+- Linked to [[Fairness Impossibility Results]] and fairness metrics ([[Algorithmic Fairness]])
+- Linked to [[Algorithmic Policy Efficiency]], selective labels ([[Algorithmic Policy Efficiency]]), and omitted payoff bias ([[Algorithmic Policy Efficiency]])
 
 ## Related sources
 

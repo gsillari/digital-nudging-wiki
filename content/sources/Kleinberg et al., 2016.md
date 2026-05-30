@@ -14,10 +14,7 @@ updated_on: 2026-05-26
 related_pages:
   - [[Algorithmic Fairness]]
   - [[Fairness Impossibility Results]]
-  - [[Fairness Metrics]]
-  - [[COMPAS Controversy]]
-  - [[Risk Assessment in Criminal Justice]]
-  - [[Algorithmic Accountability and Fairness]]
+  - [[Algorithmic Fairness]]
   - [[Jon Kleinberg]]
   - [[Sendhil Mullainathan]]
   - [[Manish Raghavan]]
@@ -27,7 +24,7 @@ related_pages:
 
 ## Summary
 
-Kleinberg, Mullainathan, and Raghavan formalize a central lesson of the [[COMPAS Controversy]]: different intuitive definitions of fairness for risk scores cannot generally be satisfied at the same time. If groups have different base rates and prediction is imperfect, a risk score cannot simultaneously satisfy calibration within groups, balance for the negative class, and balance for the positive class.
+Kleinberg, Mullainathan, and Raghavan formalize a central lesson of the COMPAS controversy ([[Algorithmic Fairness]]): different intuitive definitions of fairness for risk scores cannot generally be satisfied at the same time. If groups have different base rates and prediction is imperfect, a risk score cannot simultaneously satisfy calibration within groups, balance for the negative class, and balance for the positive class.
 
 The paper is not a defense of any particular criminal justice tool. Its value for the course is conceptual. It shows that fairness disputes are not just caused by bad data, bad intentions, or bad engineering. Some conflicts are structural, so choosing a fairness criterion is partly a normative and institutional choice.
 
@@ -56,8 +53,8 @@ For the course, the paper marks the transition from the COMPAS case to two later
 ## Links into the wiki
 
 - [[Fairness Impossibility Results]]: the durable concept page for the trade-off theorem.
-- [[Fairness Metrics]]: defines calibration, error-rate balance, and statistical parity.
-- [[COMPAS Controversy]]: the public debate that motivates the formal distinction.
+- fairness metrics ([[Algorithmic Fairness]]): defines calibration, error-rate balance, and statistical parity.
+- COMPAS controversy ([[Algorithmic Fairness]]): the public debate that motivates the formal distinction.
 - [[Algorithmic Fairness]]: the sub-hub that will organize later bias/parity and efficiency/prediction readings.
 
 ## Open questions

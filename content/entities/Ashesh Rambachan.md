@@ -12,9 +12,8 @@ updated_on: 2026-05-26
 related_pages:
   - [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]]
   - [[Ludwig et al., 2024|The Unreasonable Effectiveness of Algorithms]]
-  - [[Behavioral Economics 2.0]]
   - [[Algorithmic Thought Partners]]
-  - [[Algorithmic Decision Support Efficiency]]
+  - [[Algorithmic Policy Efficiency]]
   - [[Prediction Policy Problems]]
 ---
 
@@ -32,8 +31,8 @@ Rambachan is linked in this vault to algorithmic prediction, decision aids, the 
 
 - Coauthor of [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]]
 - Coauthor of [[Ludwig et al., 2024|The Unreasonable Effectiveness of Algorithms]]
-- Linked to [[Behavioral Economics 2.0]] and [[Algorithmic Thought Partners]]
-- Linked to [[Algorithmic Decision Support Efficiency]] and [[Prediction Policy Problems]]
+- Linked to Behavioral Economics 2.0 ([[Algorithmic Thought Partners]]) and [[Algorithmic Thought Partners]]
+- Linked to [[Algorithmic Policy Efficiency]] and [[Prediction Policy Problems]]
 
 ## Related sources
 

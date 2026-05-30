@@ -14,10 +14,9 @@ tags:
   - management-based-regulation
 updated_on: 2026-05-27
 related_pages:
-  - [[AI Heterogeneity and Multifunctionality]]
-  - [[Management-Based AI Regulation]]
-  - [[Algorithmic Governance and the Automated State]]
-  - [[Algorithmic Accountability and Fairness]]
+
+  - [[Algorithmic Governance]]
+  - [[Algorithmic Fairness]]
   - [[Digital Nudging]]
   - [[Cary Coglianese]]
   - [[Colton R. Crum]]
@@ -29,7 +28,7 @@ related_pages:
 
 [[Coglianese and Crum, 2025b|Regulating Multifunctionality]] argues that foundation models and generative AI intensify the basic problem of AI heterogeneity. A foundation model is not a single-purpose tool with one predictable risk profile. It is closer to a Swiss Army knife: the same underlying system can be adapted to many tasks, domains, users, and harms.
 
-That multifunctionality makes prescriptive, one-size-fits-all regulation especially weak. A rule designed for one use can underreach, overreach, or become obsolete when the same model is used differently. The authors argue that even more flexible tools such as performance standards and ex post liability can struggle because regulators may not be able to monitor all uses or trace harms easily. Their preferred response is [[Management-Based AI Regulation]]: require developers and users to build internal risk-management practices that can adapt to the tool's changing uses.
+That multifunctionality makes prescriptive, one-size-fits-all regulation especially weak. A rule designed for one use can underreach, overreach, or become obsolete when the same model is used differently. The authors argue that even more flexible tools such as performance standards and ex post liability can struggle because regulators may not be able to monitor all uses or trace harms easily. Their preferred response is management-based AI regulation ([[Algorithmic Governance]]): require developers and users to build internal risk-management practices that can adapt to the tool's changing uses.
 
 ## Key claims
 

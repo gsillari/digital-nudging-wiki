@@ -14,10 +14,9 @@ related_pages:
   - [[Kleinberg et al., 2018|Human Decisions and Machine Predictions]]
   - [[Ludwig and Mullainathan, 2021|Fragile Algorithms and Fallible Decision-Makers]]
   - [[Ludwig et al., 2024|The Unreasonable Effectiveness of Algorithms]]
-  - [[Behavioral Economics 2.0]]
   - [[Algorithmic Thought Partners]]
-  - [[Algorithmic Decision Support Efficiency]]
-  - [[Reflective Equilibrium]]
+  - [[Algorithmic Policy Efficiency]]
+
 ---
 
 # Jens Ludwig
@@ -28,7 +27,7 @@ Jens Ludwig is a public-policy and economics scholar and coauthor of [[Ludwig et
 
 ## Why it matters here
 
-In this vault, Ludwig links two constructive algorithmic themes: AI can shift behavioral economics from designing nudges to building tools that help people approach [[Reflective Equilibrium]], and algorithmic decision support can improve institutional decisions when carefully designed and evaluated.
+In this vault, Ludwig links two constructive algorithmic themes: AI can shift behavioral economics from designing nudges to building tools that help people approach reflective equilibrium ([[Algorithmic Thought Partners]]), and algorithmic decision support can improve institutional decisions when carefully designed and evaluated.
 
 ## Key relationships
 
@@ -36,8 +35,8 @@ In this vault, Ludwig links two constructive algorithmic themes: AI can shift be
 - Coauthor of [[Kleinberg et al., 2018|Human Decisions and Machine Predictions]]
 - Coauthor of [[Ludwig and Mullainathan, 2021|Fragile Algorithms and Fallible Decision-Makers]]
 - Coauthor of [[Ludwig et al., 2024|The Unreasonable Effectiveness of Algorithms]]
-- Linked to [[Behavioral Economics 2.0]], [[Algorithmic Thought Partners]], and [[Adaptive Armor]]
-- Linked to [[Algorithmic Decision Support Efficiency]], [[Selective Labels]], [[Omitted Payoff Bias]], and the [[Override Problem]]
+- Linked to Behavioral Economics 2.0 ([[Algorithmic Thought Partners]]), [[Algorithmic Thought Partners]], and adaptive armor ([[Algorithmic Thought Partners]])
+- Linked to [[Algorithmic Policy Efficiency]], selective labels ([[Algorithmic Policy Efficiency]]), omitted payoff bias ([[Algorithmic Policy Efficiency]]), and the override problem ([[Algorithmic Policy Efficiency]])
 
 ## Related sources
 

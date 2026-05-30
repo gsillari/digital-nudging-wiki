@@ -19,7 +19,7 @@ related_pages:
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
   - [[Ethics of Nudging]]
   - [[Chooser Welfare]]
-  - [[Transparency and Publicity]]
+  - [[Transparency and Disclosure]]
   - [[Choice Architecture]]
   - [[Digital Nudging]]
 ---

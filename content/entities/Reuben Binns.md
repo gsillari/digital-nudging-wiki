@@ -11,7 +11,6 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Binns, 2018|Fairness in Machine Learning: Lessons from Political Philosophy]]
-  - [[Algorithmic Fairness as Political Philosophy]]
   - [[Algorithmic Fairness]]
 ---
 
@@ -28,7 +27,7 @@ Binns provides the course's anchor for treating algorithmic fairness as a normat
 ## Key relationships
 
 - Author of [[Binns, 2018|Fairness in Machine Learning: Lessons from Political Philosophy]]
-- Linked to [[Algorithmic Fairness as Political Philosophy]], [[Fairness Metrics]], and [[Algorithmic Fairness]]
+- Linked to algorithmic fairness as political philosophy ([[Algorithmic Fairness]]), fairness metrics ([[Algorithmic Fairness]]), and [[Algorithmic Fairness]]
 
 ## Related sources
 

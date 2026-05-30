@@ -15,8 +15,7 @@ related_pages:
   - [[Coglianese and Crum, 2024|Taking Training Seriously]]
   - [[Coglianese and Crum, 2025b|Regulating Multifunctionality]]
   - [[Coglianese and Crum, 2025a|Leashes, Not Guardrails]]
-  - [[Algorithmic Governance and the Automated State]]
-  - [[Management-Based AI Regulation]]
+  - [[Algorithmic Governance]]
   - [[Digital Nudging]]
 ---
 
@@ -32,5 +31,5 @@ Cary Coglianese is a legal scholar of regulation, administrative law, and algori
 - [[Coglianese and Crum, 2024|Taking Training Seriously]]
 - [[Coglianese and Crum, 2025b|Regulating Multifunctionality]]
 - [[Coglianese and Crum, 2025a|Leashes, Not Guardrails]]
-- [[Algorithmic Governance and the Automated State]]
-- [[Management-Based AI Regulation]]
+- [[Algorithmic Governance]]
+

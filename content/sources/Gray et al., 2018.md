@@ -14,8 +14,6 @@ updated_on: 2026-05-27
 related_pages:
   - [[Digital Nudging]]
   - [[Dark Patterns]]
-  - [[Dark Pattern Taxonomy]]
-  - [[Adversarial Choice Architecture]]
   - [[Sludge]]
   - [[Manipulation]]
   - [[Colin M. Gray]]
@@ -48,15 +46,15 @@ The paper organizes dark patterns into five high-level strategies:
 
 ## Why it matters for Digital Nudging
 
-This source gives the vault a bridge from [[Choice Architecture]] to [[Adversarial Choice Architecture]]. It shows how interface design can preserve formal choice while distorting the user's practical ability to understand, refuse, compare, or exit.
+This source gives the vault a bridge from [[Choice Architecture]] to adversarial choice architecture ([[Dark Patterns]]). It shows how interface design can preserve formal choice while distorting the user's practical ability to understand, refuse, compare, or exit.
 
 For the course, the important point is that dark patterns are not merely the opposite of "nice" nudges. They are choice architectures whose objective has changed. The behavioral and interface mechanisms may be familiar from benign nudging, but the paternalistic constraint has been removed: the design serves the architect rather than the chooser.
 
 ## Links into the wiki
 
 - [[Dark Patterns]]: the main concept page for exploitative interface design.
-- [[Dark Pattern Taxonomy]]: the taxonomy page that tracks the paper's five high-level strategies and later refinements.
-- [[Adversarial Choice Architecture]]: the synthesis concept for user-hostile digital choice environments.
+- dark pattern taxonomy ([[Dark Patterns]]): the taxonomy page that tracks the paper's five high-level strategies and later refinements.
+- adversarial choice architecture ([[Dark Patterns]]): the synthesis concept for user-hostile digital choice environments.
 - [[Sludge]]: obstruction and roach motel designs show sludge as one dark-pattern technique.
 - [[Manipulation]]: the paper explains how interfaces can undermine understanding without eliminating formal choice.
 

@@ -13,8 +13,7 @@ related_pages:
   - [[Gray et al., 2018|The Dark (Patterns) Side of UX Design]]
   - [[Gray et al., 2024|An Ontology of Dark Patterns Knowledge]]
   - [[Dark Patterns]]
-  - [[Dark Pattern Taxonomy]]
-  - [[Adversarial Choice Architecture]]
+
 ---
 
 # Colin M. Gray
@@ -29,7 +28,7 @@ Gray's work anchors the taxonomy side of the dark-pattern module. The 2018 paper
 
 ## Key relationships
 
-- Linked to [[Dark Patterns]], [[Dark Pattern Taxonomy]], and [[Adversarial Choice Architecture]]
+- Linked to [[Dark Patterns]], dark pattern taxonomy ([[Dark Patterns]]), and adversarial choice architecture ([[Dark Patterns]])
 - Useful for the course's movement from examples to structured ontology
 
 ## Related sources

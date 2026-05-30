@@ -13,10 +13,7 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Algorithmic Fairness]]
-  - [[COMPAS Controversy]]
-  - [[Risk Assessment in Criminal Justice]]
-  - [[Fairness Metrics]]
-  - [[Algorithmic Accountability and Fairness]]
+  - [[Algorithmic Fairness]]
   - [[Julia Angwin]]
   - [[Jeff Larson]]
   - [[Lauren Kirchner]]
@@ -27,7 +24,7 @@ related_pages:
 
 ## Summary
 
-[[Angwin et al., 2016|Machine Bias]] is the ProPublica investigation that made the [[COMPAS Controversy]] a canonical entry point for [[Algorithmic Fairness]]. It studies risk scores assigned to more than 7,000 people arrested in Broward County, Florida, and argues that the scores were racially skewed in their mistakes even when overall error rates looked similar.
+[[Angwin et al., 2016|Machine Bias]] is the ProPublica investigation that made the COMPAS controversy ([[Algorithmic Fairness]]) a canonical entry point for [[Algorithmic Fairness]]. It studies risk scores assigned to more than 7,000 people arrested in Broward County, Florida, and argues that the scores were racially skewed in their mistakes even when overall error rates looked similar.
 
 The article is useful for the course because it makes algorithmic fairness concrete before the mathematics begins. A score that looks like neutral decision support can become a nudge or pressure on judges, probation officers, and pretrial decision-makers. It shapes attention, frames risk, and can move coercive public decisions while remaining partly hidden behind proprietary software.
 
@@ -50,13 +47,13 @@ The investigation also reports institutional context: risk assessments were used
 
 This article starts the algorithmic fairness module with a governance problem that is close to digital nudging: algorithmic systems can influence human decisions without formally deciding anything themselves. COMPAS is not a recommender system in the platform sense, but it steers decision-makers through risk labels, salience, and institutional trust in scores.
 
-For digital nudging, the key lesson is that algorithmic choice architecture must be evaluated by how its errors are distributed, who can contest it, which decision points it enters, and whether proprietary opacity prevents public justification. This directly connects to [[Hypernudge]], [[Algorithmic Accountability and Fairness]], [[Transparency and Publicity]], and later work on dark patterns, recommender systems, and automated personalization.
+For digital nudging, the key lesson is that algorithmic choice architecture must be evaluated by how its errors are distributed, who can contest it, which decision points it enters, and whether proprietary opacity prevents public justification. This directly connects to [[Hypernudge]], [[Algorithmic Fairness]], [[Transparency and Disclosure]], and later work on dark patterns, recommender systems, and automated personalization.
 
 ## Links into the wiki
 
-- [[COMPAS Controversy]]: the central case produced by this investigation.
-- [[Fairness Metrics]]: explains why ProPublica's focus on asymmetric error rates differs from calibration-based defenses.
-- [[Risk Assessment in Criminal Justice]]: situates COMPAS in bail, sentencing, parole, and treatment decisions.
+- COMPAS controversy ([[Algorithmic Fairness]]): the central case produced by this investigation.
+- fairness metrics ([[Algorithmic Fairness]]): explains why ProPublica's focus on asymmetric error rates differs from calibration-based defenses.
+- risk assessment in criminal justice ([[Algorithmic Fairness]]): situates COMPAS in bail, sentencing, parole, and treatment decisions.
 - [[Algorithmic Fairness]]: the course sub-hub for the fairness branch.
 
 ## Open questions

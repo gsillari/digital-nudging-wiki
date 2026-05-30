@@ -10,9 +10,8 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Mills, 2022|Personalized Nudging (Mills)]]
-  - [[Personalized Nudging]]
   - [[Personalized Choice Architecture]]
-  - [[Precision Nudging]]
+
 ---
 
 # Stuart Mills
@@ -23,12 +22,12 @@ Stuart Mills is the author of [[Mills, 2022|Personalized Nudging (Mills)]], a Be
 
 ## Why it matters here
 
-Mills supplies the vault's clearest distinction between content or target personalization and delivery personalization. This is useful for comparing [[Precision Nudging]], [[Hypernudge]], and [[Behavioral Economics 2.0]].
+Mills supplies the vault's clearest distinction between content or target personalization and delivery personalization. This is useful for comparing precision nudging ([[Personalized Choice Architecture]]), [[Hypernudge]], and Behavioral Economics 2.0 ([[Algorithmic Thought Partners]]).
 
 ## Key relationships
 
 - Author of [[Mills, 2022|Personalized Nudging (Mills)]]
-- Linked to [[Personalized Nudging]], [[Personalized Choice Architecture]], and [[Precision Nudging]]
+- Linked to personalized nudging ([[Personalized Choice Architecture]]), [[Personalized Choice Architecture]], and precision nudging ([[Personalized Choice Architecture]])
 
 ## Related sources
 

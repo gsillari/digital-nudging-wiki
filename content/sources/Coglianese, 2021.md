@@ -13,12 +13,9 @@ tags:
   - empathy
 updated_on: 2026-05-27
 related_pages:
-  - [[Algorithmic Governance and the Automated State]]
-  - [[Reasoned Transparency]]
-  - [[Human Oversight in AI Governance]]
-  - [[Algorithmic Accountability and Fairness]]
-  - [[Sociotechnical Fairness]]
-  - [[Transparency and Publicity]]
+  - [[Algorithmic Governance]]
+  - [[Algorithmic Fairness]]
+  - [[Transparency and Disclosure]]
   - [[Digital Nudging]]
   - [[Cary Coglianese]]
 ---

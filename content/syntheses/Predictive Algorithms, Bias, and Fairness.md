@@ -11,17 +11,10 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Algorithmic Fairness]]
-  - [[Algorithmic Accountability and Fairness]]
+  - [[Algorithmic Fairness]]
   - [[Prediction Policy Problems]]
-  - [[Algorithmic Decision Support Efficiency]]
-  - [[COMPAS Controversy]]
-  - [[Fairness Metrics]]
+  - [[Algorithmic Policy Efficiency]]
   - [[Fairness Impossibility Results]]
-  - [[Predictive Parity]]
-  - [[Error Rate Parity]]
-  - [[Algorithmic Fairness as Political Philosophy]]
-  - [[Fairness as Policy Alignment]]
-  - [[Sociotechnical Fairness]]
   - [[Digital Nudging]]
 sources_used:
   - [[Angwin et al., 2016|Machine Bias]]
@@ -45,7 +38,7 @@ Predictive algorithms are powerful because many institutional and digital decisi
 
 The course should therefore treat predictive algorithms through a double lens. The efficiency lens asks whether algorithmic decision support can improve on noisy, biased, or inconsistent human judgment. The fairness lens asks how the benefits and burdens of prediction are distributed, justified, contested, and embedded in institutions. Neither lens is dispensable. Efficiency without fairness can rationalize harmful systems. Fairness without efficiency can ignore avoidable crime, detention, exclusion, or waste produced by human decision-making.
 
-The central hinge is the impossibility result. [[Predictive Parity]] and [[Error Rate Parity]] express two compelling ideas: scores should mean the same thing across groups, and the burdens of mistakes should not fall differently across groups. But when base rates differ and prediction is imperfect, these demands generally cannot both be satisfied. That impossibility is what opens the fairness branch. We have to choose which fairness demand governs a setting, and that choice is legal, political, philosophical, and institutional, not merely technical.
+The central hinge is the impossibility result. predictive parity ([[Fairness Impossibility Results]]) and error rate parity ([[Fairness Impossibility Results]]) express two compelling ideas: scores should mean the same thing across groups, and the burdens of mistakes should not fall differently across groups. But when base rates differ and prediction is imperfect, these demands generally cannot both be satisfied. That impossibility is what opens the fairness branch. We have to choose which fairness demand governs a setting, and that choice is legal, political, philosophical, and institutional, not merely technical.
 
 ## Why Predictive Algorithms Matter
 
@@ -59,7 +52,7 @@ This is the positive case for predictive algorithms: human judgment is not a neu
 
 ## The COMPAS Entry Point
 
-The [[COMPAS Controversy]] is the best opening case because it makes all the tensions visible at once. [[Angwin et al., 2016|Machine Bias]] showed that COMPAS risk scores in Broward County produced racially asymmetric errors: Black defendants were more likely to be falsely labeled high risk, while white defendants were more likely to be falsely labeled low risk. The public concern was not simply that an algorithm made mistakes. It was that the mistakes were patterned across race and embedded in legal decisions about liberty.
+The COMPAS controversy ([[Algorithmic Fairness]]) is the best opening case because it makes all the tensions visible at once. [[Angwin et al., 2016|Machine Bias]] showed that COMPAS risk scores in Broward County produced racially asymmetric errors: Black defendants were more likely to be falsely labeled high risk, while white defendants were more likely to be falsely labeled low risk. The public concern was not simply that an algorithm made mistakes. It was that the mistakes were patterned across race and embedded in legal decisions about liberty.
 
 The controversy also showed why "bias" is not one thing. A score can be criticized because it produces unequal false positives. It can be defended because it is calibrated, so the same score has roughly the same empirical meaning across groups. It can be criticized again because the model is proprietary, hard to contest, and used in a coercive institutional setting. It can be criticized still more broadly because pretrial risk detention itself may be objectionable even if the model satisfies a metric.
 
@@ -75,9 +68,9 @@ In the algorithmic fairness branch, bias should be separated into at least five 
 
 First, there is measurement bias: are the data and labels themselves distorted by policing, surveillance, reporting, access, or historical inequality?
 
-Second, there is predictive meaning: does a score mean the same thing across groups? This is the concern behind [[Predictive Parity]] and calibration.
+Second, there is predictive meaning: does a score mean the same thing across groups? This is the concern behind predictive parity ([[Fairness Impossibility Results]]) and calibration.
 
-Third, there is error burden: who bears false positives and false negatives? This is the concern behind [[Error Rate Parity]], especially when mistakes lead to detention, exclusion, denial, surveillance, or loss of opportunity.
+Third, there is error burden: who bears false positives and false negatives? This is the concern behind error rate parity ([[Fairness Impossibility Results]]), especially when mistakes lead to detention, exclusion, denial, surveillance, or loss of opportunity.
 
 Fourth, there is policy alignment: does the metric serve the legitimate goal of the decision system, or does it optimize a proxy that omits relevant values?
 
@@ -89,9 +82,9 @@ These questions overlap, but they are not interchangeable. A system can be well 
 
 The first formal lesson is the impossibility result from [[Kleinberg et al., 2016|Inherent Trade-Offs in the Fair Determination of Risk Scores]]. In the COMPAS setting, the relevant clash is between predictive meaning and error burden.
 
-[[Predictive Parity]] says that scores should have the same evidential meaning across groups. For risk scores, the related condition is calibration within groups: among people assigned the same score, the observed outcome rate should be the same in each group. This is the Northpointe-style defense in the COMPAS debate and the view Hedden later strengthens philosophically: a score is not fair as evidence if the same number means different things for different groups.
+predictive parity ([[Fairness Impossibility Results]]) says that scores should have the same evidential meaning across groups. For risk scores, the related condition is calibration within groups: among people assigned the same score, the observed outcome rate should be the same in each group. This is the Northpointe-style defense in the COMPAS debate and the view Hedden later strengthens philosophically: a score is not fair as evidence if the same number means different things for different groups.
 
-[[Error Rate Parity]] asks a different question. It asks whether false positives and false negatives are distributed similarly across groups. This is the ProPublica-style critique in the COMPAS debate and the view Hellman later strengthens legally: fairness often concerns action, burden, and treatment, not only evidential meaning.
+error rate parity ([[Fairness Impossibility Results]]) asks a different question. It asks whether false positives and false negatives are distributed similarly across groups. This is the ProPublica-style critique in the COMPAS debate and the view Hellman later strengthens legally: fairness often concerns action, burden, and treatment, not only evidential meaning.
 
 The impossibility result says that, outside special cases, these desiderata cannot all hold together. If groups have different base rates and prediction is imperfect, calibration or predictive parity will generally conflict with equalized error burdens. Perfect prediction would dissolve the conflict because there would be no errors to allocate. Equal base rates can also dissolve it. But in the real settings that motivate the course, neither condition can be assumed.
 
@@ -118,9 +111,9 @@ Metrics are therefore instruments. Their legitimacy depends on the theory of jus
 
 The efficiency branch matters because fairness debates often treat human decision-making as the implicit alternative to algorithmic prediction. But the human baseline can be bad. Judges can release high-risk defendants while jailing low-risk ones. Doctors can overtest some low-risk patients while missing high-risk patients. Agencies can misrank worksites, students, applicants, cases, or users.
 
-[[Algorithmic Decision Support Efficiency]] captures this point. If an algorithm can reduce jail without increasing crime, that is a fairness-relevant fact, not a technocratic distraction. Avoided detention is a liberty gain. Avoided crime is a welfare gain. Better ranking can reduce harm without increasing the overall burden of intervention.
+[[Algorithmic Policy Efficiency]] captures this point. If an algorithm can reduce jail without increasing crime, that is a fairness-relevant fact, not a technocratic distraction. Avoided detention is a liberty gain. Avoided crime is a welfare gain. Better ranking can reduce harm without increasing the overall burden of intervention.
 
-But [[Ludwig and Mullainathan, 2021|Fragile Algorithms and Fallible Decision-Makers]] warns against the naive version of the efficiency argument. The hardest part is not always building a predictor. It is evaluating whether the predictor improves decisions. [[Selective Labels]] make counterfactual evaluation difficult because we do not observe outcomes for people whose earlier human decision prevented the label from appearing. [[Omitted Payoff Bias]] arises when the algorithm predicts one outcome while the real decision depends on a richer objective function. The [[Override Problem]] arises because algorithms are often decision aids, not decision-makers; humans may have useful private information, or they may add noise and bias.
+But [[Ludwig and Mullainathan, 2021|Fragile Algorithms and Fallible Decision-Makers]] warns against the naive version of the efficiency argument. The hardest part is not always building a predictor. It is evaluating whether the predictor improves decisions. selective labels ([[Algorithmic Policy Efficiency]]) make counterfactual evaluation difficult because we do not observe outcomes for people whose earlier human decision prevented the label from appearing. omitted payoff bias ([[Algorithmic Policy Efficiency]]) arises when the algorithm predicts one outcome while the real decision depends on a richer objective function. The override problem ([[Algorithmic Policy Efficiency]]) arises because algorithms are often decision aids, not decision-makers; humans may have useful private information, or they may add noise and bias.
 
 The efficiency branch therefore does not say "algorithms are better." It says: predictive algorithms can improve decision frontiers, but only when the decision, payoff function, counterfactual evaluation, and human-machine workflow are specified carefully.
 
@@ -151,11 +144,11 @@ The course should therefore carry over four lessons:
 
 A clean teaching sequence would move in four stages.
 
-First, start with [[Angwin et al., 2016|Machine Bias]] and the [[COMPAS Controversy]]. Students see the concrete stakes: risk scores, race, errors, opacity, and liberty.
+First, start with [[Angwin et al., 2016|Machine Bias]] and the COMPAS controversy ([[Algorithmic Fairness]]). Students see the concrete stakes: risk scores, race, errors, opacity, and liberty.
 
-Second, introduce [[Fairness Impossibility Results]] immediately, using [[Predictive Parity]] and [[Error Rate Parity]] as the two live ideals. Students should see that the fairness branch exists because these two attractive demands generally cannot both be satisfied. The next question is not how to avoid choosing, but how to justify the choice.
+Second, introduce [[Fairness Impossibility Results]] immediately, using predictive parity ([[Fairness Impossibility Results]]) and error rate parity ([[Fairness Impossibility Results]]) as the two live ideals. Students should see that the fairness branch exists because these two attractive demands generally cannot both be satisfied. The next question is not how to avoid choosing, but how to justify the choice.
 
-Third, move to normative and policy interpretation: [[Algorithmic Fairness as Political Philosophy]], [[Fairness as Policy Alignment]], and [[Sociotechnical Fairness]]. Students learn that metrics require moral and institutional justification.
+Third, move to normative and policy interpretation: algorithmic fairness as political philosophy ([[Algorithmic Fairness]]), fairness as policy alignment ([[Algorithmic Fairness]]), and sociotechnical fairness ([[Algorithmic Fairness]]). Students learn that metrics require moral and institutional justification.
 
 Fourth, introduce the efficiency branch: [[Kleinberg et al., 2018|Human Decisions and Machine Predictions]], [[Ludwig and Mullainathan, 2021|Fragile Algorithms and Fallible Decision-Makers]], [[Mullainathan, 2025|Economics in the Age of Algorithms]], and [[Ludwig et al., 2024|The Unreasonable Effectiveness of Algorithms]]. Students see that algorithmic decision support can produce real gains, but only under careful evaluation and governance.
 

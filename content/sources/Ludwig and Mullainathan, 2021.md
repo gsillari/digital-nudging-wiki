@@ -13,13 +13,8 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Algorithmic Fairness]]
-  - [[Algorithmic Decision Support Efficiency]]
-  - [[Risk Assessment in Criminal Justice]]
-  - [[Selective Labels]]
-  - [[Omitted Payoff Bias]]
-  - [[Override Problem]]
-  - [[Sociotechnical Fairness]]
-  - [[Algorithmic Accountability and Fairness]]
+  - [[Algorithmic Policy Efficiency]]
+  - [[Algorithmic Fairness]]
   - [[Jens Ludwig]]
   - [[Sendhil Mullainathan]]
 ---
@@ -36,9 +31,9 @@ The paper's central posture is neither algorithmic triumphalism nor algorithmic 
 
 - Criminal justice decisions suffer from misprediction, inconsistency, and discrimination. Judges can release high-risk defendants while jailing low-risk defendants.
 - Algorithms have often disappointed because they were poorly built, poorly regulated, or poorly integrated into human workflows, not because machine learning is inherently unusable.
-- [[Omitted Payoff Bias]] arises when an algorithm predicts only one outcome even though the real decision depends on a richer objective function.
-- [[Selective Labels]] arise because data are filtered by past human decisions; we observe outcomes for people released by judges but not the counterfactual outcomes for people detained.
-- The [[Override Problem]] arises because the algorithm is usually not the final decider. Humans may have useful private information, but they may also misuse that information.
+- omitted payoff bias ([[Algorithmic Policy Efficiency]]) arises when an algorithm predicts only one outcome even though the real decision depends on a richer objective function.
+- selective labels ([[Algorithmic Policy Efficiency]]) arise because data are filtered by past human decisions; we observe outcomes for people released by judges but not the counterfactual outcomes for people detained.
+- The override problem ([[Algorithmic Policy Efficiency]]) arises because the algorithm is usually not the final decider. Humans may have useful private information, but they may also misuse that information.
 - The right goal is not blind adherence to an algorithm. The right goal is understanding when the human has comparative advantage, when the algorithm has comparative advantage, and how the interface should support that division of labor.
 - Algorithmic bias can be easier to discover and fix than human bias when transparency, data access, and regulatory incentives are properly designed.
 - The discussion of algorithms should not happen in a vacuum. Humans set the benchmark, generate the data, build the systems, procure them, deploy them, and respond to their outputs.

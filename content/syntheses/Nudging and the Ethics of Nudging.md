@@ -8,21 +8,21 @@ tags:
   - ethics
   - choice-architecture
   - digital-nudging
-updated_on: 2026-05-27
+updated_on: 2026-05-30
 related_pages:
   - [[Digital Nudging]]
   - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
   - [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]]
+  - [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]]
   - [[Behavioural Insights Team, 2024|EAST: Four Simple Ways to Apply Behavioural Insights]]
   - [[Nudge]]
   - [[Choice Architecture]]
   - [[Behavioral Economics]]
   - [[EAST Framework]]
-  - [[Nudge Typology]]
   - [[Ethics of Nudging]]
   - [[Chooser Welfare]]
-  - [[Transparency and Publicity]]
+  - [[Transparency and Disclosure]]
   - [[Manipulation]]
   - [[Defaults]]
   - [[Sludge]]
@@ -50,6 +50,16 @@ Second, a nudge is behavioral. It is designed with the knowledge that people are
 Third, a nudge is liberty-preserving in form. People must remain able to choose otherwise, and avoidance should be easy and cheap. This is the libertarian side of libertarian paternalism.
 
 The paternalistic side is the harder one. Nudges are not merely attempts to change behavior. They are supposed to help people make choices that improve their lives by their own standards. A reminder to attend an appointment, a default contribution to a pension, a clearer energy label, or a well-timed medication prompt is a nudge in the morally interesting sense only if it plausibly serves the chooser rather than merely the architect.
+
+## Nudges in the policy toolkit
+
+Loewenstein and Chater's [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]] is the necessary corrective to a too-clean first lecture on nudging. They accept that nudges can work, but they reject the idea that behavioral economics should be reduced to nudges or that policy should begin from a preferred instrument.
+
+Their framework separates two questions that are often run together. First, what kind of problem is being addressed? The rationale might be traditionally economic, as with externalities, asymmetric information, or misaligned incentives. It might be behavioral, as with present bias, inattention, self-control problems, or poor feedback. Or it might be hybrid, as when firms profit by exploiting consumer biases.
+
+Second, what kind of intervention is appropriate? The answer might be a nudge, but it might also be a tax, subsidy, mandate, ban, disclosure rule, enforcement regime, or some hybrid. Behavioral causes do not automatically imply behavioral solutions. Smoking may involve addiction, present bias, and risk misperception, but cigarette taxes, advertising restrictions, warning labels, public-place bans, and display restrictions can all be part of the response. Retirement saving is the classic success case for defaults and auto-escalation, but pension adequacy also depends on tax rules, mandatory contributions, withdrawal rules, and social insurance. Obesity may involve self-control, but its recent rise is also connected to prices, portions, marketing, and food-industry incentives.
+
+This matters ethically. A nudge can be attractive because it is light-touch, cheap, and choice-preserving. But light-touch is not always responsible. If the harm is serious, if the cause is structural, or if powerful actors profit from predictable mistakes, a nudge may be too weak. The ethical question is therefore not only "does the nudge preserve choice?" but also "is a nudge sufficient for the problem, or is it functioning as a politically convenient substitute for stronger policy?"
 
 ## Why people need nudges
 
@@ -95,13 +105,13 @@ These four values prevent the ethics of nudging from collapsing into a single te
 
 ## Transparency and manipulation
 
-Transparency is a central safeguard, but it does not solve everything. [[Transparency and Publicity]] include several different requirements: users should be able to understand relevant information, the public should be able to scrutinize the design, and institutions should be able to explain what they are doing and why.
+Transparency is a central safeguard, but it does not solve everything. [[Transparency and Disclosure]] include several different requirements: users should be able to understand relevant information, the public should be able to scrutinize the design, and institutions should be able to explain what they are doing and why.
 
 Hansen and Jespersen add a more precise criterion: epistemic transparency. A nudge is epistemically transparent when the person being nudged can reasonably reconstruct both the intention behind the intervention and the means by which it works. A policy can be publicly disclosed somewhere and still fail this test if users cannot recognize the mechanism in the moment of choice.
 
 This matters because the chief ethical worry about nudging is [[Manipulation]]. Manipulation is not just influence, emotion, persuasion, or behavior change. In Sunstein's account, manipulation occurs when influence insufficiently engages or appeals to people's reflective and deliberative capacities. It uses the person as a target of behavioral steering without adequately respecting them as an agent.
 
-Hansen and Jespersen's [[Nudge Typology]] makes this sharper. Nudges can target automatic behavior or reflective choice, and they can be transparent or non-transparent. Transparent nudges aimed at reflection are easiest to defend. Non-transparent nudges that shape reflective choice are the most troubling, because they alter the premises of decision while leaving the chooser unaware of the steering.
+Hansen and Jespersen's nudge typology ([[Nudge]]) makes this sharper. Nudges can target automatic behavior or reflective choice, and they can be transparent or non-transparent. Transparent nudges aimed at reflection are easiest to defend. Non-transparent nudges that shape reflective choice are the most troubling, because they alter the premises of decision while leaving the chooser unaware of the steering.
 
 The implication is not that every System 1 nudge is forbidden. A visible reminder, a salient warning, or a default that users understand may be legitimate. But the more a nudge works through non-transparent automatic response, vulnerability, pressure, or information asymmetry, the heavier the justificatory burden becomes.
 
@@ -156,6 +166,7 @@ A digital nudge is easier to defend when it satisfies the following conditions:
 - It is transparent enough for users to understand the relevant action, reason, and consequence.
 - It avoids shame, deception, hidden pressure, and unnecessary cognitive burden.
 - It is proportionate: stronger or less transparent influence requires stronger justification.
+- It is sufficient or properly paired with stronger policy tools when the problem is structural, exploitative, or externality-producing.
 - It is empirically evaluated for intended effects, side effects, distributional effects, and drift.
 - It has institutional accountability: someone can explain, audit, contest, and revise it.
 
@@ -165,6 +176,6 @@ This checklist is deliberately stricter in digital contexts. The more an interve
 
 The ethics of nudging is not an add-on to the definition of nudging. It is what makes nudging a defensible project rather than a technique of behavioral control.
 
-The course should therefore introduce nudging in two movements. First, nudging is a response to unavoidable choice architecture and predictable human fallibility. Second, nudging is legitimate only when constrained by chooser welfare, autonomy, dignity, transparency, anti-manipulation, and accountability.
+The course should therefore introduce nudging in three movements. First, nudging is a response to unavoidable choice architecture and predictable human fallibility. Second, nudging is legitimate only when constrained by chooser welfare, autonomy, dignity, transparency, anti-manipulation, and accountability. Third, nudging belongs inside a broader policy repertoire: behavioral economics can help decide when regulation, taxation, mandates, public provision, enforcement, or hybrid interventions are needed, how they should be designed, and when lighter choice architecture is enough.
 
 That structure prepares the move to digital nudging. Once choice architecture becomes data-driven, personalized, continuously optimized, and proprietary, every classical question becomes sharper: whose welfare, whose values, what transparency, what exit, what evidence, what accountability? The answer cannot be "it preserves choice" alone. The answer has to show that the choice is meaningful in practice.

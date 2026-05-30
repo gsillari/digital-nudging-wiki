@@ -13,13 +13,7 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Algorithmic Fairness]]
-  - [[Fairness as Policy Alignment]]
-  - [[Fairness Metrics]]
-  - [[Error Rate Parity]]
-  - [[Predictive Parity]]
-  - [[COMPAS Controversy]]
-  - [[Risk Assessment in Criminal Justice]]
-  - [[Algorithmic Accountability and Fairness]]
+  - [[Algorithmic Fairness]]
   - [[Sam Corbett-Davies]]
   - [[Emma Pierson]]
   - [[Avi Feller]]
@@ -60,11 +54,11 @@ For the course, the key lesson is not "ignore fairness for efficiency." It is th
 
 ## Links into the wiki
 
-- [[Fairness as Policy Alignment]]: the concept extracted from the paper.
-- [[Fairness Metrics]]: formal metrics become constraints whose value depends on the policy context.
-- [[Error Rate Parity]]: the paper studies predictive equality, a false-positive-rate criterion, and shows its cost under a public-safety objective.
-- [[Risk Assessment in Criminal Justice]]: the main institutional setting.
-- [[Algorithmic Fairness as Political Philosophy]]: connects policy objectives to normative justification.
+- fairness as policy alignment ([[Algorithmic Fairness]]): the concept extracted from the paper.
+- fairness metrics ([[Algorithmic Fairness]]): formal metrics become constraints whose value depends on the policy context.
+- error rate parity ([[Fairness Impossibility Results]]): the paper studies predictive equality, a false-positive-rate criterion, and shows its cost under a public-safety objective.
+- risk assessment in criminal justice ([[Algorithmic Fairness]]): the main institutional setting.
+- algorithmic fairness as political philosophy ([[Algorithmic Fairness]]): connects policy objectives to normative justification.
 
 ## Open questions
 

@@ -5,75 +5,90 @@ status: active
 tags:
   - index
   - digital-nudging
-updated_on: 2026-05-28
+updated_on: 2026-05-30
 related_pages:
   - [[Nudging and the Ethics of Nudging]]
+  - [[AI as Choice Aid]]
   - [[Dark Patterns as Adversarial Choice Architecture]]
   - [[Predictive Algorithms, Bias, and Fairness]]
+  - [[Algorithmic Governance, Management, and the Automated State]]
   - [[Nudge]]
   - [[Choice Architecture]]
+  - [[Behavioral Economics]]
   - [[Chooser Welfare]]
+  - [[Defaults]]
+  - [[EAST Framework]]
   - [[Manipulation]]
-  - [[Transparency and Publicity]]
+  - [[Transparency and Disclosure]]
   - [[Sludge]]
+  - [[Behavior-Welfare Gap]]
+  - [[Algorithmic Thought Partners]]
+  - [[Smart Disclosure]]
+  - [[Shrouded Attributes]]
   - [[Dark Patterns]]
-  - [[Adversarial Choice Architecture]]
-  - [[Dark Pattern Taxonomy]]
-  - [[Dark Pattern Regulation]]
+  - [[Hypernudge]]
+  - [[Personalized Choice Architecture]]
+  - [[Recommendation Systems]]
   - [[Privacy and Consent]]
-  - [[Algorithmic Accountability and Fairness]]
+  - [[Algorithmic Fairness]]
   - [[Fairness Impossibility Results]]
-  - [[Predictive Parity]]
-  - [[Error Rate Parity]]
-  - [[Sociotechnical Fairness]]
-  - [[Algorithmic Decision Support Efficiency]]
+  - [[Algorithmic Policy Efficiency]]
+  - [[Prediction Policy Problems]]
+  - [[Algorithmic Governance]]
 ---
 
 # Digital Nudging Wiki
 
-Digital nudging begins from a simple premise: digital environments are choice architectures. Defaults, friction, rankings, recommendations, warnings, consent flows, and AI assistants do not merely present options; they organize attention, effort, expectations, and opportunity. The wiki currently has three main synthesis threads. First, nudging and ethics defines nudges, chooser welfare, autonomy, transparency, manipulation, and sludge. Second, dark patterns treats the same design instruments in adversarial form: interfaces optimized to extract money, data, or attention against users' reflective interests. Third, predictive algorithms, bias, and fairness shifts from interface design to scoring, ranking, recommendation, and decision support, where the central issues are fairness tradeoffs, efficiency gains, and sociotechnical accountability. Together, these threads ask when digital steering helps people decide, when it merely changes behavior, and when it becomes exploitative or illegitimate.
+Digital nudging begins from a simple premise: digital environments are choice architectures. Defaults, friction, rankings, recommendations, warnings, consent flows, experiments, and AI assistants do not merely present options; they organize attention, effort, expectations, and opportunity. The wiki foregrounds five synthesis threads. Nudging and ethics defines the basic normative vocabulary. AI as choice aid asks when digital systems can help users reason through complex or adversarial choices. Dark patterns tracks the extraction-oriented mirror image of nudging. Predictive algorithms, bias, and fairness examines scoring, ranking, and decision support. Algorithmic governance asks how these systems can remain lawful, accountable, and humanly answerable.
 
 ## Synthesis map
 
 [[Nudging and the Ethics of Nudging]]
 
-- [[Nudge]]
-- [[Choice Architecture]]
 - [[Behavioral Economics]]
+- [[Choice Architecture]]
+- [[Nudge]]
 - [[Defaults]]
+- [[EAST Framework]]
 - [[Chooser Welfare]]
-- [[Nudge Typology]]
+- [[Ethics of Nudging]]
 - [[Manipulation]]
-- [[Transparency and Publicity]]
-- [[Smart Disclosure]]
+- [[Transparency and Disclosure]]
 - [[Sludge]]
+
+[[AI as Choice Aid]]
+
+- [[Behavior-Welfare Gap]]
+- [[Algorithmic Thought Partners]]
+- [[Smart Disclosure]]
+- [[Shrouded Attributes]]
+- [[Recommendation Systems]]
+- [[Chooser Welfare]]
 
 [[Dark Patterns as Adversarial Choice Architecture]]
 
 - [[Dark Patterns]]
-- [[Adversarial Choice Architecture]]
 - [[Sludge]]
-- [[Dark Pattern Taxonomy]]
-- [[Dark Pattern Regulation]]
-- [[Privacy and Consent]]
-- [[Continuous Optimization and Experimentation]]
 - [[Manipulation]]
+- [[Privacy and Consent]]
+- [[Hypernudge]]
 
 [[Predictive Algorithms, Bias, and Fairness]]
 
-- [[Algorithmic Accountability and Fairness]]
-- [[COMPAS Controversy]]
-- [[Fairness Metrics]]
+- [[Algorithmic Fairness]]
 - [[Fairness Impossibility Results]]
-- [[Predictive Parity]]
-- [[Error Rate Parity]]
-- [[Sociotechnical Fairness]]
-- [[Algorithmic Decision Support Efficiency]]
+- [[Algorithmic Policy Efficiency]]
 - [[Prediction Policy Problems]]
-- [[Selective Labels]]
-- [[Omitted Payoff Bias]]
-- [[Override Problem]]
+- [[Transparency and Disclosure]]
+
+[[Algorithmic Governance, Management, and the Automated State]]
+
+- [[Algorithmic Governance]]
+- [[Algorithmic Fairness]]
+- [[Algorithmic Policy Efficiency]]
+- [[Transparency and Disclosure]]
+- [[Hypernudge]]
 
 ## How to use this wiki
 
-This is a course-building wiki, not a finished textbook. The synthesis pages give the argument at lecture scale; concept pages define reusable vocabulary; source notes preserve what each paper or book contributes; unit notes turn larger sources into teachable chunks. Use search when you need a term, follow backlinks when you want to see how an idea travels, and treat `catalog.md` as machine-facing infrastructure rather than a reader-facing table of contents.
+This is a course-building wiki, not a finished textbook. The synthesis pages give the argument at lecture scale; concept pages define reusable vocabulary; source notes preserve what each paper or book contributes; unit notes turn larger sources into teachable chunks. The concept layer has been deliberately compressed: many useful subterms now live as sections or aliases inside the larger concepts rather than as separate pages.

@@ -14,9 +14,6 @@ updated_on: 2026-05-27
 related_pages:
   - [[Digital Nudging]]
   - [[Dark Patterns]]
-  - [[Adversarial Choice Architecture]]
-  - [[Dark Pattern Regulation]]
-  - [[Continuous Optimization and Experimentation]]
   - [[Sludge]]
   - [[Manipulation]]
   - [[Privacy and Consent]]
@@ -55,15 +52,15 @@ That convergence explains why digital dark patterns are structurally different f
 
 This source gives the course a clean formulation of the dark-pattern pivot: digital nudging can become adversarial when the same behavioral machinery is aimed at extraction rather than user welfare.
 
-It also connects dark patterns to [[Continuous Optimization and Experimentation]]. The ethical issue is not only that a single screen is manipulative. It is that firms can run experiments until manipulation becomes subtle enough, profitable enough, or personalized enough to escape ordinary user resistance.
+It also connects dark patterns to continuous optimization and experimentation ([[Hypernudge]]). The ethical issue is not only that a single screen is manipulative. It is that firms can run experiments until manipulation becomes subtle enough, profitable enough, or personalized enough to escape ordinary user resistance.
 
 ## Links into the wiki
 
-- [[Adversarial Choice Architecture]]: the article's historical synthesis is the backbone for the concept.
+- adversarial choice architecture ([[Dark Patterns]]): the article's historical synthesis is the backbone for the concept.
 - [[Dark Patterns]]: compact overview of mechanisms and stakes.
-- [[Continuous Optimization and Experimentation]]: A/B testing and growth hacking as optimization infrastructure.
+- continuous optimization and experimentation ([[Hypernudge]]): A/B testing and growth hacking as optimization infrastructure.
 - [[Sludge]]: the article connects dark patterns with sludge-like friction, while preserving the broader extraction frame.
-- [[Dark Pattern Regulation]]: discusses regulatory responses including consumer protection and data-protection law.
+- dark pattern regulation ([[Dark Patterns]]): discusses regulatory responses including consumer protection and data-protection law.
 
 ## Bibliographic reference
 

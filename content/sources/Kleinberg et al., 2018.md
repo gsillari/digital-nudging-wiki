@@ -13,13 +13,7 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Algorithmic Fairness]]
-  - [[Algorithmic Decision Support Efficiency]]
-  - [[Risk Assessment in Criminal Justice]]
-  - [[Selective Labels]]
-  - [[Omitted Payoff Bias]]
-  - [[Override Problem]]
-  - [[Fairness as Policy Alignment]]
-  - [[Sociotechnical Fairness]]
+  - [[Algorithmic Policy Efficiency]]
   - [[Jon Kleinberg]]
   - [[Himabindu Lakkaraju]]
   - [[Jure Leskovec]]
@@ -40,8 +34,8 @@ The headline teaching result is the policy frontier. In one simulation, an algor
 - Many high-stakes decisions are prediction policy problems: the decision turns on forecasting an outcome and acting under a payoff trade-off.
 - Bail is a useful test case because judges decide whether defendants await trial in jail or at home, and the legal decision is closely tied to predicted flight or public-safety risk.
 - Standard prediction accuracy is not enough. A better predictor matters only if it improves the actual decision frontier.
-- Evaluation is hard because of [[Selective Labels]]: crime outcomes are observed for released defendants, but not for defendants judges detained.
-- Evaluation is also hard because of [[Omitted Payoff Bias]]: judges or society may care about goals not captured by the single predicted outcome.
+- Evaluation is hard because of selective labels ([[Algorithmic Policy Efficiency]]): crime outcomes are observed for released defendants, but not for defendants judges detained.
+- Evaluation is also hard because of omitted payoff bias ([[Algorithmic Policy Efficiency]]): judges or society may care about goals not captured by the single predicted outcome.
 - The authors use quasi-random assignment of cases to judges and judge leniency variation to construct counterfactual comparisons.
 - Judges appear to release many defendants the algorithm identifies as high risk while jailing lower-risk defendants.
 - Stricter judges do not simply jail the riskiest marginal defendants first; algorithmic ranking can dominate that pattern.
@@ -58,7 +52,7 @@ The paper also supplies the central caution for the branch. The algorithm's valu
 
 For [[Digital Nudging]], the paper is a template for evaluating algorithmic decision support. Digital choice architectures often use predictions to allocate attention, rank options, trigger warnings, prioritize cases, or recommend interventions. The question should not be only whether the prediction is accurate or fair by one metric, but whether the system improves the relevant decision frontier while respecting rights, welfare, and institutional goals.
 
-This branch also balances the earlier fairness readings. [[Fairness Metrics]], [[Error Rate Parity]], and [[Sociotechnical Fairness]] identify real risks. Kleinberg et al. show why the course also needs a positive evaluation question: compared with human-only decision-making, can well-designed algorithmic assistance reduce avoidable harm?
+This branch also balances the earlier fairness readings. fairness metrics ([[Algorithmic Fairness]]), error rate parity ([[Fairness Impossibility Results]]), and sociotechnical fairness ([[Algorithmic Fairness]]) identify real risks. Kleinberg et al. show why the course also needs a positive evaluation question: compared with human-only decision-making, can well-designed algorithmic assistance reduce avoidable harm?
 
 ## Bibliographic reference
 

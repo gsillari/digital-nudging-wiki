@@ -12,15 +12,11 @@ tags:
   - public-policy
 updated_on: 2026-05-26
 related_pages:
-  - [[Algorithmic Decision Support Efficiency]]
+  - [[Algorithmic Policy Efficiency]]
   - [[Prediction Policy Problems]]
   - [[Mullainathan, 2025|Economics in the Age of Algorithms]]
   - [[Kleinberg et al., 2018|Human Decisions and Machine Predictions]]
   - [[Ludwig and Mullainathan, 2021|Fragile Algorithms and Fallible Decision-Makers]]
-  - [[Selective Labels]]
-  - [[Omitted Payoff Bias]]
-  - [[Override Problem]]
-  - [[Risk Assessment in Criminal Justice]]
   - [[Algorithmic Fairness]]
   - [[Digital Nudging]]
   - [[Jens Ludwig]]

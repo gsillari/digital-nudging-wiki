@@ -10,8 +10,6 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Hedden, 2021|On Statistical Criteria of Algorithmic Fairness]]
-  - [[Predictive Parity]]
-  - [[Fairness Metrics]]
   - [[Algorithmic Fairness]]
 ---
 
@@ -28,7 +26,7 @@ Hedden provides the course's first explicit philosophical defense of calibration
 ## Key relationships
 
 - Author of [[Hedden, 2021|On Statistical Criteria of Algorithmic Fairness]]
-- Linked to [[Predictive Parity]], [[Fairness Metrics]], and [[Algorithmic Fairness]]
+- Linked to predictive parity ([[Fairness Impossibility Results]]), fairness metrics ([[Algorithmic Fairness]]), and [[Algorithmic Fairness]]
 
 ## Related sources
 

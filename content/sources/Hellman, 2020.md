@@ -13,14 +13,8 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Algorithmic Fairness]]
-  - [[Predictive Parity]]
-  - [[Error Rate Parity]]
-  - [[Fairness Metrics]]
   - [[Fairness Impossibility Results]]
-  - [[COMPAS Controversy]]
-  - [[Risk Assessment in Criminal Justice]]
-  - [[Algorithmic Fairness as Political Philosophy]]
-  - [[Algorithmic Accountability and Fairness]]
+  - [[Algorithmic Fairness]]
   - [[Deborah Hellman]]
 ---
 
@@ -28,7 +22,7 @@ related_pages:
 
 ## Summary
 
-Deborah Hellman argues that two prominent fairness criteria answer different kinds of questions. [[Predictive Parity]] answers an epistemic question: given a score, what should one believe about the scored person? [[Error Rate Parity]], and especially Hellman's preferred error-ratio version, answers a practical question: how are the burdens of false positives and false negatives distributed across legally protected groups?
+Deborah Hellman argues that two prominent fairness criteria answer different kinds of questions. predictive parity ([[Fairness Impossibility Results]]) answers an epistemic question: given a score, what should one believe about the scored person? error rate parity ([[Fairness Impossibility Results]]), and especially Hellman's preferred error-ratio version, answers a practical question: how are the burdens of false positives and false negatives distributed across legally protected groups?
 
 The paper is crucial for the course because it gives the legal-philosophical case against treating predictive parity as the main fairness criterion. For Hellman, fairness usually concerns action and treatment, not belief alone. If one group bears more false positives while another bears more false negatives, the algorithm may be applying different practical rules to different protected groups.
 
@@ -59,11 +53,11 @@ This matters for recommender systems, risk scoring, content moderation, fraud de
 
 ## Links into the wiki
 
-- [[Predictive Parity]]: the epistemic same-meaning criterion Hellman treats as important but incomplete.
-- [[Error Rate Parity]]: the practical error-burden family, with Hellman's error-ratio parity as the central version.
-- [[Fairness Metrics]]: the metric taxonomy now needs both evidential and pragmatic criteria.
-- [[Algorithmic Fairness as Political Philosophy]]: Hellman supplies the legal-action version of the normative turn.
-- [[COMPAS Controversy]]: the motivating case for the conflict between ProPublica-style error analysis and Northpointe-style predictive parity.
+- predictive parity ([[Fairness Impossibility Results]]): the epistemic same-meaning criterion Hellman treats as important but incomplete.
+- error rate parity ([[Fairness Impossibility Results]]): the practical error-burden family, with Hellman's error-ratio parity as the central version.
+- fairness metrics ([[Algorithmic Fairness]]): the metric taxonomy now needs both evidential and pragmatic criteria.
+- algorithmic fairness as political philosophy ([[Algorithmic Fairness]]): Hellman supplies the legal-action version of the normative turn.
+- COMPAS controversy ([[Algorithmic Fairness]]): the motivating case for the conflict between ProPublica-style error analysis and Northpointe-style predictive parity.
 
 ## Open questions
 

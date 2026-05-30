@@ -10,7 +10,6 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Corbett-Davies et al., 2017|Algorithmic Decision Making and the Cost of Fairness]]
-  - [[Fairness as Policy Alignment]]
   - [[Algorithmic Fairness]]
 ---
 
@@ -27,7 +26,7 @@ Goel's role in this vault is tied to algorithmic fairness, criminal justice deci
 ## Key relationships
 
 - Coauthor of [[Corbett-Davies et al., 2017|Algorithmic Decision Making and the Cost of Fairness]]
-- Linked to [[Fairness as Policy Alignment]] and [[Risk Assessment in Criminal Justice]]
+- Linked to fairness as policy alignment ([[Algorithmic Fairness]]) and risk assessment in criminal justice ([[Algorithmic Fairness]])
 
 ## Related sources
 

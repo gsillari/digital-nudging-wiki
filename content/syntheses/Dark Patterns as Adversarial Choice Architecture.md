@@ -8,13 +8,10 @@ tags:
   - digital-nudging
   - manipulation
   - regulation
-updated_on: 2026-05-27
+updated_on: 2026-05-28
 related_pages:
   - [[Digital Nudging]]
   - [[Dark Patterns]]
-  - [[Adversarial Choice Architecture]]
-  - [[Dark Pattern Taxonomy]]
-  - [[Dark Pattern Regulation]]
   - [[Gray et al., 2018|The Dark (Patterns) Side of UX Design]]
   - [[Mathur et al., 2019|Dark Patterns at Scale]]
   - [[Narayanan et al., 2020|Dark Patterns: Past, Present, and Future]]
@@ -23,7 +20,6 @@ related_pages:
   - [[Gray et al., 2024|An Ontology of Dark Patterns Knowledge]]
   - [[Sludge]]
   - [[Manipulation]]
-  - [[Continuous Optimization and Experimentation]]
   - [[Privacy and Consent]]
 ---
 
@@ -35,23 +31,21 @@ The classical nudge framework begins from the inevitability of choice architectu
 
 ## The subversion of paternalism
 
-[[Gray et al., 2018|The Dark (Patterns) Side of UX Design]] is the clean starting point. The paper describes dark patterns as a co-opting of human-centered design. UX methods are supposed to make systems more usable, intelligible, and responsive to users. In dark patterns, that expertise is used to make users act in ways that serve organizational goals while impairing the user's practical ability to understand, refuse, compare, or exit.
+Gray and coauthors give the clean starting point. In [[Gray et al., 2018|The Dark (Patterns) Side of UX Design]], they describe dark patterns as a co-opting of human-centered design. UX methods are supposed to make systems more usable, intelligible, and responsive to users. In dark patterns, that expertise is used to make users act in ways that serve organizational goals while impairing the user's practical ability to understand, refuse, compare, or exit.
 
-This is why dark patterns are not just "bad nudges." A nudge and a dark pattern may use the same levers: defaults, salience, framing, ordering, friction, social cues, or timing. The distinction is not the presence of influence. The distinction is what the influence is for and whether the user could reasonably recognize and resist it.
-
-Under a user-serving nudge, automatic cognition is used because people have limited attention and imperfect self-control. Under a dark pattern, those same limits become attack surfaces. The design is no longer asking, "How can the choice environment help the user?" It asks, often implicitly through optimization systems, "Which variant gets the user to do what the service wants?"
+This is why dark patterns are not just "bad nudges." A nudge and a dark pattern may use the same levers: defaults, salience, framing, ordering, friction, social cues, or timing. The distinction is not the presence of influence. The distinction is what the influence is for and whether the user could reasonably recognize and resist it. Under a user-serving nudge, automatic cognition is used because people have limited attention and imperfect self-control. Under a dark pattern, those same limits become attack surfaces. The design is no longer asking, "How can the choice environment help the user?" It asks, often implicitly through optimization systems, "Which variant gets the user to do what the service wants?"
 
 ## Sludge is a method
 
 Sludge is one of the most important methods dark patterns use, but it is not the definition of a dark pattern. [[Sludge]] is friction: extra steps, confusing forms, hidden settings, long cancellation flows, privacy mazes, waiting periods, or burdensome disclosures. It becomes a dark-pattern mechanism when the friction is asymmetric and extractive.
 
-The classic digital example is the roach motel: sign-up is easy, cancellation is hard. In that case, the user technically has an option to exit, but the service has reshaped the practical cost of exercising it. [[Mathur et al., 2019|Dark Patterns at Scale]] treats "hard to cancel" as obstruction. [[Gray et al., 2024|An Ontology of Dark Patterns Knowledge]] places roach motel and privacy mazes under obstruction. [[Luguri and Strahilevitz, 2021|Shining a Light on Dark Patterns]] shows experimentally that obstruction can materially change choices.
+The classic digital example is the roach motel: sign-up is easy, cancellation is hard. In that case, the user technically has an option to exit, but the service has reshaped the practical cost of exercising it. Mathur and coauthors, in [[Mathur et al., 2019|Dark Patterns at Scale]], treat hard-to-cancel flows as obstruction. Gray and coauthors, in [[Gray et al., 2024|An Ontology of Dark Patterns Knowledge]], place roach motels and privacy mazes under the same obstruction family. Luguri and Strahilevitz then show experimentally, in [[Luguri and Strahilevitz, 2021|Shining a Light on Dark Patterns]], that obstruction can materially change choices.
 
 But many dark patterns do not primarily work by adding friction. Countdown timers, scarcity claims, testimonials, confirmshaming, trick questions, hidden subscriptions, visual hierarchy, preselected options, and forced disclosure may work through pressure, deception, information hiding, or emotional manipulation. Sludge describes one mechanical route. Dark patterns are defined by the adversarial relation between design objective and user welfare or autonomy.
 
 ## From deception to growth systems
 
-[[Narayanan et al., 2020|Dark Patterns: Past, Present, and Future]] gives the best genealogy. Contemporary dark patterns emerge from the convergence of retail deception, behavioral nudging, and growth hacking.
+Narayanan, Mathur, Chetty, and Kshirsagar give the best genealogy in [[Narayanan et al., 2020|Dark Patterns: Past, Present, and Future]]. On their account, contemporary dark patterns emerge from the convergence of retail deception, behavioral nudging, and growth hacking.
 
 Retail deception contributes the older repertoire: hidden fees, misleading presentation, bait-and-switch, and pressure selling. Behavioral economics contributes the cognitive map: defaults, framing, scarcity, social proof, inertia, limited attention, and automatic responses. Growth hacking contributes the organizational infrastructure: A/B testing, conversion funnels, retention metrics, engagement metrics, and rapid iteration.
 
@@ -61,21 +55,21 @@ This convergence matters because it changes the scale and precision of manipulat
 
 The literature develops from lists of troubling examples toward a more stable ontology.
 
-[[Gray et al., 2018|Gray et al.]] identify five high-level strategies: nagging, obstruction, sneaking, interface interference, and forced action. This helps name the main ways interfaces undermine user agency.
+Gray and coauthors begin that movement by identifying five high-level strategies: nagging, obstruction, sneaking, interface interference, and forced action. Nagging repeatedly interrupts or redirects the user; obstruction makes cancellation, comparison, or exit difficult; sneaking hides costs, subscriptions, or relevant terms until late in the flow; interface interference uses visual hierarchy, defaults, or confusing wording to steer selection; forced action requires registration, disclosure, enrollment, or another unwanted step before the user can proceed. This helps name the main ways interfaces undermine user agency.
 
-[[Mathur et al., 2019|Mathur et al.]] supply the empirical e-commerce taxonomy: sneaking, urgency, misdirection, social proof, scarcity, obstruction, and forced action, with types such as hidden costs, hidden subscriptions, countdown timers, confirmshaming, trick questions, hard to cancel, and forced enrollment.
+Mathur and coauthors then operationalize the field for e-commerce. Their taxonomy includes sneaking, urgency, misdirection, social proof, scarcity, obstruction, and forced action, with types such as hidden costs, hidden subscriptions, countdown timers, confirmshaming, trick questions, hard to cancel, and forced enrollment.
 
-[[Mathur et al., 2021|What Makes a Dark Pattern... Dark?]] then separates descriptive attributes from normative evaluation. A pattern may be asymmetric, restrictive, covert, deceptive, information-hiding, or disparately applied. Those attributes matter because different normative lenses care about different harms: individual welfare, collective welfare, regulatory objectives, and autonomy.
+Mathur, Mayer, and Kshirsagar then make the normative move in [[Mathur et al., 2021|What Makes a Dark Pattern... Dark?]]. They separate descriptive attributes from normative evaluation. A pattern may be asymmetric, restrictive, covert, deceptive, information-hiding, or disparately applied. Those attributes matter because different normative lenses care about different harms: individual welfare, collective welfare, regulatory objectives, and autonomy.
 
-[[Gray et al., 2024|An Ontology of Dark Patterns Knowledge]] harmonizes this field into high-, meso-, and low-level categories. That shift is important for teaching and regulation. Students can learn the examples, but they also need to see the mechanism underneath: obstruction, sneaking, interface interference, forced action, and social engineering. Otherwise the course risks treating dark patterns as a catalogue rather than as a family of adversarial choice architectures.
+Gray and coauthors later harmonize the field in [[Gray et al., 2024|An Ontology of Dark Patterns Knowledge]] by distinguishing high-, meso-, and low-level categories. That shift is important for teaching and regulation. Students can learn the examples, but they also need to see the mechanism underneath: obstruction, sneaking, interface interference, forced action, and social engineering. Otherwise the course risks treating dark patterns as a catalogue rather than as a family of adversarial choice architectures.
 
 ## Empirical force
 
-Two empirical sources anchor the module. [[Mathur et al., 2019|Dark Patterns at Scale]] shows prevalence: in a crawl of roughly 11,000 shopping websites, the authors found 1,818 dark-pattern instances on 1,254 sites and identified third-party entities that supply dark-pattern functionality. This matters because it shows dark patterns are not isolated lapses in design taste. They are part of a commercial ecosystem.
+Mathur and coauthors provide the prevalence evidence. In a crawl of roughly 11,000 shopping websites, they found 1,818 dark-pattern instances on 1,254 sites and identified third-party entities that supply dark-pattern functionality. This matters because it shows dark patterns are not isolated lapses in design taste. They are part of a commercial ecosystem.
 
-[[Luguri and Strahilevitz, 2021|Shining a Light on Dark Patterns]] shows causal force. In their first experiment, mild dark patterns more than doubled acceptance rates, while aggressive dark patterns had larger effects but produced backlash. The mild result is especially important. A design can be powerful precisely because it is not obvious enough to trigger resistance.
+Luguri and Strahilevitz provide the causal evidence. In their first experiment, mild dark patterns more than doubled acceptance rates, while aggressive dark patterns had larger effects but produced backlash. The mild result is especially important. A design can be powerful precisely because it is not obvious enough to trigger resistance.
 
-The same paper also complicates the ordinary market story. If decision architecture changes behavior more than price in the studied setting, then observed choice cannot be treated as a clean revelation of preference. The market failure is not only imperfect information or monopoly power. It is choice architecture itself.
+Their findings also complicate the ordinary market story. If decision architecture changes behavior more than price in the studied setting, then observed choice cannot be treated as a clean revelation of preference. The market failure is not only imperfect information or monopoly power. It is choice architecture itself.
 
 ## Money, data, attention
 
@@ -87,9 +81,9 @@ This triad is useful for the digital nudging course because it keeps dark patter
 
 ## Normative and legal stakes
 
-The normative question is not exhausted by autonomy, even though autonomy is central. [[Mathur et al., 2021|Mathur et al.]] show that dark patterns can be evaluated through individual welfare, collective welfare, regulatory objectives, and autonomy. A hidden subscription can harm individual welfare. A hard-to-cancel design can weaken competition. A manipulative consent banner can defeat data-protection objectives. A trick question can impair autonomy even when financial harm is small.
+The normative question is not exhausted by autonomy, even though autonomy is central. Mathur, Mayer, and Kshirsagar show that dark patterns can be evaluated through individual welfare, collective welfare, regulatory objectives, and autonomy. A hidden subscription can harm individual welfare. A hard-to-cancel design can weaken competition. A manipulative consent banner can defeat data-protection objectives. A trick question can impair autonomy even when financial harm is small.
 
-[[Luguri and Strahilevitz, 2021|Luguri and Strahilevitz]] add the legal edge: many dark patterns may be unfair or deceptive, and firms' own experiments can become evidence of what they knew and what they were optimizing. [[Narayanan et al., 2020|Narayanan et al.]] connect this to broader regulatory responses under consumer-protection and data-protection frameworks, including the FTC Act and GDPR. [[Gray et al., 2024|Gray et al.]] add that enforcement needs a shared ontology if regulators are going to compare cases and audit systems.
+Luguri and Strahilevitz add the legal edge: many dark patterns may be unfair or deceptive, and firms' own experiments can become evidence of what they knew and what they were optimizing. Narayanan and coauthors connect this to broader regulatory responses under consumer-protection and data-protection frameworks, including the FTC Act and GDPR. Gray and coauthors add the enforcement infrastructure: regulators need a shared ontology if they are going to compare cases and audit systems.
 
 ## Course payoff
 

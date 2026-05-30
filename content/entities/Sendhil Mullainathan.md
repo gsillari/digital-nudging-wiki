@@ -16,13 +16,12 @@ related_pages:
   - [[Ludwig and Mullainathan, 2021|Fragile Algorithms and Fallible Decision-Makers]]
   - [[Mullainathan, 2025|Economics in the Age of Algorithms]]
   - [[Ludwig et al., 2024|The Unreasonable Effectiveness of Algorithms]]
-  - [[Behavioral Economics 2.0]]
   - [[Algorithmic Fairness]]
-  - [[Algorithmic Decision Support Efficiency]]
+  - [[Algorithmic Policy Efficiency]]
   - [[Prediction Policy Problems]]
   - [[Fairness Impossibility Results]]
   - [[Algorithmic Thought Partners]]
-  - [[Reflective Equilibrium]]
+
 ---
 
 # Sendhil Mullainathan
@@ -43,9 +42,9 @@ Mullainathan's role in this vault is tied to the integration of behavioral econo
 - Coauthor of [[Kleinberg et al., 2018|Human Decisions and Machine Predictions]]
 - Coauthor of [[Ludwig and Mullainathan, 2021|Fragile Algorithms and Fallible Decision-Makers]]
 - Coauthor of [[Ludwig et al., 2024|The Unreasonable Effectiveness of Algorithms]]
-- Linked to [[Behavioral Economics 2.0]], [[Algorithmic Thought Partners]], and [[Adaptive Armor]]
+- Linked to Behavioral Economics 2.0 ([[Algorithmic Thought Partners]]), [[Algorithmic Thought Partners]], and adaptive armor ([[Algorithmic Thought Partners]])
 - Linked to [[Algorithmic Fairness]] and [[Fairness Impossibility Results]]
-- Linked to [[Algorithmic Decision Support Efficiency]], [[Selective Labels]], [[Omitted Payoff Bias]], and the [[Override Problem]]
+- Linked to [[Algorithmic Policy Efficiency]], selective labels ([[Algorithmic Policy Efficiency]]), omitted payoff bias ([[Algorithmic Policy Efficiency]]), and the override problem ([[Algorithmic Policy Efficiency]])
 - Linked to [[Prediction Policy Problems]]
 
 ## Related sources

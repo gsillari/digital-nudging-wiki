@@ -11,8 +11,6 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Hellman, 2020|Measuring Algorithmic Fairness]]
-  - [[Error Rate Parity]]
-  - [[Predictive Parity]]
   - [[Algorithmic Fairness]]
 ---
 
@@ -29,7 +27,7 @@ Hellman provides the course's main legal argument that algorithmic fairness shou
 ## Key relationships
 
 - Author of [[Hellman, 2020|Measuring Algorithmic Fairness]]
-- Linked to [[Error Rate Parity]], [[Predictive Parity]], and [[Algorithmic Fairness as Political Philosophy]]
+- Linked to error rate parity ([[Fairness Impossibility Results]]), predictive parity ([[Fairness Impossibility Results]]), and algorithmic fairness as political philosophy ([[Algorithmic Fairness]])
 
 ## Related sources
 

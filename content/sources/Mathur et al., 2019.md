@@ -14,11 +14,8 @@ updated_on: 2026-05-27
 related_pages:
   - [[Digital Nudging]]
   - [[Dark Patterns]]
-  - [[Dark Pattern Taxonomy]]
-  - [[Adversarial Choice Architecture]]
   - [[Sludge]]
   - [[Manipulation]]
-  - [[Continuous Optimization and Experimentation]]
   - [[Privacy and Consent]]
   - [[Arunesh Mathur]]
   - [[Arvind Narayanan]]
@@ -63,9 +60,9 @@ For digital nudging, the paper also clarifies why examples matter but should not
 ## Links into the wiki
 
 - [[Dark Patterns]]: empirical evidence and central definition.
-- [[Dark Pattern Taxonomy]]: seven categories and 15 dark-pattern types.
-- [[Adversarial Choice Architecture]]: service-benefiting steering that harms or frustrates users.
-- [[Continuous Optimization and Experimentation]]: dark patterns can be productized and tested against conversion metrics.
+- dark pattern taxonomy ([[Dark Patterns]]): seven categories and 15 dark-pattern types.
+- adversarial choice architecture ([[Dark Patterns]]): service-benefiting steering that harms or frustrates users.
+- continuous optimization and experimentation ([[Hypernudge]]): dark patterns can be productized and tested against conversion metrics.
 - [[Privacy and Consent]]: forced action and privacy-invasive disclosure connect to consent design.
 
 ## Bibliographic reference

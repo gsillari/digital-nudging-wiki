@@ -13,11 +13,10 @@ tags:
   - administrative-law
 updated_on: 2026-05-27
 related_pages:
-  - [[Reasoned Transparency]]
-  - [[Transparency and Publicity]]
-  - [[Algorithmic Governance and the Automated State]]
-  - [[Algorithmic Accountability and Fairness]]
-  - [[Sociotechnical Fairness]]
+
+  - [[Transparency and Disclosure]]
+  - [[Algorithmic Governance]]
+  - [[Algorithmic Fairness]]
   - [[Digital Nudging]]
   - [[Cary Coglianese]]
   - [[David Lehr]]
@@ -27,7 +26,7 @@ related_pages:
 
 ## Summary
 
-[[Coglianese and Lehr, 2019|Transparency and Algorithmic Governance]] distinguishes two forms of transparency. Fishbowl transparency concerns access to information: data, records, code, meetings, documents, and evidence about what government is doing. [[Reasoned Transparency]] concerns why a decision was made: the purpose, justification, reasoning, and validation that make an action intelligible and contestable.
+[[Coglianese and Lehr, 2019|Transparency and Algorithmic Governance]] distinguishes two forms of transparency. Fishbowl transparency concerns access to information: data, records, code, meetings, documents, and evidence about what government is doing. reasoned transparency ([[Transparency and Disclosure]]) concerns why a decision was made: the purpose, justification, reasoning, and validation that make an action intelligible and contestable.
 
 Coglianese and Lehr argue that machine learning's black-box character does not automatically make algorithmic governance legally impermissible. Administrative law is pragmatic about transparency. It often requires adequate reasons, not total exposure of every internal mechanism. Agencies can often satisfy reason-giving obligations by explaining the objective function, design choices, basic operation, validation efforts, and institutional role of the algorithm.
 

@@ -11,13 +11,11 @@ tags:
   - algorithmic-governance
   - machine-learning
   - automated-state
-updated_on: 2026-05-27
+updated_on: 2026-05-28
 related_pages:
-  - [[Algorithmic Governance and the Automated State]]
-  - [[Reasoned Transparency]]
-  - [[Algorithmic Accountability and Fairness]]
-  - [[Sociotechnical Fairness]]
-  - [[Transparency and Publicity]]
+  - [[Algorithmic Governance]]
+  - [[Algorithmic Fairness]]
+  - [[Transparency and Disclosure]]
   - [[Digital Nudging]]
   - [[Cary Coglianese]]
   - [[David Lehr]]
@@ -39,6 +37,13 @@ Their answer is broadly yes. Properly understood, machine-learning systems need 
 - Transparency and reason-giving do not require full intuitive access to every internal computation if agencies can explain the system's objective, data, validation, and role in the decision.
 - Equal protection concerns depend on how models are designed, trained, validated, and used, not simply on the fact that they are algorithmic.
 - Algorithmic tools may reduce some forms of arbitrary human discretion, but they create new risks around opacity, validation, and institutional responsibility.
+
+## Legal doctrines unpacked
+
+- Nondelegation: the concern is that public authority might be shifted from legally accountable officials to an algorithmic system, vendor, or technical process. Coglianese and Lehr respond that machine-learning systems can satisfy the relevant concern when humans specify the intelligible principle: the statutory goal, policy criterion, prediction target, or objective function that guides the system.
+- Mathews v. Eldridge: the due-process framework asks how much procedure is required by balancing the affected private interest, the risk of erroneous deprivation and value of additional safeguards, and the government's administrative interest. For algorithmic decision-making, this makes due process a question of stakes, error, safeguards, and institutional role rather than a categorical ban on machine learning.
+- Equal protection: the question is not whether the decision-maker is algorithmic, but whether the system's data, features, labels, validation, thresholds, deployment, or human reliance create legally relevant unequal treatment or unjustified group burdens. This makes the paper a bridge to fairness metrics ([[Algorithmic Fairness]]) and sociotechnical fairness ([[Algorithmic Fairness]]) without reducing equal protection to any one statistical criterion.
+- Transparency and reason-giving: agencies need not provide full intuitive access to every internal computation. They must be able to explain the system's objective, evidence base, validation, limits, and decision role well enough to support accountability and contestation.
 
 ## Course use
 

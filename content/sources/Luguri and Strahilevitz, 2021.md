@@ -14,11 +14,8 @@ updated_on: 2026-05-27
 related_pages:
   - [[Digital Nudging]]
   - [[Dark Patterns]]
-  - [[Adversarial Choice Architecture]]
-  - [[Dark Pattern Regulation]]
   - [[Sludge]]
   - [[Manipulation]]
-  - [[Continuous Optimization and Experimentation]]
   - [[Jamie Luguri]]
   - [[Lior Jacob Strahilevitz]]
 ---
@@ -44,7 +41,7 @@ The paper is crucial because it shows that dark patterns can be effective even w
 
 The paper treats dark patterns as a consumer-protection problem, not only a design problem. It argues that many dark patterns may be unfair, deceptive, or otherwise legally problematic. It also proposes that regulators can use firms' own A/B tests and internal experiments as evidence of manipulation or consumer harm.
 
-This is important for the vault's [[Continuous Optimization and Experimentation]] page: optimization data can be a source of accountability as well as a source of manipulation.
+This is important for the vault's continuous optimization and experimentation ([[Hypernudge]]) page: optimization data can be a source of accountability as well as a source of manipulation.
 
 ## Why it matters for Digital Nudging
 
@@ -55,10 +52,10 @@ It also clarifies why sludge is a method rather than the definition of a dark pa
 ## Links into the wiki
 
 - [[Dark Patterns]]: empirical effect sizes and legal diagnosis.
-- [[Adversarial Choice Architecture]]: decision architecture as extraction rather than welfare support.
-- [[Dark Pattern Regulation]]: FTC and consumer-protection implications.
+- adversarial choice architecture ([[Dark Patterns]]): decision architecture as extraction rather than welfare support.
+- dark pattern regulation ([[Dark Patterns]]): FTC and consumer-protection implications.
 - [[Sludge]]: obstruction and hard-to-cancel patterns.
-- [[Continuous Optimization and Experimentation]]: A/B tests as both design infrastructure and regulatory evidence.
+- continuous optimization and experimentation ([[Hypernudge]]): A/B tests as both design infrastructure and regulatory evidence.
 
 ## Bibliographic reference
 

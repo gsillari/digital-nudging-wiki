@@ -8,20 +8,21 @@ tags:
   - ranking
   - algorithmic-choice-architecture
   - digital-nudging
-updated_on: 2026-05-26
-source_count: 2
+updated_on: 2026-05-30
+source_count: 4
 related_pages:
   - [[Digital Nudging]]
+  - [[AI as Choice Aid]]
   - [[Hypernudge]]
   - [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]]
   - [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]]
+  - [[Kleinberg et al., 2023|The Challenge of Understanding What Users Want]]
   - [[Algorithmic Thought Partners]]
-  - [[Reflective Equilibrium]]
+  - [[Behavior-Welfare Gap]]
   - [[Personalized Choice Architecture]]
-  - [[Continuous Optimization and Experimentation]]
   - [[Choice Architecture]]
   - [[Smart Disclosure]]
-  - [[Transparency and Publicity]]
+  - [[Transparency and Disclosure]]
 ---
 
 # Recommendation Systems
@@ -30,9 +31,11 @@ related_pages:
 
 [[Recommendation Systems]] are algorithmic systems that select, rank, filter, or suggest options for users. In [[Digital Nudging]], they are a major form of informational [[Choice Architecture]] because they shape which options become visible, salient, credible, easy, or seemingly relevant.
 
-Yeung treats search engines, product recommendation engines, navigation systems, and feeds as examples of Big Data decision-guidance. They do not force users to choose, but they channel attention and choice through ranking and suggestion.
+The core mechanism is guidance without formal coercion. Search engines, product recommendation engines, navigation systems, and feeds do not force users to choose, but they channel attention and choice through ranking and suggestion. Yeung's [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]] treats these systems as Big Data decision-guidance.
 
-[[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]] distinguishes ordinary recommendation from thought partnership. Traditional recommenders predict what a user or similar users would choose; algorithmic thought partners should help the user decide what they would choose under better information and reflection.
+The main conceptual distinction is between predicting likely behavior and supporting better judgment. Traditional recommenders predict what a user or similar users would choose; algorithmic thought partners should help the user decide what they would choose under better information and reflection. Ludwig and coauthors develop that contrast in [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]].
+
+The welfare warning is that behavior can be a bad proxy for what users actually want. Recommendation systems that optimize engagement may infer the wrong target from behavior, a problem developed by Kleinberg and coauthors in [[Kleinberg et al., 2023|The Challenge of Understanding What Users Want]].
 
 ## Mechanisms
 
@@ -46,9 +49,11 @@ Yeung treats search engines, product recommendation engines, navigation systems,
 
 Recommendation systems often present themselves as helpful personalization, but their objectives may be mixed. A recommender may optimize for relevance, revenue, engagement, sponsored placement, retention, safety, public value, or institutional convenience. Users often cannot tell which objective is operative.
 
-This makes recommendation systems central to [[Transparency and Publicity]], [[Privacy and Consent]], [[Algorithmic Accountability and Fairness]], [[Manipulation]], and [[Chooser Welfare]].
+This makes recommendation systems central to [[Transparency and Disclosure]], [[Privacy and Consent]], [[Algorithmic Fairness]], [[Manipulation]], and [[Chooser Welfare]].
 
 The Behavioral Economics 2.0 challenge is that predicting observed choice can amplify mistakes. A recommender that accurately predicts impulsive, biased, or confused behavior may be technically successful while welfare-defeating.
+
+This is the heart of the [[Behavior-Welfare Gap]] for recommendation systems. Prediction quality, engagement, and user welfare can come apart. The more a recommender is framed as a choice aid, the more it needs explanation, welfare-sensitive objectives, and evidence beyond observed behavior.
 
 ## Digital relevance
 
@@ -59,12 +64,12 @@ The course should treat recommendation systems as active choice architecture, no
 ## Related pages
 
 - [[Hypernudge]]
+- [[AI as Choice Aid]]
 - [[Algorithmic Thought Partners]]
-- [[Reflective Equilibrium]]
+- [[Behavior-Welfare Gap]]
 - [[Personalized Choice Architecture]]
-- [[Continuous Optimization and Experimentation]]
 - [[Smart Disclosure]]
-- [[Transparency and Publicity]]
+- [[Transparency and Disclosure]]
 - [[Digital Nudging]]
 
 ## Open questions

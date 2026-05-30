@@ -8,18 +8,14 @@ tags:
   - algorithmic-decision-support
   - economics
   - digital-nudging
-updated_on: 2026-05-26
+updated_on: 2026-05-30
 source_count: 2
 related_pages:
   - [[Ludwig et al., 2024|The Unreasonable Effectiveness of Algorithms]]
   - [[Mullainathan, 2025|Economics in the Age of Algorithms]]
-  - [[Algorithmic Decision Support Efficiency]]
+  - [[Algorithmic Policy Efficiency]]
   - [[Kleinberg et al., 2018|Human Decisions and Machine Predictions]]
   - [[Ludwig and Mullainathan, 2021|Fragile Algorithms and Fallible Decision-Makers]]
-  - [[Selective Labels]]
-  - [[Omitted Payoff Bias]]
-  - [[Override Problem]]
-  - [[Fairness as Policy Alignment]]
   - [[Digital Nudging]]
 ---
 
@@ -41,11 +37,15 @@ In the course sequence, this concept generalizes the bail example. A judge decid
 
 ## Evidence and debate
 
-[[Mullainathan, 2025|Economics in the Age of Algorithms]] presents prediction policy problems as one of the main reasons algorithms should matter to economics. [[Kleinberg et al., 2018|Human Decisions and Machine Predictions]] gives the canonical empirical example in bail, while [[Ludwig and Mullainathan, 2021|Fragile Algorithms and Fallible Decision-Makers]] explains why implementation is fragile.
+Prediction policy problems matter because many high-stakes decisions are already rankings under uncertainty. The question is who should be prioritized, released, tested, audited, helped, warned, or shown an option first. Mullainathan's [[Mullainathan, 2025|Economics in the Age of Algorithms]] makes this one of the central reasons algorithms should matter to economics.
 
-[[Ludwig et al., 2024|The Unreasonable Effectiveness of Algorithms]] adds the public-policy effectiveness frame. Prediction policy problems often have a ranking structure, and better ranking can create large welfare gains without expanding the underlying policy. This is why algorithmic interventions can have high apparent returns when they are aimed at misranked decisions.
+The canonical empirical example is bail. [[Kleinberg et al., 2018|Human Decisions and Machine Predictions]] asks whether machine predictions can improve judicial release decisions by identifying risk more accurately than human decision-makers. The point of the example is not that automation is intrinsically superior, but that misranking can be costly when human decisions are noisy and inconsistent.
 
-The concept is inseparable from [[Selective Labels]] and [[Omitted Payoff Bias]]. A prediction policy problem can look solved if one ignores missing counterfactual outcomes or evaluates only one narrow outcome. That is why Mullainathan treats the hard work as economic and econometric, not merely computational.
+The public-policy promise is that better ranking can create large welfare gains without expanding the underlying policy. [[Ludwig et al., 2024|The Unreasonable Effectiveness of Algorithms]] gives that effectiveness frame: algorithmic interventions can have high apparent returns when they are aimed at decisions that are badly misranked.
+
+The implementation problem is fragility. A prediction policy problem can look solved if one ignores missing counterfactual outcomes, omitted values, local workflow, human overrides, or strategic responses. [[Ludwig and Mullainathan, 2021|Fragile Algorithms and Fallible Decision-Makers]] explains why algorithmic decision support can fail even when the predictive model looks strong.
+
+The concept is inseparable from selective labels ([[Algorithmic Policy Efficiency]]) and omitted payoff bias ([[Algorithmic Policy Efficiency]]). These are economic and econometric problems, not merely computational ones: the available labels may depend on earlier human decisions, and the measured payoff may omit outcomes the policy actually cares about.
 
 ## Practical or policy relevance
 
@@ -57,10 +57,7 @@ The digital-nudging question is therefore not just whether a prediction is accur
 
 - [[Mullainathan, 2025|Economics in the Age of Algorithms]]
 - [[Ludwig et al., 2024|The Unreasonable Effectiveness of Algorithms]]
-- [[Algorithmic Decision Support Efficiency]]
-- [[Selective Labels]]
-- [[Omitted Payoff Bias]]
-- [[Override Problem]]
+- [[Algorithmic Policy Efficiency]]
 - [[Digital Nudging]]
 
 ## Open questions

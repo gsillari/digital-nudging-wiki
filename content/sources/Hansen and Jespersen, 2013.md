@@ -14,10 +14,9 @@ updated_on: 2026-05-26
 related_pages:
   - [[Digital Nudging]]
   - [[Nudge]]
-  - [[Nudge Typology]]
   - [[Ethics of Nudging]]
   - [[Manipulation]]
-  - [[Transparency and Publicity]]
+  - [[Transparency and Disclosure]]
   - [[Choice Architecture]]
   - [[Chooser Welfare]]
 ---
@@ -28,7 +27,7 @@ related_pages:
 
 [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]] argues that the usual debate over nudging is too blunt. Critics often say nudges manipulate choice; defenders often reply that choice architecture is unavoidable, nudges preserve liberty, and publicity is enough. Hansen and Jespersen reject both shortcuts.
 
-Their core contribution is a framework for distinguishing nudges by two dimensions: whether they target automatic behavior or reflective choice, and whether the intention and means are epistemically transparent to the person being nudged. This produces the [[Nudge Typology]] used in this vault.
+Their core contribution is a framework for distinguishing nudges by two dimensions: whether they target automatic behavior or reflective choice, and whether the intention and means are epistemically transparent to the person being nudged. This produces the nudge typology ([[Nudge]]) used in this vault.
 
 ## Key claims
 
@@ -70,11 +69,11 @@ This is also where proprietary digital systems become ethically murky. A platfor
 
 ## Links into the wiki
 
-- [[Nudge Typology]]: the main durable concept extracted from the article.
+- nudge typology ([[Nudge]]): the main durable concept extracted from the article.
 - [[Nudge]]: the article sharpens the definition of a nudge around intentional influence and practical avoidability.
 - [[Ethics of Nudging]]: the article adds responsibility, transparency, and democratic consent to the ethics framework.
 - [[Manipulation]]: the article distinguishes manipulation of behavior from manipulation of choice.
-- [[Transparency and Publicity]]: the article separates public defensibility from epistemic transparency to the target.
+- [[Transparency and Disclosure]]: the article separates public defensibility from epistemic transparency to the target.
 - [[Digital Nudging]]: digital interventions can be classified by the typology.
 
 ## Bibliographic reference

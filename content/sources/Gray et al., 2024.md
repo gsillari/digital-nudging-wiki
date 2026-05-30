@@ -14,9 +14,6 @@ updated_on: 2026-05-27
 related_pages:
   - [[Digital Nudging]]
   - [[Dark Patterns]]
-  - [[Dark Pattern Taxonomy]]
-  - [[Dark Pattern Regulation]]
-  - [[Adversarial Choice Architecture]]
   - [[Sludge]]
   - [[Manipulation]]
   - [[Privacy and Consent]]
@@ -57,9 +54,9 @@ It also helps link dark patterns to digital governance. Regulators and researche
 
 ## Links into the wiki
 
-- [[Dark Pattern Taxonomy]]: main concept extracted from the paper.
+- dark pattern taxonomy ([[Dark Patterns]]): main concept extracted from the paper.
 - [[Dark Patterns]]: shared ontology for the concept.
-- [[Dark Pattern Regulation]]: taxonomy as infrastructure for enforcement and compliance.
+- dark pattern regulation ([[Dark Patterns]]): taxonomy as infrastructure for enforcement and compliance.
 - [[Sludge]]: obstruction and privacy mazes as friction-based tactics.
 - [[Privacy and Consent]]: consent interfaces and Privacy Zuckering as dark-pattern settings.
 

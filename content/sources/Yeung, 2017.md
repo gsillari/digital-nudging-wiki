@@ -15,13 +15,12 @@ related_pages:
   - [[Digital Nudging]]
   - [[Hypernudge]]
   - [[Personalized Choice Architecture]]
-  - [[Continuous Optimization and Experimentation]]
   - [[Recommendation Systems]]
   - [[Privacy and Consent]]
-  - [[Algorithmic Accountability and Fairness]]
+  - [[Algorithmic Fairness]]
   - [[Dark Patterns]]
   - [[Manipulation]]
-  - [[Transparency and Publicity]]
+  - [[Transparency and Disclosure]]
   - [[Karen Yeung]]
 ---
 
@@ -56,11 +55,11 @@ The paper's central concept is [[Hypernudge]]. Unlike static nudges, hypernudges
 ## Course themes opened by the article
 
 - [[Recommendation Systems]] as informational choice architecture.
-- [[Continuous Optimization and Experimentation]], including A/B testing and live algorithm changes.
+- continuous optimization and experimentation ([[Hypernudge]]), including A/B testing and live algorithm changes.
 - [[Dark Patterns]] and manipulative design, especially when influence is hidden or commercially self-serving.
-- [[Algorithmic Accountability and Fairness]], including black-box systems, bias, predictive policing, and search engine power.
+- [[Algorithmic Fairness]], including black-box systems, bias, predictive policing, and search engine power.
 - [[Privacy and Consent]], especially the failure of notice-and-consent models under Big Data conditions.
-- [[Transparency and Publicity]], because public or contractual disclosure does not make dynamic algorithmic influence intelligible.
+- [[Transparency and Disclosure]], because public or contractual disclosure does not make dynamic algorithmic influence intelligible.
 - [[Chooser Welfare]], because optimization targets such as engagement, relevance, convenience, or revenue may not track the user's reflective interests.
 
 ## Why it matters for Digital Nudging
@@ -73,10 +72,10 @@ For the course, the key move is that digital nudging is not just "nudging on scr
 
 - [[Hypernudge]]: main concept extracted from the article.
 - [[Personalized Choice Architecture]]: captures personalization as a core feature of digital nudging.
-- [[Continuous Optimization and Experimentation]]: captures recursive feedback, A/B testing, and real-time modification.
+- continuous optimization and experimentation ([[Hypernudge]]): captures recursive feedback, A/B testing, and real-time modification.
 - [[Recommendation Systems]]: captures search, ranking, feeds, and recommender engines as choice architecture.
 - [[Privacy and Consent]]: captures the failure of notice and consent as a safeguard.
-- [[Algorithmic Accountability and Fairness]]: captures black-box accountability and bias concerns.
+- [[Algorithmic Fairness]]: captures black-box accountability and bias concerns.
 - [[Dark Patterns]]: captures the manipulative design direction opened by hypernudging.
 
 ## Bibliographic reference

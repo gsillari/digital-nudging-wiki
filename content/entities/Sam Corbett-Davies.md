@@ -10,7 +10,6 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Corbett-Davies et al., 2017|Algorithmic Decision Making and the Cost of Fairness]]
-  - [[Fairness as Policy Alignment]]
   - [[Algorithmic Fairness]]
 ---
 
@@ -27,7 +26,7 @@ His role in this vault is tied to the policy-alignment and cost-of-fairness bran
 ## Key relationships
 
 - Coauthor of [[Corbett-Davies et al., 2017|Algorithmic Decision Making and the Cost of Fairness]]
-- Linked to [[Fairness as Policy Alignment]] and [[Algorithmic Fairness]]
+- Linked to fairness as policy alignment ([[Algorithmic Fairness]]) and [[Algorithmic Fairness]]
 
 ## Related sources
 

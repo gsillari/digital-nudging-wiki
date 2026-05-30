@@ -16,7 +16,7 @@ related_pages:
   - [[Digital Nudging]]
   - [[Choice Architecture]]
   - [[Privacy and Consent]]
-  - [[Algorithmic Accountability and Fairness]]
+  - [[Algorithmic Fairness]]
 ---
 
 # Karen Yeung
@@ -32,7 +32,7 @@ Yeung supplies the course's key bridge from classic nudging to digital nudging. 
 ## Key relationships
 
 - Author of [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]]
-- Linked to [[Digital Nudging]], [[Choice Architecture]], [[Privacy and Consent]], [[Algorithmic Accountability and Fairness]], and [[Manipulation]]
+- Linked to [[Digital Nudging]], [[Choice Architecture]], [[Privacy and Consent]], [[Algorithmic Fairness]], and [[Manipulation]]
 
 ## Related sources
 

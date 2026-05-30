@@ -14,9 +14,6 @@ updated_on: 2026-05-27
 related_pages:
   - [[Digital Nudging]]
   - [[Dark Patterns]]
-  - [[Dark Pattern Taxonomy]]
-  - [[Dark Pattern Regulation]]
-  - [[Adversarial Choice Architecture]]
   - [[Manipulation]]
   - [[Chooser Welfare]]
   - [[Privacy and Consent]]
@@ -57,8 +54,8 @@ That is especially useful when the course moves from classic nudging to digital 
 ## Links into the wiki
 
 - [[Dark Patterns]]: core normative framework for the concept.
-- [[Dark Pattern Taxonomy]]: attributes and levels of description.
-- [[Dark Pattern Regulation]]: legal and regulatory lenses.
+- dark pattern taxonomy ([[Dark Patterns]]): attributes and levels of description.
+- dark pattern regulation ([[Dark Patterns]]): legal and regulatory lenses.
 - [[Chooser Welfare]]: individual welfare as one evaluation target.
 - [[Manipulation]]: autonomy and information-flow concerns.
 - [[Privacy and Consent]]: privacy invasion and consent degradation as measurable harms.

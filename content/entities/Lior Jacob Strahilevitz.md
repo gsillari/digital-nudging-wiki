@@ -12,8 +12,7 @@ updated_on: 2026-05-27
 related_pages:
   - [[Luguri and Strahilevitz, 2021|Shining a Light on Dark Patterns]]
   - [[Dark Patterns]]
-  - [[Dark Pattern Regulation]]
-  - [[Adversarial Choice Architecture]]
+
 ---
 
 # Lior Jacob Strahilevitz
@@ -28,7 +27,7 @@ Strahilevitz's coauthored work anchors the legal and experimental side of the da
 
 ## Key relationships
 
-- Linked to [[Dark Patterns]], [[Dark Pattern Regulation]], and [[Adversarial Choice Architecture]]
+- Linked to [[Dark Patterns]], dark pattern regulation ([[Dark Patterns]]), and adversarial choice architecture ([[Dark Patterns]])
 - Useful for the course's transition from ethical diagnosis to legal intervention
 
 ## Related sources

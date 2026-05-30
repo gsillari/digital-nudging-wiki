@@ -11,8 +11,7 @@ updated_on: 2026-05-27
 related_pages:
   - [[Coglianese and Lehr, 2017|Regulating by Robot]]
   - [[Coglianese and Lehr, 2019|Transparency and Algorithmic Governance]]
-  - [[Reasoned Transparency]]
-  - [[Algorithmic Governance and the Automated State]]
+  - [[Algorithmic Governance]]
   - [[Digital Nudging]]
 ---
 
@@ -24,5 +23,4 @@ David Lehr is a coauthor, with [[Cary Coglianese]], of the vault's foundational 
 
 - [[Coglianese and Lehr, 2017|Regulating by Robot]]
 - [[Coglianese and Lehr, 2019|Transparency and Algorithmic Governance]]
-- [[Reasoned Transparency]]
-- [[Algorithmic Governance and the Automated State]]
+- [[Algorithmic Governance]]

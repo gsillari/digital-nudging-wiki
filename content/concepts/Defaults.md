@@ -7,7 +7,7 @@ tags:
   - defaults
   - inertia
   - choice-architecture
-updated_on: 2026-05-26
+updated_on: 2026-05-30
 source_count: 4
 related_pages:
   - [[Digital Nudging]]
@@ -15,7 +15,6 @@ related_pages:
   - [[Choice Architecture]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
   - [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]]
-  - [[Nudge Typology]]
   - [[Ethics of Nudging]]
   - [[Chooser Welfare]]
   - [[EAST Framework]]
@@ -29,7 +28,7 @@ related_pages:
 
 [[Defaults]] are the options or outcomes that apply if a chooser does nothing. They are central to [[Choice Architecture]] because every system needs a rule for inaction, and many users follow the path of least resistance.
 
-In [[Thaler and Sunstein, 2021|Nudge: The Final Edition]], defaults matter because they exploit or support inertia, status quo bias, limited attention, and the tendency to read a default as an implicit recommendation.
+Defaults matter because they exploit or support inertia, status quo bias, limited attention, and the tendency to read a default as an implicit recommendation. Thaler and Sunstein's [[Thaler and Sunstein, 2021|Nudge: The Final Edition]] makes them the canonical nudge because they change behavior without removing options.
 
 ## Key distinctions
 
@@ -41,13 +40,15 @@ In [[Thaler and Sunstein, 2021|Nudge: The Final Edition]], defaults matter becau
 
 ## Evidence and debate
 
-[[Nudge - Introduction]] introduces defaults through smartphone settings and opt-in/opt-out effects. [[Nudge - Chapter 5 Choice Architecture]] treats defaults as ubiquitous and unavoidable, while also warning that default selection can be self-serving. [[Nudge - Chapter 8 Sludge]] shows how defaults combine with friction to trap users. [[EAST Framework]] treats defaults as a central way to make beneficial action easy, while emphasizing that permission, preferences, and backfire risks matter.
+The first design point is that defaults are unavoidable. A system must decide what happens if the user does nothing, and that rule can strongly shape outcomes. [[Nudge - Introduction]] introduces the point through smartphone settings and opt-in/opt-out effects, while [[Nudge - Chapter 5 Choice Architecture]] develops the no-neutral-default lesson.
 
-The main debate concerns when defaults respect autonomy. A transparent, easily changed default may be liberty-preserving; a hidden default paired with a difficult opt-out may be manipulative sludge.
+The second design point is that defaults can be bundled with friction. A default that is easy to change may preserve meaningful choice; a hidden default paired with a difficult opt-out may become manipulative [[Sludge]]. [[Nudge - Chapter 8 Sludge]] shows how defaults and burdens can combine to trap users.
 
-[[The Ethics of Influence - Chapter 7 Green by Default]] adds the ethical distinction between defaults, active choosing, influenced active choice, and personalized defaults. Active choice can be more respectful for contested or intimate choices, but it can also impose unnecessary cognitive costs. Personalized defaults may improve fit while raising data, privacy, error, and accountability concerns.
+The practical rule is to make beneficial action easy while checking whether the default is permitted, preference-sensitive, and unlikely to backfire. That is how the [[EAST Framework]] treats defaults within the wider behavioral toolkit.
 
-[[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]] treats background defaults as potentially non-transparent type 1 nudges when they alter automatic behavior without the user's recognition. That does not make every default impermissible, but it raises responsibility, disclosure, and consent questions.
+The main ethical debate concerns when defaults respect autonomy. Active choice can be more respectful for contested or intimate choices, but it can also impose unnecessary cognitive costs. Personalized defaults may improve fit while raising data, privacy, error, and accountability concerns. [[The Ethics of Influence - Chapter 7 Green by Default]] is the main source for this distinction among defaults, active choosing, influenced active choice, and personalized defaults, within Sunstein's broader [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]].
+
+The transparency concern is that background defaults can influence automatic behavior without the user's recognition. Hansen and Jespersen's [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]] treats such cases as potentially non-transparent type 1 nudges. That does not make every default impermissible, but it raises responsibility, disclosure, and consent questions.
 
 ## Practical or policy relevance
 
@@ -62,7 +63,6 @@ For digital nudging, the ethical question is whether the default is transparent,
 - [[Behavioral Economics]]
 - [[EAST Framework]]
 - [[Ethics of Nudging]]
-- [[Nudge Typology]]
 - [[Chooser Welfare]]
 - [[Sludge]]
 - [[Digital Nudging]]

@@ -8,11 +8,12 @@ tags:
   - behavioral-interventions
   - behavioral-insights
   - design-checklist
-updated_on: 2026-05-26
-source_count: 1
+updated_on: 2026-05-30
+source_count: 2
 related_pages:
   - [[Digital Nudging]]
   - [[Behavioural Insights Team, 2024|EAST: Four Simple Ways to Apply Behavioural Insights]]
+  - [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]]
   - [[Behavioural Insights Team]]
   - [[Nudge]]
   - [[Choice Architecture]]
@@ -41,6 +42,7 @@ In this vault, EAST is the quick-reference page for the characteristics of good 
 ## Key distinctions
 
 - EAST vs full methodology: EAST helps generate and refine intervention ideas, but it does not replace problem diagnosis, fieldwork, co-design, or evaluation.
+- EAST vs policy toolkit: EAST improves behavioral intervention design, but [[Loewenstein and Chater, 2017|Loewenstein and Chater]] remind us that some problems also require taxes, subsidies, mandates, regulation, or enforcement.
 - Easy vs coercive: making the target behavior easy is not the same as removing meaningful alternatives.
 - Attractive vs manipulative: attention and framing should be user-serving and publicly defensible.
 - Social proof vs social backfire: norm messages can backfire if they reveal that undesirable behavior is common or invoke the wrong reference group.
@@ -48,7 +50,9 @@ In this vault, EAST is the quick-reference page for the characteristics of good 
 
 ## Evidence and debate
 
-[[Behavioural Insights Team, 2024|EAST: Four Simple Ways to Apply Behavioural Insights]] synthesizes a decade of behavioral intervention examples and updated evidence. Its strongest contribution for the course is not any single case study, but the organizing heuristic: interventions often work by reducing effort, increasing salience, using social context, and aligning with moments when people can act.
+The core contribution of EAST is not any single case study. It is the organizing heuristic: behavioral interventions often work by reducing effort, increasing salience, using social context, and aligning with moments when people can act. The Behavioural Insights Team synthesizes this applied evidence in [[Behavioural Insights Team, 2024|EAST: Four Simple Ways to Apply Behavioural Insights]].
+
+EAST is a design checklist, not a full policy theory. Easy, Attractive, Social, and Timely design can improve an intervention, but it does not settle whether the correct policy instrument is a nudge, a regulation, a tax, a mandate, a disclosure rule, or a hybrid package. Loewenstein and Chater's [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]] keeps that broader policy-toolkit question visible.
 
 The report is careful about evidence. It notes replication issues, behavioral pitfalls, and the need to test interventions in context. That makes EAST useful as a starting framework, but not as a guarantee that a given intervention will work.
 
@@ -65,6 +69,7 @@ For digital nudging, EAST can be used as a fast design review:
 ## Related pages
 
 - [[Behavioural Insights Team, 2024|EAST: Four Simple Ways to Apply Behavioural Insights]]
+- [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]]
 - [[Choice Architecture]]
 - [[Nudge]]
 - [[Behavioral Economics]]

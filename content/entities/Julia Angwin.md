@@ -10,7 +10,6 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Angwin et al., 2016|Machine Bias]]
-  - [[COMPAS Controversy]]
   - [[Algorithmic Fairness]]
 ---
 
@@ -27,7 +26,7 @@ Her role in this vault is tied to the ProPublica investigation that made COMPAS 
 ## Key relationships
 
 - Coauthor of [[Angwin et al., 2016|Machine Bias]]
-- Linked to [[COMPAS Controversy]] and [[Algorithmic Fairness]]
+- Linked to COMPAS controversy ([[Algorithmic Fairness]]) and [[Algorithmic Fairness]]
 
 ## Related sources
 

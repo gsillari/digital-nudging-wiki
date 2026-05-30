@@ -13,11 +13,7 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Digital Nudging]]
-  - [[Behavioral Economics 2.0]]
   - [[Algorithmic Thought Partners]]
-  - [[Reflective Equilibrium]]
-  - [[Adaptive Armor]]
-  - [[Precision Nudging]]
   - [[Chooser Welfare]]
   - [[Recommendation Systems]]
   - [[Hypernudge]]
@@ -34,17 +30,17 @@ related_pages:
 
 [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]] is a programmatic paper about how AI and algorithmic tools could reshape behavioral economics. Its starting problem is that classic nudging struggles to reconcile two facts: people make consequential mistakes, and people have different preferences.
 
-The authors argue that algorithms can enlarge the paradigm. Instead of only designing interventions that push people in a direction assumed to be good on average, behavioral economics can build tools that help people approach [[Reflective Equilibrium]]: what they would choose if they exercised their most considered judgment on the information available at the time.
+The authors argue that algorithms can enlarge the paradigm. Instead of only designing interventions that push people in a direction assumed to be good on average, behavioral economics can build tools that help people approach reflective equilibrium ([[Algorithmic Thought Partners]]): what they would choose if they exercised their most considered judgment on the information available at the time.
 
 ## Key claims
 
 - Doing nothing respects revealed preference but leaves mistakes unaddressed.
 - Classic nudging addresses mistakes but often assumes a common direction of improvement across people.
 - Traditional [[Recommendation Systems]] predict what a user or similar users would choose, but this may reproduce mistakes rather than correct them.
-- [[Precision Nudging]] uses machine learning to target nudges more effectively, but still asks which treatment best moves someone toward a specified direction.
-- [[Behavioral Economics 2.0]] asks the deeper question: what direction is actually right for this person?
+- Precision nudging ([[Personalized Choice Architecture]]) uses machine learning to target nudges more effectively, but still asks which treatment best moves someone toward a specified direction.
+- Behavioral Economics 2.0 ([[Algorithmic Thought Partners]]) asks the deeper question: what direction is actually right for this person?
 - Algorithms can act as [[Algorithmic Thought Partners]] by explaining options, filling informational blind spots, highlighting psychological traps, helping implement decisions, and providing practice.
-- Algorithms can also act as [[Adaptive Armor]] in adversarial markets by helping users understand shrouded attributes and respond to evolving obfuscation.
+- Algorithms can also act as adaptive armor ([[Algorithmic Thought Partners]]) in adversarial markets by helping users understand shrouded attributes and respond to evolving obfuscation.
 - The paradigm requires scientific advances: better measures of reflective equilibrium, more computable behavioral models, and algorithms that can understand people rather than merely predict their observed behavior.
 
 ## Central contrast
@@ -68,15 +64,15 @@ This paper widens the horizon of [[Digital Nudging]]. Yeung's [[Hypernudge]] sho
 
 For the course, the key shift is grammatical and conceptual: nudges are interventions done to people; algorithms can be tools people use. That does not make algorithmic tools automatically ethical or benign, but it reframes digital nudging around collaboration, deliberation, welfare measurement, and human-AI decision support.
 
-The paper also clarifies the relation to precision nudging. Precision nudging increases the precision of intervention delivery. Behavioral Economics 2.0 tries to improve the target itself by asking what the user would choose under considered judgment. That makes [[Reflective Equilibrium]] a candidate welfare standard for digital nudging.
+The paper also clarifies the relation to precision nudging. Precision nudging increases the precision of intervention delivery. Behavioral Economics 2.0 tries to improve the target itself by asking what the user would choose under considered judgment. That makes reflective equilibrium ([[Algorithmic Thought Partners]]) a candidate welfare standard for digital nudging.
 
 ## Links into the wiki
 
-- [[Behavioral Economics 2.0]]: the programmatic paradigm proposed by the paper.
+- Behavioral Economics 2.0 ([[Algorithmic Thought Partners]]): the programmatic paradigm proposed by the paper.
 - [[Algorithmic Thought Partners]]: algorithms as user-facing tools for explanation, prediction, reflection, implementation, and practice.
-- [[Reflective Equilibrium]]: the proposed target for user-serving algorithmic support.
-- [[Adaptive Armor]]: algorithms that protect users in dynamic and adversarial choice environments.
-- [[Precision Nudging]]: contrast case; machine-learning targeting of nudges rather than reflective-equilibrium support.
+- reflective equilibrium ([[Algorithmic Thought Partners]]): the proposed target for user-serving algorithmic support.
+- adaptive armor ([[Algorithmic Thought Partners]]): algorithms that protect users in dynamic and adversarial choice environments.
+- precision nudging ([[Personalized Choice Architecture]]): contrast case; machine-learning targeting of nudges rather than reflective-equilibrium support.
 - [[Chooser Welfare]]: the paper provides an operational strategy for "by the chooser's own lights."
 
 ## Bibliographic reference

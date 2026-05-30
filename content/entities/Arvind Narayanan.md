@@ -14,12 +14,9 @@ related_pages:
   - [[Narayanan, 2026|What If Algorithmic Fairness Is a Category Error?]]
   - [[Mathur et al., 2019|Dark Patterns at Scale]]
   - [[Narayanan et al., 2020|Dark Patterns: Past, Present, and Future]]
-  - [[Sociotechnical Fairness]]
   - [[Algorithmic Fairness]]
-  - [[Fairness Metrics]]
   - [[Dark Patterns]]
-  - [[Adversarial Choice Architecture]]
-  - [[Dark Pattern Regulation]]
+
 ---
 
 # Arvind Narayanan
@@ -38,7 +35,7 @@ In the dark-pattern module, Narayanan's coauthored work helps frame dark pattern
 
 - Author of [[Narayanan, 2026|What If Algorithmic Fairness Is a Category Error?]]
 - Coauthor of [[Mathur et al., 2019|Dark Patterns at Scale]] and [[Narayanan et al., 2020|Dark Patterns: Past, Present, and Future]]
-- Linked to [[Sociotechnical Fairness]], [[Algorithmic Fairness]], [[Fairness Metrics]], [[Algorithmic Accountability and Fairness]], [[Dark Patterns]], and [[Adversarial Choice Architecture]]
+- Linked to sociotechnical fairness ([[Algorithmic Fairness]]), [[Algorithmic Fairness]], fairness metrics ([[Algorithmic Fairness]]), [[Algorithmic Fairness]], [[Dark Patterns]], and adversarial choice architecture ([[Dark Patterns]])
 
 ## Related sources
 

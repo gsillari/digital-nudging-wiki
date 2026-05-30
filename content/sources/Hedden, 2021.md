@@ -13,11 +13,7 @@ tags:
 updated_on: 2026-05-26
 related_pages:
   - [[Algorithmic Fairness]]
-  - [[Predictive Parity]]
-  - [[Fairness Metrics]]
   - [[Fairness Impossibility Results]]
-  - [[COMPAS Controversy]]
-  - [[Risk Assessment in Criminal Justice]]
   - [[Brian Hedden]]
 ---
 
@@ -53,10 +49,10 @@ At the same time, the paper keeps the course from collapsing fairness into score
 
 ## Links into the wiki
 
-- [[Predictive Parity]]: the concept page for Hedden's central calibration/evidential-meaning claim.
-- [[Fairness Metrics]]: the broader taxonomy of parity, calibration, and error criteria.
+- predictive parity ([[Fairness Impossibility Results]]): the concept page for Hedden's central calibration/evidential-meaning claim.
+- fairness metrics ([[Algorithmic Fairness]]): the broader taxonomy of parity, calibration, and error criteria.
 - [[Fairness Impossibility Results]]: Hedden's response to pessimistic readings of metric incompatibility.
-- [[COMPAS Controversy]]: the motivating case in which ProPublica and calibration-based defenses emphasized different fairness ideas.
+- COMPAS controversy ([[Algorithmic Fairness]]): the motivating case in which ProPublica and calibration-based defenses emphasized different fairness ideas.
 
 ## Open questions
 

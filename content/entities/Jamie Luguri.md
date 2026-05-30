@@ -12,8 +12,7 @@ updated_on: 2026-05-27
 related_pages:
   - [[Luguri and Strahilevitz, 2021|Shining a Light on Dark Patterns]]
   - [[Dark Patterns]]
-  - [[Dark Pattern Regulation]]
-  - [[Adversarial Choice Architecture]]
+
 ---
 
 # Jamie Luguri
@@ -28,7 +27,7 @@ Luguri's coauthored work provides experimental evidence that dark patterns can m
 
 ## Key relationships
 
-- Linked to [[Dark Patterns]], [[Dark Pattern Regulation]], and [[Adversarial Choice Architecture]]
+- Linked to [[Dark Patterns]], dark pattern regulation ([[Dark Patterns]]), and adversarial choice architecture ([[Dark Patterns]])
 - Important for the empirical claim that mild dark patterns can be effective without triggering backlash
 
 ## Related sources

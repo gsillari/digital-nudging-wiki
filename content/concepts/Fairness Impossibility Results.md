@@ -8,20 +8,18 @@ tags:
   - impossibility
   - calibration
   - parity
-updated_on: 2026-05-26
+updated_on: 2026-05-30
 source_count: 4
+aliases:
+  - Predictive Parity
+  - Error Rate Parity
 related_pages:
   - [[Kleinberg et al., 2016|Inherent Trade-Offs in the Fair Determination of Risk Scores]]
   - [[Hedden, 2021|On Statistical Criteria of Algorithmic Fairness]]
   - [[Hellman, 2020|Measuring Algorithmic Fairness]]
   - [[Binns, 2018|Fairness in Machine Learning: Lessons from Political Philosophy]]
-  - [[Predictive Parity]]
-  - [[Error Rate Parity]]
-  - [[Algorithmic Fairness as Political Philosophy]]
-  - [[Fairness Metrics]]
-  - [[COMPAS Controversy]]
   - [[Algorithmic Fairness]]
-  - [[Risk Assessment in Criminal Justice]]
+
 ---
 
 # Fairness Impossibility Results
@@ -37,15 +35,23 @@ related_pages:
 - The impossibility concerns fairness conditions for scores, not only binary decisions.
 - Impossibility does not imply ethical paralysis. It implies that institutions must choose and justify which fairness demand matters most in context.
 
+## Predictive parity and error-rate parity
+
+Predictive parity is the idea that a prediction should have the same evidential meaning across groups. For risk scores, this is closely related to calibration within groups: people assigned the same score should have the same observed outcome rate regardless of group membership.
+
+Error-rate parity asks a different question: whether the practical burdens of mistakes fall similarly across groups. In the COMPAS debate, this means asking whether false positives and false negatives are distributed unequally across Black and white defendants.
+
+The impossibility result matters because both ideas are attractive, but they cannot generally be satisfied together when base rates differ and prediction is imperfect.
+
 ## Evidence and debate
 
-[[Kleinberg et al., 2016|Inherent Trade-Offs in the Fair Determination of Risk Scores]] formalizes the result after the COMPAS debate. It helps explain why ProPublica and Northpointe-like defenses could each appeal to a plausible fairness idea while talking past each other.
+The formal impossibility result matters because it explains why the COMPAS debate could not be resolved by finding the one correct metric. ProPublica-style error-rate critiques and Northpointe-style calibration defenses can each appeal to a plausible fairness idea while talking past each other. Kleinberg, Mullainathan, and Raghavan formalize this result in [[Kleinberg et al., 2016|Inherent Trade-Offs in the Fair Determination of Risk Scores]].
 
-[[Hedden, 2021|On Statistical Criteria of Algorithmic Fairness]] responds to pessimistic readings of these results by arguing that most non-calibration criteria are not necessary for fair prediction. Hedden's coin-and-rooms example is meant to show that a fair and uniquely optimal predictor can violate error-rate and statistical-parity criteria even when base rates are equal. On this view, [[Predictive Parity]] or calibration has a special role because it preserves the evidential meaning of a score across groups.
+One response is to give calibration a special status. Predictive parity ([[Fairness Impossibility Results]]) preserves the evidential meaning of a score across groups, and Hedden argues that many non-calibration criteria are not necessary for fair prediction. His coin-and-rooms example in [[Hedden, 2021|On Statistical Criteria of Algorithmic Fairness]] is meant to show that a fair and uniquely optimal predictor can violate error-rate and statistical-parity criteria even when base rates are equal.
 
-[[Hellman, 2020|Measuring Algorithmic Fairness]] argues that the impossibility result should not lead us to privilege predictive parity simply because it preserves meaning. Hellman treats predictive parity as epistemic and [[Error Rate Parity]] as pragmatic: fairness turns on action, error costs, and treatment.
+The competing response is to emphasize error burdens. Preserving evidential meaning is not enough if action, treatment, and legal burden depend on mistakes. Hellman treats predictive parity as epistemic and error rate parity ([[Fairness Impossibility Results]]) as pragmatic in [[Hellman, 2020|Measuring Algorithmic Fairness]].
 
-[[Binns, 2018|Fairness in Machine Learning: Lessons from Political Philosophy]] adds that impossibility results create philosophical work rather than merely technical work. If metrics conflict, the appropriate response is to ask which egalitarian, anti-discrimination, or representational ideal should govern the domain.
+The broader lesson is that impossibility results create philosophical work rather than merely technical work. If metrics conflict, the appropriate response is to ask which egalitarian, anti-discrimination, or representational ideal should govern the domain. Binns develops that normative turn in [[Binns, 2018|Fairness in Machine Learning: Lessons from Political Philosophy]].
 
 The result also sets up later normative readings. Once the metrics conflict, the next question is not only "which metric is mathematically correct?" but "which error, burden, right, or institutional goal should govern this setting, and is the unfairness in the prediction, the decision rule, or the surrounding institution?"
 
@@ -59,13 +65,8 @@ For digital nudging, impossibility results are a warning against treating fairne
 - [[Hedden, 2021|On Statistical Criteria of Algorithmic Fairness]]
 - [[Hellman, 2020|Measuring Algorithmic Fairness]]
 - [[Binns, 2018|Fairness in Machine Learning: Lessons from Political Philosophy]]
-- [[Algorithmic Fairness as Political Philosophy]]
-- [[Predictive Parity]]
-- [[Error Rate Parity]]
-- [[Fairness Metrics]]
-- [[COMPAS Controversy]]
 - [[Algorithmic Fairness]]
-- [[Algorithmic Accountability and Fairness]]
+- [[Algorithmic Fairness]]
 
 ## Open questions
 
