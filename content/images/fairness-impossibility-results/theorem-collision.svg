@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="960" viewBox="0 0 1400 960" role="img" aria-labelledby="title desc">
+  <title id="title">The fairness impossibility collision</title>
+  <desc id="desc">A triangle diagram showing that calibration within groups, balance for the positive class, and balance for the negative class cannot generally all be satisfied when base rates differ and prediction is imperfect.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1f2937" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#56606a"/>
+    </marker>
+    <style>
+      .bg { fill: #fbfaf6; }
+      .title { font-family: Inter, Arial, sans-serif; font-size: 42px; font-weight: 780; fill: #202020; }
+      .subtitle { font-family: Inter, Arial, sans-serif; font-size: 22px; fill: #5c5a55; }
+      .card { fill: #ffffff; stroke: #d8d1c6; stroke-width: 2; filter: url(#shadow); }
+      .card-title { font-family: Inter, Arial, sans-serif; font-size: 29px; font-weight: 760; fill: #202020; }
+      .card-copy { font-family: Inter, Arial, sans-serif; font-size: 21px; fill: #4c4944; }
+      .center { fill: #ffffff; stroke: #c9bba8; stroke-width: 2.5; filter: url(#shadow); }
+      .center-title { font-family: Inter, Arial, sans-serif; font-size: 31px; font-weight: 780; fill: #202020; text-anchor: middle; }
+      .center-copy { font-family: Inter, Arial, sans-serif; font-size: 22px; fill: #4c4944; text-anchor: middle; }
+      .line { fill: none; stroke: #56606a; stroke-width: 4; stroke-linecap: round; marker-end: url(#arrow); }
+      .note { font-family: Inter, Arial, sans-serif; font-size: 18px; font-weight: 700; fill: #39434c; }
+      .pill { fill: #edf2f0; stroke: #b8c9c3; stroke-width: 1.4; }
+      .blue { fill: #4f6fa8; }
+      .teal { fill: #2f7d73; }
+      .red { fill: #d86159; }
+      .gold { fill: #d39a2d; }
+      .icon-line { stroke: #ffffff; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+      .icon-fill { fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1400" height="960"/>
+  <text class="title" x="80" y="82">Fairness criteria can collide</text>
+  <text class="subtitle" x="80" y="120">Kleinberg, Mullainathan, and Raghavan show why the conflict is structural, not just a bad model.</text>
+
+  <g transform="translate(495 168)">
+    <rect class="card" width="410" height="210" rx="20"/>
+    <circle class="blue" cx="64" cy="66" r="35"/>
+    <path class="icon-line" d="M43 66h42M64 45v42"/>
+    <text class="card-title" x="120" y="58">Calibration within groups</text>
+    <text class="card-copy" x="120" y="92">Same score, same observed</text>
+    <text class="card-copy" x="120" y="122">outcome rate across groups.</text>
+    <rect class="pill" x="36" y="154" width="242" height="38" rx="19"/>
+    <text class="note" x="56" y="179">predictive parity idea</text>
+  </g>
+
+  <g transform="translate(120 610)">
+    <rect class="card" width="430" height="220" rx="20"/>
+    <circle class="teal" cx="64" cy="66" r="35"/>
+    <path class="icon-line" d="M46 75c14-28 25-28 36 0"/>
+    <circle class="icon-fill" cx="53" cy="55" r="5"/>
+    <circle class="icon-fill" cx="75" cy="55" r="5"/>
+    <text class="card-title" x="120" y="58">Balance for negatives</text>
+    <text class="card-copy" x="120" y="92">Among people who do not</text>
+    <text class="card-copy" x="120" y="122">have the outcome, average</text>
+    <text class="card-copy" x="120" y="152">scores are equal by group.</text>
+  </g>
+
+  <g transform="translate(850 610)">
+    <rect class="card" width="430" height="220" rx="20"/>
+    <circle class="red" cx="64" cy="66" r="35"/>
+    <path class="icon-line" d="M47 72l17-30 17 30M55 58h18"/>
+    <text class="card-title" x="120" y="58">Balance for positives</text>
+    <text class="card-copy" x="120" y="92">Among people who do have</text>
+    <text class="card-copy" x="120" y="122">the outcome, average scores</text>
+    <text class="card-copy" x="120" y="152">are equal by group.</text>
+  </g>
+
+  <g>
+    <path class="line" d="M620 395 C520 490 460 560 392 608"/>
+    <path class="line" d="M780 395 C880 490 940 560 1008 608"/>
+    <path class="line" d="M555 730 C670 785 730 785 845 730"/>
+  </g>
+
+  <g transform="translate(468 410)">
+    <rect class="center" width="464" height="190" rx="24"/>
+    <text class="center-title" x="232" y="52">Impossible in general</text>
+    <text class="center-copy" x="232" y="91">with unequal base rates</text>
+    <text class="center-copy" x="232" y="122">and imperfect prediction</text>
+    <rect x="120" y="144" width="224" height="34" rx="17" fill="#f5e8dc" stroke="#dfb78e" stroke-width="1.3"/>
+    <text class="note" x="151" y="167">choose and justify</text>
+  </g>
+
+  <g transform="translate(78 882)">
+    <rect width="1244" height="46" rx="23" fill="#edf2f0" stroke="#b8c9c3" stroke-width="1.4"/>
+    <text class="subtitle" x="28" y="31">Special cases: perfect prediction or equal base rates. Outside those cases, satisfying one criterion can force violation of another.</text>
+  </g>
+</svg>

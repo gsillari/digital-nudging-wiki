@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Same score meaning, different error burdens</title>
+  <desc id="desc">Two stacked histograms show calibrated score bins with different base-rate distributions. The lower-base-rate group has more false negatives below the threshold, while the higher-base-rate group has more false positives above the threshold.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1f2937" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .bg { fill: #fbfaf6; }
+      .panel { fill: #ffffff; stroke: #d8d1c6; stroke-width: 2; filter: url(#shadow); }
+      .title { font-family: Inter, Arial, sans-serif; font-size: 44px; font-weight: 780; fill: #202020; }
+      .subtitle { font-family: Inter, Arial, sans-serif; font-size: 23px; fill: #595650; }
+      .group { font-family: Inter, Arial, sans-serif; font-size: 31px; font-weight: 780; fill: #202020; }
+      .label { font-family: Inter, Arial, sans-serif; font-size: 20px; font-weight: 700; fill: #202020; }
+      .small { font-family: Inter, Arial, sans-serif; font-size: 19px; fill: #4c4944; }
+      .tiny { font-family: Inter, Arial, sans-serif; font-size: 16px; fill: #5c5a55; }
+      .axis { stroke: #33383d; stroke-width: 3; stroke-linecap: round; }
+      .grid { stroke: #ebe4da; stroke-width: 2; }
+      .threshold { stroke: #202020; stroke-width: 5; stroke-dasharray: 14 10; }
+      .noOutcome { fill: #aebdcb; }
+      .outcome { fill: #d99a92; }
+      .falsePositive { fill: #d99820; }
+      .falseNegative { fill: #806aad; }
+      .quiet { opacity: 0.42; }
+      .fpCallout { fill: #fff8e8; stroke: #d99820; stroke-width: 2; filter: url(#shadow); }
+      .fnCallout { fill: #f5f0ff; stroke: #806aad; stroke-width: 2; filter: url(#shadow); }
+      .calCallout { fill: #eef3f1; stroke: #b8c9c3; stroke-width: 2; filter: url(#shadow); }
+      .legend { fill: #ffffff; stroke: #d8d1c6; stroke-width: 2; filter: url(#shadow); }
+      .bracket { fill: none; stroke: #56606a; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1500" height="1000"/>
+  <text class="title" x="82" y="82">Same score meaning, different error burdens</text>
+  <text class="subtitle" x="82" y="120">Calibration fixes the within-score outcome mix; different base rates change where people fall on the score scale.</text>
+
+  <rect class="panel" x="80" y="166" width="1340" height="728" rx="24"/>
+
+  <g transform="translate(145 230)">
+    <text class="group" x="0" y="0">Group A</text>
+    <text class="small" x="0" y="31">Lower base-rate group: mass shifts left</text>
+
+    <line class="grid" x1="0" y1="220" x2="790" y2="220"/>
+    <line class="axis" x1="0" y1="220" x2="820" y2="220"/>
+    <text class="tiny" x="-2" y="252">0</text>
+    <text class="tiny" x="248" y="252">3</text>
+    <text class="tiny" x="500" y="252">6</text>
+    <text class="tiny" x="665" y="252">8</text>
+    <text class="tiny" x="788" y="252">10</text>
+    <text class="label" x="325" y="292">Risk score</text>
+
+    <line class="threshold" x1="412" y1="18" x2="412" y2="222"/>
+    <text class="label" x="373" y="2">threshold</text>
+    <text class="small" x="140" y="65">release</text>
+    <text class="small" x="520" y="65">intervene</text>
+
+    <g transform="translate(32 220) scale(1 -0.62)">
+      <rect class="noOutcome quiet" x="0" y="0" width="58" height="104"/>
+      <rect class="falseNegative" x="0" y="104" width="58" height="12"/>
+      <rect class="noOutcome quiet" x="78" y="0" width="58" height="128"/>
+      <rect class="falseNegative" x="78" y="128" width="58" height="32"/>
+      <rect class="noOutcome quiet" x="156" y="0" width="58" height="142"/>
+      <rect class="falseNegative" x="156" y="142" width="58" height="61"/>
+      <rect class="noOutcome quiet" x="234" y="0" width="58" height="135"/>
+      <rect class="falseNegative" x="234" y="135" width="58" height="90"/>
+      <rect class="noOutcome quiet" x="312" y="0" width="58" height="108"/>
+      <rect class="falseNegative" x="312" y="108" width="58" height="108"/>
+      <rect class="falsePositive" x="390" y="0" width="58" height="72"/>
+      <rect class="outcome quiet" x="390" y="72" width="58" height="108"/>
+      <rect class="falsePositive" x="468" y="0" width="58" height="42"/>
+      <rect class="outcome quiet" x="468" y="42" width="58" height="98"/>
+      <rect class="falsePositive" x="546" y="0" width="58" height="21"/>
+      <rect class="outcome quiet" x="546" y="21" width="58" height="84"/>
+      <rect class="falsePositive" x="624" y="0" width="58" height="8"/>
+      <rect class="outcome quiet" x="624" y="8" width="58" height="72"/>
+      <rect class="falsePositive" x="702" y="0" width="58" height="2"/>
+      <rect class="outcome quiet" x="702" y="2" width="58" height="43"/>
+    </g>
+
+    <rect class="fnCallout" x="890" y="118" width="316" height="154" rx="18"/>
+    <text class="label" x="918" y="154">Error totals</text>
+    <text class="tiny" x="918" y="188">False negatives</text>
+    <rect class="falseNegative" x="918" y="198" width="178" height="18" rx="9"/>
+    <text class="tiny" x="1110" y="213">larger</text>
+    <text class="tiny" x="918" y="238">False positives</text>
+    <rect class="falsePositive" x="918" y="248" width="86" height="18" rx="9"/>
+  </g>
+
+  <g transform="translate(145 562)">
+    <text class="group" x="0" y="0">Group B</text>
+    <text class="small" x="0" y="31">Higher base-rate group: mass shifts right</text>
+
+    <line class="grid" x1="0" y1="220" x2="790" y2="220"/>
+    <line class="axis" x1="0" y1="220" x2="820" y2="220"/>
+    <text class="tiny" x="-2" y="252">0</text>
+    <text class="tiny" x="248" y="252">3</text>
+    <text class="tiny" x="500" y="252">6</text>
+    <text class="tiny" x="665" y="252">8</text>
+    <text class="tiny" x="788" y="252">10</text>
+    <text class="label" x="325" y="292">Risk score</text>
+
+    <line class="threshold" x1="412" y1="18" x2="412" y2="222"/>
+    <text class="label" x="373" y="2">threshold</text>
+    <text class="small" x="140" y="65">release</text>
+    <text class="small" x="520" y="65">intervene</text>
+
+    <g transform="translate(32 220) scale(1 -0.62)">
+      <rect class="noOutcome quiet" x="0" y="0" width="58" height="41"/>
+      <rect class="falseNegative" x="0" y="41" width="58" height="5"/>
+      <rect class="noOutcome quiet" x="78" y="0" width="58" height="58"/>
+      <rect class="falseNegative" x="78" y="58" width="58" height="14"/>
+      <rect class="noOutcome quiet" x="156" y="0" width="58" height="75"/>
+      <rect class="falseNegative" x="156" y="75" width="58" height="32"/>
+      <rect class="noOutcome quiet" x="234" y="0" width="58" height="91"/>
+      <rect class="falseNegative" x="234" y="91" width="58" height="61"/>
+      <rect class="noOutcome quiet" x="312" y="0" width="58" height="100"/>
+      <rect class="falseNegative" x="312" y="100" width="58" height="100"/>
+      <rect class="falsePositive" x="390" y="0" width="58" height="85"/>
+      <rect class="outcome quiet" x="390" y="85" width="58" height="128"/>
+      <rect class="falsePositive" x="468" y="0" width="58" height="66"/>
+      <rect class="outcome quiet" x="468" y="66" width="58" height="154"/>
+      <rect class="falsePositive" x="546" y="0" width="58" height="43"/>
+      <rect class="outcome quiet" x="546" y="43" width="58" height="172"/>
+      <rect class="falsePositive" x="624" y="0" width="58" height="22"/>
+      <rect class="outcome quiet" x="624" y="22" width="58" height="198"/>
+      <rect class="falsePositive" x="702" y="0" width="58" height="11"/>
+      <rect class="outcome quiet" x="702" y="11" width="58" height="209"/>
+    </g>
+
+    <rect class="fpCallout" x="890" y="118" width="316" height="154" rx="18"/>
+    <text class="label" x="918" y="154">Error totals</text>
+    <text class="tiny" x="918" y="188">False negatives</text>
+    <rect class="falseNegative" x="918" y="198" width="94" height="18" rx="9"/>
+    <text class="tiny" x="918" y="238">False positives</text>
+    <rect class="falsePositive" x="918" y="248" width="178" height="18" rx="9"/>
+    <text class="tiny" x="1110" y="263">larger</text>
+  </g>
+
+  <g transform="translate(1020 194)">
+    <rect class="legend" width="350" height="150" rx="18"/>
+    <rect class="noOutcome quiet" x="24" y="26" width="34" height="22" rx="4"/>
+    <text class="small" x="74" y="44">No bad outcome</text>
+    <rect class="outcome quiet" x="24" y="68" width="34" height="22" rx="4"/>
+    <text class="small" x="74" y="86">Bad outcome</text>
+    <rect class="falsePositive" x="204" y="26" width="34" height="22" rx="4"/>
+    <text class="small" x="254" y="44">False +</text>
+    <rect class="falseNegative" x="204" y="68" width="34" height="22" rx="4"/>
+    <text class="small" x="254" y="86">False -</text>
+    <text class="tiny" x="24" y="124">Bright areas are mistakes created by the threshold.</text>
+  </g>
+
+  <g transform="translate(1020 512)">
+    <rect class="calCallout" width="350" height="72" rx="18"/>
+    <text class="label" x="24" y="31">Calibration is shown within bins</text>
+    <text class="tiny" x="24" y="55">At each score, both groups have the same outcome mix.</text>
+  </g>
+
+  <g transform="translate(120 920)">
+    <path class="bracket" d="M0 0h1260"/>
+    <text class="subtitle" x="0" y="42">Lesson: same score meaning does not imply equal mistake burdens once a shared threshold turns scores into action.</text>
+  </g>
+</svg>
