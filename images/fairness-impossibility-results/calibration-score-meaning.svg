@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Calibration as same score meaning</title>
+  <desc id="desc">A chart showing two groups with the same relation between risk score and observed outcome rate. A score of 7 has the same meaning for both groups.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1f2937" flood-opacity="0.11"/>
+    </filter>
+    <style>
+      .bg { fill: #fbfaf6; }
+      .panel { fill: #ffffff; stroke: #d8d1c6; stroke-width: 2; filter: url(#shadow); }
+      .title { font-family: Inter, Arial, sans-serif; font-size: 42px; font-weight: 780; fill: #202020; }
+      .subtitle { font-family: Inter, Arial, sans-serif; font-size: 22px; fill: #5c5a55; }
+      .axis { stroke: #343a40; stroke-width: 3; stroke-linecap: round; }
+      .grid { stroke: #e5ded4; stroke-width: 2; }
+      .tick { font-family: Inter, Arial, sans-serif; font-size: 18px; fill: #615d57; }
+      .label { font-family: Inter, Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #202020; }
+      .small { font-family: Inter, Arial, sans-serif; font-size: 20px; fill: #4c4944; }
+      .callout { fill: #fff8e8; stroke: #d39a2d; stroke-width: 2; filter: url(#shadow); }
+      .groupA { fill: none; stroke: #4f6fa8; stroke-width: 8; stroke-linecap: round; }
+      .groupB { fill: none; stroke: #2f7d73; stroke-width: 8; stroke-linecap: round; stroke-dasharray: 18 14; }
+      .pointA { fill: #4f6fa8; stroke: #ffffff; stroke-width: 4; }
+      .pointB { fill: #2f7d73; stroke: #ffffff; stroke-width: 4; }
+      .guide { stroke: #d86159; stroke-width: 4; stroke-dasharray: 12 10; }
+      .legendBox { fill: #ffffff; stroke: #d8d1c6; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="1400" height="860"/>
+  <text class="title" x="80" y="82">Predictive parity: same score, same meaning</text>
+  <text class="subtitle" x="80" y="120">Calibration asks whether a risk score carries the same evidential meaning across groups.</text>
+
+  <g transform="translate(92 166)">
+    <rect class="panel" width="1216" height="604" rx="20"/>
+
+    <g transform="translate(125 70)">
+      <line class="grid" x1="0" y1="400" x2="900" y2="400"/>
+      <line class="grid" x1="0" y1="320" x2="900" y2="320"/>
+      <line class="grid" x1="0" y1="240" x2="900" y2="240"/>
+      <line class="grid" x1="0" y1="160" x2="900" y2="160"/>
+      <line class="grid" x1="0" y1="80" x2="900" y2="80"/>
+      <line class="grid" x1="0" y1="0" x2="900" y2="0"/>
+
+      <line class="axis" x1="0" y1="400" x2="925" y2="400"/>
+      <line class="axis" x1="0" y1="400" x2="0" y2="-20"/>
+
+      <text class="tick" x="-44" y="406">0%</text>
+      <text class="tick" x="-56" y="326">20%</text>
+      <text class="tick" x="-56" y="246">40%</text>
+      <text class="tick" x="-56" y="166">60%</text>
+      <text class="tick" x="-56" y="86">80%</text>
+      <text class="tick" x="-66" y="6">100%</text>
+
+      <text class="tick" x="-6" y="438">0</text>
+      <text class="tick" x="266" y="438">3</text>
+      <text class="tick" x="536" y="438">6</text>
+      <text class="tick" x="806" y="438">9</text>
+
+      <text class="label" x="312" y="492">Risk score</text>
+      <text class="label" transform="translate(-88 274) rotate(-90)">Observed outcome rate</text>
+
+      <path class="groupA" d="M0 392 C130 374 225 328 315 280 C420 224 526 180 630 120 C725 68 810 42 900 20"/>
+      <path class="groupB" d="M0 392 C130 374 225 328 315 280 C420 224 526 180 630 120 C725 68 810 42 900 20"/>
+
+      <line class="guide" x1="630" y1="400" x2="630" y2="120"/>
+      <line class="guide" x1="0" y1="120" x2="630" y2="120"/>
+      <circle class="pointA" cx="630" cy="120" r="14"/>
+      <circle class="pointB" cx="630" cy="120" r="8"/>
+
+      <text class="tick" x="610" y="438">7</text>
+      <text class="tick" x="-56" y="126">70%</text>
+    </g>
+
+    <g transform="translate(830 92)">
+      <rect class="legendBox" width="276" height="128" rx="18"/>
+      <line class="groupA" x1="28" y1="38" x2="98" y2="38"/>
+      <text class="small" x="120" y="45">Group A</text>
+      <line class="groupB" x1="28" y1="86" x2="98" y2="86"/>
+      <text class="small" x="120" y="93">Group B</text>
+    </g>
+
+    <g transform="translate(780 300)">
+      <rect class="callout" width="340" height="150" rx="20"/>
+      <text class="label" x="34" y="50">Score 7 means:</text>
+      <text class="small" x="34" y="88">about 70% observed risk</text>
+      <text class="small" x="34" y="120">for both groups.</text>
+    </g>
+  </g>
+</svg>
