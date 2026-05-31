@@ -8,7 +8,7 @@ tags:
   - impossibility
   - calibration
   - parity
-updated_on: 2026-05-30
+updated_on: 2026-05-31
 source_count: 4
 aliases:
   - Predictive Parity
@@ -28,6 +28,13 @@ related_pages:
 
 [[Fairness Impossibility Results]] show that multiple plausible fairness conditions for algorithmic prediction cannot generally be satisfied at once. The foundational result currently in the vault is Kleinberg, Mullainathan, and Raghavan's theorem for risk scores: with unequal base rates and imperfect prediction, calibration within groups cannot be combined with balance for both the negative and positive classes.
 
+Figure FIR.1 gives the basic structure. The point is not that one model happened to fail. The point is that, outside narrow special cases, some fairness demands pull against one another.
+
+<figure class="wiki-figure">
+  <img src="../images/fairness-impossibility-results/theorem-collision.svg" alt="Figure FIR.1. Fairness criteria can collide">
+  <figcaption><strong>Figure FIR.1.</strong> Fairness criteria can collide. With unequal base rates and imperfect prediction, calibration within groups cannot generally be combined with balance for both the positive and negative classes.</figcaption>
+</figure>
+
 ## Key distinctions
 
 - Structural impossibility is not the same as practical difficulty. The theorem says that some combinations of fairness demands are mathematically incompatible outside special cases.
@@ -39,7 +46,21 @@ related_pages:
 
 Predictive parity is the idea that a prediction should have the same evidential meaning across groups. For risk scores, this is closely related to calibration within groups: people assigned the same score should have the same observed outcome rate regardless of group membership.
 
+Figure FIR.2 isolates that idea. If a score of 7 means about the same observed risk in each group, then the score is not changing its evidential meaning when applied to different groups.
+
+<figure class="wiki-figure">
+  <img src="../images/fairness-impossibility-results/calibration-score-meaning.svg" alt="Figure FIR.2. Predictive parity as same score meaning">
+  <figcaption><strong>Figure FIR.2.</strong> Predictive parity as same score meaning. Calibration asks whether a given risk score corresponds to the same observed outcome rate across groups.</figcaption>
+</figure>
+
 Error-rate parity asks a different question: whether the practical burdens of mistakes fall similarly across groups. In the COMPAS debate, this means asking whether false positives and false negatives are distributed unequally across Black and white defendants.
+
+Figure FIR.3 shows why this is a separate question. The red-blue mix within each score bin is held constant across groups to represent calibration: the same score has the same observed meaning. The groups differ in where their members fall on the score scale. Once a shared threshold is imposed, the lower-base-rate group has more false negatives below the threshold, while the higher-base-rate group has more false positives above it. The right-hand bars summarize those total error burdens, so the reader does not have to infer them by visually summing the colored histogram areas. That is the COMPAS-style direction of error.
+
+<figure class="wiki-figure">
+  <img src="../images/fairness-impossibility-results/threshold-error-burdens.svg" alt="Figure FIR.3. Same score meaning, different error burdens, and total false-positive and false-negative burdens">
+  <figcaption><strong>Figure FIR.3.</strong> Same score meaning, different error burdens. Calibration fixes the within-score outcome mix, but different base rates change the distribution of people across score bins; after a threshold is applied, false negatives and false positives can fall unevenly across groups. The right-side bars summarize the total error burdens for each group.</figcaption>
+</figure>
 
 The impossibility result matters because both ideas are attractive, but they cannot generally be satisfied together when base rates differ and prediction is imperfect.
 
@@ -67,7 +88,7 @@ For digital nudging, impossibility results are a warning against treating fairne
 - [[Binns, 2018|Fairness in Machine Learning: Lessons from Political Philosophy]]
 - [[Algorithmic Fairness]]
 - [[Algorithmic Fairness]]
-
+]]]
 ## Open questions
 
 How should this page incorporate later impossibility results and critiques without turning into a purely technical taxonomy?
