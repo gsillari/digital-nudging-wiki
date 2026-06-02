@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660" role="img" aria-labelledby="title desc">
+  <title id="title">Figure HN.1. Hypernudge feedback loop</title>
+  <desc id="desc">A loop from data traces to user profile and prediction, personalized choice architecture, user behavior, feedback, and updated intervention.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#3f4650"/>
+    </marker>
+    <style>
+      .bg { fill: #fbfbf8; }
+      .panel { stroke-width: 2.2; rx: 18; }
+      .title { font: 700 32px "Schibsted Grotesk", "Source Sans Pro", Arial, sans-serif; fill: #252a31; }
+      .subtitle { font: 400 18px "Source Sans Pro", Arial, sans-serif; fill: #525a65; }
+      .label { font: 700 21px "Source Sans Pro", Arial, sans-serif; fill: #252a31; }
+      .small { font: 400 16px "Source Sans Pro", Arial, sans-serif; fill: #3d444d; }
+      .tiny { font: 600 14px "Source Sans Pro", Arial, sans-serif; fill: #59616c; }
+      .arrow { fill: none; stroke: #3f4650; stroke-width: 3; marker-end: url(#arrow); }
+      .dash { fill: none; stroke: #7a818b; stroke-width: 2.4; stroke-dasharray: 8 8; marker-end: url(#arrow); }
+      .center { fill: #ffffff; stroke: #c7ccd2; stroke-width: 2; rx: 16; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="1" y="1" width="1098" height="658" rx="22" stroke="#d7d3c8" stroke-width="2"/>
+  <text class="title" x="70" y="70">Hypernudge as an adaptive feedback loop</text>
+  <text class="subtitle" x="70" y="102">The digital escalation is not just delivery on a screen; it is personalization plus continuous modification.</text>
+
+  <rect class="panel" x="78" y="165" width="238" height="138" fill="#eaf4f1" stroke="#5f9d8f"/>
+  <text class="label" x="106" y="205">Data traces</text>
+  <text class="small" x="106" y="236">clicks, searches, location,</text>
+  <text class="small" x="106" y="258">purchases, pauses,</text>
+  <text class="small" x="106" y="280">social signals</text>
+
+  <rect class="panel" x="430" y="126" width="250" height="138" fill="#edf1fb" stroke="#6d86c8"/>
+  <text class="label" x="459" y="166">Profile and prediction</text>
+  <text class="small" x="459" y="197">inferred preferences,</text>
+  <text class="small" x="459" y="219">susceptibilities, timing,</text>
+  <text class="small" x="459" y="241">risk or propensity</text>
+
+  <rect class="panel" x="776" y="226" width="246" height="154" fill="#fff1dd" stroke="#d08a32"/>
+  <text class="label" x="804" y="266">Personalized interface</text>
+  <text class="small" x="804" y="297">ranking, salience, default,</text>
+  <text class="small" x="804" y="319">recommendation, prompt,</text>
+  <text class="small" x="804" y="341">warning, friction</text>
+
+  <rect class="panel" x="462" y="440" width="234" height="132" fill="#f6eaf2" stroke="#b36f9b"/>
+  <text class="label" x="490" y="480">User behavior</text>
+  <text class="small" x="490" y="511">formal choice remains,</text>
+  <text class="small" x="490" y="533">but attention and effort</text>
+  <text class="small" x="490" y="555">have been reshaped</text>
+
+  <rect class="panel" x="118" y="420" width="232" height="132" fill="#f1f1ed" stroke="#8d9188"/>
+  <text class="label" x="146" y="460">Feedback and update</text>
+  <text class="small" x="146" y="491">measure response, run</text>
+  <text class="small" x="146" y="513">experiments, update</text>
+  <text class="small" x="146" y="535">the next intervention</text>
+
+  <rect class="center" x="408" y="292" width="278" height="96"/>
+  <text class="tiny" x="440" y="326">Architect's objective</text>
+  <text class="small" x="440" y="353">conversion, engagement, welfare,</text>
+  <text class="small" x="440" y="375">compliance, retention, or guidance</text>
+
+  <path class="arrow" d="M316 214 C364 196, 386 186, 430 180"/>
+  <path class="arrow" d="M680 202 C731 216, 750 244, 776 274"/>
+  <path class="arrow" d="M842 380 C794 438, 752 468, 696 494"/>
+  <path class="arrow" d="M462 508 C418 508, 390 500, 350 488"/>
+  <path class="arrow" d="M234 420 C250 350, 298 300, 408 346"/>
+  <path class="dash" d="M686 340 C720 330, 742 320, 776 306"/>
+
+  <text class="subtitle" x="70" y="604">Conceptual point: the nudge is no longer a fixed intervention.</text>
+  <text class="subtitle" x="70" y="628">It learns, adapts, and can disappear into ordinary platform operation.</text>
+</svg>

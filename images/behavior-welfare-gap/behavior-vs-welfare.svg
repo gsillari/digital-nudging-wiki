@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="680" viewBox="0 0 1100 680" role="img" aria-labelledby="title desc">
+  <title id="title">Figure BWG.1. Behavior is not welfare</title>
+  <desc id="desc">A diagram showing observed behavior on one side, welfare by the user's lights on the other, and distortions that can open a gap between the two.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#3f4650"/>
+    </marker>
+    <style>
+      .bg { fill: #fbfbf8; }
+      .box { stroke-width: 2.2; rx: 18; }
+      .title { font: 700 32px "Schibsted Grotesk", "Source Sans Pro", Arial, sans-serif; fill: #252a31; }
+      .subtitle { font: 400 18px "Source Sans Pro", Arial, sans-serif; fill: #525a65; }
+      .label { font: 700 21px "Source Sans Pro", Arial, sans-serif; fill: #252a31; }
+      .small { font: 400 16px "Source Sans Pro", Arial, sans-serif; fill: #3d444d; }
+      .tiny { font: 600 14px "Source Sans Pro", Arial, sans-serif; fill: #59616c; }
+      .arrow { fill: none; stroke: #3f4650; stroke-width: 3; marker-end: url(#arrow); }
+      .soft-arrow { fill: none; stroke: #8a6f8e; stroke-width: 2.6; stroke-dasharray: 8 8; marker-end: url(#arrow); }
+      .gap { fill: #fff8ec; stroke: #d08a32; stroke-width: 2.2; rx: 20; }
+      .chip { fill: #ffffff; stroke: #d7d3c8; stroke-width: 1.7; rx: 12; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="1" y="1" width="1098" height="678" rx="22" stroke="#d7d3c8" stroke-width="2"/>
+  <text class="title" x="70" y="70">The behavior-welfare gap</text>
+  <text class="subtitle" x="70" y="102">Clicks, purchases, time spent, and defaults accepted are evidence about welfare, not welfare itself.</text>
+
+  <rect class="box" x="72" y="198" width="244" height="230" fill="#edf1fb" stroke="#6d86c8"/>
+  <text class="label" x="104" y="240">Observed behavior</text>
+  <text class="small" x="104" y="276">clicks</text>
+  <text class="small" x="104" y="306">purchases</text>
+  <text class="small" x="104" y="336">plan retention</text>
+  <text class="small" x="104" y="366">accepted defaults</text>
+  <text class="small" x="104" y="396">time spent</text>
+
+  <rect class="gap" x="398" y="150" width="304" height="326"/>
+  <text class="label" x="438" y="192">Distorting conditions</text>
+  <rect class="chip" x="436" y="222" width="228" height="38"/>
+  <text class="small" x="458" y="247">information gaps</text>
+  <rect class="chip" x="436" y="270" width="228" height="38"/>
+  <text class="small" x="458" y="295">comparison friction</text>
+  <rect class="chip" x="436" y="318" width="228" height="38"/>
+  <text class="small" x="458" y="343">present bias</text>
+  <rect class="chip" x="436" y="366" width="228" height="38"/>
+  <text class="small" x="458" y="391">shrouded attributes</text>
+  <rect class="chip" x="436" y="414" width="228" height="38"/>
+  <text class="small" x="458" y="439">engagement optimization</text>
+
+  <rect class="box" x="784" y="198" width="244" height="230" fill="#eaf4f1" stroke="#5f9d8f"/>
+  <text class="label" x="816" y="240">Welfare signals</text>
+  <text class="small" x="816" y="276">reflective endorsement</text>
+  <text class="small" x="816" y="306">later satisfaction</text>
+  <text class="small" x="816" y="336">lower regret</text>
+  <text class="small" x="816" y="366">goal fit</text>
+  <text class="small" x="816" y="396">long-run outcomes</text>
+
+  <path class="arrow" d="M316 314 L398 314"/>
+  <path class="arrow" d="M702 314 L784 314"/>
+  <path class="soft-arrow" d="M195 438 C310 560, 790 560, 906 438"/>
+
+  <rect class="box" x="292" y="520" width="168" height="62" fill="#f6eaf2" stroke="#b36f9b"/>
+  <text class="small" x="318" y="548">behavioral metric</text>
+  <text class="tiny" x="318" y="570">what the system sees</text>
+
+  <rect class="box" x="640" y="520" width="168" height="62" fill="#fff1dd" stroke="#d08a32"/>
+  <text class="small" x="666" y="548">chooser welfare</text>
+  <text class="tiny" x="666" y="570">what should matter</text>
+
+  <path class="soft-arrow" d="M460 551 L640 551"/>
+  <text class="subtitle" x="70" y="634">Conceptual point: choice aids should learn from behavior without collapsing welfare</text>
+  <text class="subtitle" x="70" y="656">into whatever behavior is easiest to measure.</text>
+</svg>

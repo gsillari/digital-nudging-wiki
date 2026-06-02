@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="680" viewBox="0 0 1100 680" role="img" aria-labelledby="title desc">
+  <title id="title">Figure SD.1. Smart disclosure as choice infrastructure</title>
+  <desc id="desc">A comparison of ordinary disclosure with smart disclosure, showing how machine-readable data and choice engines turn information into usable comparison.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#3f4650"/>
+    </marker>
+    <style>
+      .bg { fill: #fbfbf8; }
+      .lane { fill: #ffffff; stroke-width: 2; rx: 18; }
+      .box { stroke-width: 2.2; rx: 16; }
+      .title { font: 700 32px "Schibsted Grotesk", "Source Sans Pro", Arial, sans-serif; fill: #252a31; }
+      .subtitle { font: 400 18px "Source Sans Pro", Arial, sans-serif; fill: #525a65; }
+      .lane-title { font: 700 22px "Source Sans Pro", Arial, sans-serif; fill: #252a31; }
+      .label { font: 700 19px "Source Sans Pro", Arial, sans-serif; fill: #252a31; }
+      .small { font: 400 16px "Source Sans Pro", Arial, sans-serif; fill: #3d444d; }
+      .tiny { font: 600 14px "Source Sans Pro", Arial, sans-serif; fill: #59616c; }
+      .arrow { fill: none; stroke: #3f4650; stroke-width: 3; marker-end: url(#arrow); }
+      .weak { fill: none; stroke: #8e6f6f; stroke-width: 2.4; stroke-dasharray: 8 8; marker-end: url(#arrow); }
+      .divider { stroke: #d7d3c8; stroke-width: 2; stroke-dasharray: 5 8; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="1" y="1" width="1098" height="678" rx="22" stroke="#d7d3c8" stroke-width="2"/>
+  <text class="title" x="70" y="70">Smart disclosure turns information into usable comparison</text>
+  <text class="subtitle" x="70" y="102">The issue is not just whether information is available, but whether the environment lets people make sense of it.</text>
+
+  <rect class="lane" x="68" y="138" width="964" height="205" stroke="#e2c6c2"/>
+  <text class="lane-title" x="96" y="178">Ordinary disclosure</text>
+
+  <rect class="box" x="100" y="210" width="210" height="88" fill="#f9e7e5" stroke="#c77770"/>
+  <text class="label" x="126" y="244">Raw information</text>
+  <text class="small" x="126" y="270">PDFs, labels, terms,</text>
+  <text class="small" x="126" y="291">price schedules</text>
+
+  <rect class="box" x="430" y="210" width="210" height="88" fill="#fbf0ed" stroke="#d69a8f"/>
+  <text class="label" x="456" y="244">User alone</text>
+  <text class="small" x="456" y="270">must find, parse,</text>
+  <text class="small" x="456" y="291">compare, and act</text>
+
+  <rect class="box" x="760" y="210" width="210" height="88" fill="#f5f1ee" stroke="#9c8f86"/>
+  <text class="label" x="786" y="244">Formal transparency</text>
+  <text class="small" x="786" y="270">available information,</text>
+  <text class="small" x="786" y="291">weak practical use</text>
+
+  <path class="weak" d="M310 254 L430 254"/>
+  <path class="weak" d="M640 254 L760 254"/>
+
+  <line class="divider" x1="70" y1="372" x2="1030" y2="372"/>
+
+  <rect class="lane" x="68" y="400" width="964" height="220" stroke="#bfd6cf"/>
+  <text class="lane-title" x="96" y="440">Smart disclosure</text>
+
+  <rect class="box" x="100" y="474" width="216" height="98" fill="#eaf4f1" stroke="#5f9d8f"/>
+  <text class="label" x="126" y="508">Structured data</text>
+  <text class="small" x="126" y="534">product attributes plus</text>
+  <text class="small" x="126" y="555">personal usage history</text>
+
+  <rect class="box" x="440" y="474" width="220" height="98" fill="#edf1fb" stroke="#6d86c8"/>
+  <text class="label" x="466" y="508">Choice engine</text>
+  <text class="small" x="466" y="534">searches, filters, ranks,</text>
+  <text class="small" x="466" y="555">explains tradeoffs</text>
+
+  <rect class="box" x="782" y="474" width="220" height="98" fill="#fff1dd" stroke="#d08a32"/>
+  <text class="label" x="808" y="508">Usable guidance</text>
+  <text class="small" x="808" y="534">shortlist, estimated cost,</text>
+  <text class="small" x="808" y="555">reasons, warnings</text>
+
+  <path class="arrow" d="M316 523 L440 523"/>
+  <path class="arrow" d="M660 523 L782 523"/>
+
+  <text class="subtitle" x="70" y="646">Conceptual point: disclosure becomes smart when it supports comparison,</text>
+  <text class="subtitle" x="70" y="668">not merely when it increases the amount of text available.</text>
+</svg>
