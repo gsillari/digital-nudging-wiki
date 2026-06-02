@@ -8,7 +8,7 @@ tags:
   - revealed-preference
   - choice-aids
   - digital-nudging
-updated_on: 2026-05-30
+updated_on: 2026-06-01
 source_count: 7
 aliases:
   - Quantification Fixation
@@ -30,6 +30,13 @@ related_pages:
 The [[Behavior-Welfare Gap]] is the gap between what people do in a choice environment and what would actually make them better off by their own lights. It is the reason [[Chooser Welfare]] cannot be inferred mechanically from clicks, purchases, defaults accepted, time spent, plan retention, or engagement.
 
 The concept is central to [[AI as Choice Aid]] because AI systems often learn from behavior. If behavior is a noisy or biased signal of welfare, then a system that predicts or optimizes behavior may reproduce mistakes rather than repair them.
+
+Figure BWG.1 gives the core warning. Observed behavior is a useful signal, but it passes through distorting conditions before it can be treated as evidence of welfare. A choice aid therefore needs more than behavioral prediction if it is going to help rather than merely optimize what is easiest to measure.
+
+<figure class="wiki-figure">
+  <img src="../images/behavior-welfare-gap/behavior-vs-welfare.svg" alt="Figure BWG.1. Behavior is not welfare">
+  <figcaption><strong>Figure BWG.1.</strong> Behavior is not welfare. Clicks, purchases, retention, default acceptance, and time spent can diverge from reflective endorsement, later satisfaction, lower regret, goal fit, and long-run outcomes.</figcaption>
+</figure>
 
 ## Main forms
 

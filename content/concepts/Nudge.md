@@ -7,8 +7,8 @@ tags:
   - nudging
   - choice-architecture
   - behavioral-public-policy
-updated_on: 2026-05-30
-source_count: 7
+updated_on: 2026-06-02
+source_count: 8
 aliases:
   - Nudge Typology
 related_pages:
@@ -16,6 +16,7 @@ related_pages:
   - [[Nudging and the Ethics of Nudging]]
   - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
+  - [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]]
   - [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]]
   - [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]]
   - [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]]
@@ -70,6 +71,8 @@ Third, nudging becomes practical design through defaults, feedback, error tolera
 
 The ethical debate begins with chooser welfare, autonomy, dignity, and self-government. Sunstein's [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]] supplies that value vocabulary, including the "as judged by themselves" standard captured here as [[Chooser Welfare]].
 
+Schmidt and Engelen's [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]] is the review anchor for that debate. It shows why formal freedom of choice does not settle the matter: nudges may also affect volitional autonomy, rational agency, and freedom from domination.
+
 The manipulation debate asks whether formal freedom to choose otherwise is enough. Nudges are used precisely where people are predictably fallible, so the practical question is whether users can notice, understand, and resist the nudge in context. Hansen and Jespersen develop this issue in [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]].
 
 The policy debate asks whether nudging is sufficient. A behavioral cause can justify a traditional intervention, such as a tax or regulation; an economic problem can sometimes benefit from behavioral design; and many serious problems require hybrid packages. Loewenstein and Chater's [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]] is the anchor for keeping nudges inside a wider behavioral-policy agenda.
@@ -106,6 +109,7 @@ The policy-mix question is especially important online. If the problem is privac
 - [[Sludge]]
 - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]]
 - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
+- [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]]
 - [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]]
 - [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]]
 - [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]]

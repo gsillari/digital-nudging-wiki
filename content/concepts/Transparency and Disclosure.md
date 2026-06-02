@@ -8,8 +8,8 @@ tags:
   - disclosure
   - accountability
   - governance
-updated_on: 2026-05-30
-source_count: 10
+updated_on: 2026-06-02
+source_count: 11
 aliases:
   - Transparency and Publicity
   - Reasoned Transparency
@@ -21,6 +21,7 @@ related_pages:
   - [[Algorithmic Governance]]
   - [[Algorithmic Fairness]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
+  - [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]]
   - [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]]
   - [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]]
   - [[Coglianese and Lehr, 2019|Transparency and Algorithmic Governance]]
@@ -39,6 +40,8 @@ This page absorbs the former page on transparency and publicity and the former p
 Publicity is an ethical test, not merely a notice requirement. A nudge should be visible enough, publicly defensible, and compatible with autonomy, dignity, welfare, and self-government. Sunstein's [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]] supplies this publicity standard.
 
 Epistemic transparency is narrower and more immediate: can the target recognize the intervention and its purpose while choosing? A nudge may be publicly announced while the target still cannot recognize its intention or mechanism in context. Hansen and Jespersen's [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]] is the anchor for this distinction between public defensibility and transparency at the point of influence.
+
+Transparency also matters because it controls power. In Schmidt and Engelen's [[Schmidt and Engelen, 2020|overview]], the non-domination worry is that nudging can give architects uncontrolled influence over citizens or users. The response is not mere notice, but transparency plus democratic control, accountability, and contestability.
 
 Disclosure is weaker still. A cookie notice, terms page, or long explanation may disclose information without making it practically usable. The course should therefore ask whether disclosure becomes understanding, and whether understanding arrives at the right time.
 

@@ -8,12 +8,13 @@ tags:
   - dark-patterns
   - autonomy
   - ethics
-updated_on: 2026-05-30
-source_count: 10
+updated_on: 2026-06-02
+source_count: 11
 related_pages:
   - [[Digital Nudging]]
   - [[Ethics of Nudging]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
+  - [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]]
   - [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]]
   - [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]]
   - [[Gray et al., 2018|The Dark (Patterns) Side of UX Design]]
@@ -38,6 +39,8 @@ related_pages:
 [[Manipulation]] is influence that insufficiently engages or appeals to people's capacities for reflective and deliberative choice. The concern is not that influence exists, or even that it sometimes works through automatic processes. The concern is that some influence bypasses reflection in ways that fail to respect autonomy and dignity. Sunstein's [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]] supplies the main ethical vocabulary for that concern.
 
 The strongest distinction is between manipulating behavior and manipulating choice. A non-transparent nudge can alter automatic behavior without manipulating reflective choice, while a non-transparent nudge that shapes the premises of reflection is the stronger manipulation case. Hansen and Jespersen develop that distinction in [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]].
+
+Manipulation is also not a self-contained objection. Schmidt and Engelen's [[Schmidt and Engelen, 2020|overview]] treats manipulation and dignity worries as best analyzed through opacity, rational agency, autonomy, vulnerability exploitation, and domination. That makes the concept more diagnostic: the question is what kind of agency failure the influence creates.
 
 The digital version is opaque algorithmic manipulation. A system can continuously personalize rankings, feeds, recommendations, and prompts in ways that users cannot detect or reconstruct. Yeung's [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]] is the anchor for this adaptive version of the problem.
 

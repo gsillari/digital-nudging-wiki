@@ -8,7 +8,7 @@ tags:
   - data-portability
   - choice-engines
   - transparency
-updated_on: 2026-05-30
+updated_on: 2026-06-01
 source_count: 6
 aliases:
   - Comparison Friction
@@ -34,6 +34,13 @@ related_pages:
 [[Smart Disclosure]] is a strategy for turning formally available information into usable comparison infrastructure. The problem is not simply that users lack information. It is that complex choices often require standardized product data, access to one's own usage history, and software-mediated comparison before disclosure can actually improve decisions.
 
 The basic move is to release complex information in standardized, machine-readable form so that choice engines, apps, intermediaries, or AI tools can search, filter, compare, and recommend. In [[Thaler and Sunstein, 2021|Nudge: The Final Edition]], this makes disclosure part of [[Choice Architecture]]: the goal is not more text, but better mappings between options and welfare.
+
+Figure SD.1 separates ordinary disclosure from smart disclosure. The first makes information formally available and then leaves the user to find, parse, compare, and act on it. The second treats disclosure as infrastructure for comparison: standardized product data, personal usage data, and choice engines work together to reduce comparison friction.
+
+<figure class="wiki-figure">
+  <img src="../images/smart-disclosure/choice-infrastructure.svg" alt="Figure SD.1. Smart disclosure as choice infrastructure">
+  <figcaption><strong>Figure SD.1.</strong> Smart disclosure as choice infrastructure. Smart disclosure is not more text; it is the conversion of product and usage data into machine-readable comparison, sense-making, and usable guidance.</figcaption>
+</figure>
 
 ## Key distinctions
 

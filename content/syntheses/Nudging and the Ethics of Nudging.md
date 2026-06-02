@@ -8,11 +8,12 @@ tags:
   - ethics
   - choice-architecture
   - digital-nudging
-updated_on: 2026-05-30
+updated_on: 2026-06-02
 related_pages:
   - [[Digital Nudging]]
   - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
+  - [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]]
   - [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]]
   - [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]]
   - [[Behavioural Insights Team, 2024|EAST: Four Simple Ways to Apply Behavioural Insights]]
@@ -61,6 +62,8 @@ Second, what kind of intervention is appropriate? The answer might be a nudge, b
 
 This matters ethically. A nudge can be attractive because it is light-touch, cheap, and choice-preserving. But light-touch is not always responsible. If the harm is serious, if the cause is structural, or if powerful actors profit from predictable mistakes, a nudge may be too weak. The ethical question is therefore not only "does the nudge preserve choice?" but also "is a nudge sufficient for the problem, or is it functioning as a politically convenient substitute for stronger policy?"
 
+Schmidt and Engelen's [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]] reinforces this sufficiency point from within the ethics debate. The structural-reform objection is not that every nudge is bad, but that nudging can become a convenient substitute for addressing socioeconomic, institutional, or market causes of harm. The better position is to evaluate nudges inside a policy mix: sometimes they complement structural reform, sometimes they are second-best tools in nonideal contexts, and sometimes they are too weak for the problem.
+
 ## Why people need nudges
 
 The behavioral foundation is not that people are foolish. It is that real decisions are often made under conditions that make unaided choice fragile.
@@ -102,6 +105,14 @@ Dignity asks whether the intervention treats people respectfully. A design can p
 Self-government asks whether the intervention can be scrutinized and contested. In public policy, this means transparency, public justification, democratic accountability, and institutional responsibility. In digital environments, it also means auditability, records of experiments, contestability, and some way to inspect proprietary systems that shape behavior at scale.
 
 These four values prevent the ethics of nudging from collapsing into a single test. A nudge can be welfare-promoting but insufficiently transparent. It can be transparent but undignified. It can preserve exit but be hard to contest. The ethical analysis is plural.
+
+## The autonomy map
+
+Schmidt and Engelen's review is especially helpful because it prevents autonomy from becoming a single vague complaint. A nudge may leave external options untouched and still raise one of several autonomy concerns.
+
+Freedom of choice asks whether options remain available and resistance remains practically feasible. Volitional autonomy asks whether the user's action reflects their own ends rather than the architect's steering. Rational agency asks whether the intervention bypasses or exploits deliberation, or instead helps limited agents navigate difficult environments. Non-domination asks whether the architect's influence is transparent, controlled, and contestable.
+
+This map matters for digital nudging because different interface problems damage agency in different ways. A hidden opt-out attacks practical exit. A recommendation system optimized for engagement may misalign behavior with the user's own ends. A manipulative countdown may exploit rational agency. A proprietary ranking system may create uncontrolled influence that users cannot inspect or contest.
 
 ## Transparency and manipulation
 
@@ -152,6 +163,8 @@ Third, digital systems are personalized. The same user may receive different pro
 Fourth, digital systems are experimental. A/B testing can discover which design best helps users, but it can also discover which design best bypasses refusal, captures attention, or extracts consent.
 
 Fifth, digital systems are often proprietary. Users, researchers, and regulators may not see the operative rule, data, objective, or evidence.
+
+Schmidt and Engelen explicitly identify digital choice architecture as a fertile next stage for nudge ethics. Their warning is that digital nudges combine data collection, A/B testing, algorithms, personalization, and opacity. That combination makes digital nudging both more effective and harder to evaluate through the classical reassurance that people remain free to choose otherwise.
 
 This means classical nudge ethics must become system-level ethics. We should not evaluate only the visible interface element. We should evaluate the data pipeline, optimization target, experiment, personalization rule, audit trail, and institutional incentive behind the interface.
 

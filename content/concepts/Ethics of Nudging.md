@@ -7,12 +7,13 @@ tags:
   - ethics
   - nudging
   - behavioral-public-policy
-updated_on: 2026-05-30
-source_count: 5
+updated_on: 2026-06-02
+source_count: 6
 related_pages:
   - [[Digital Nudging]]
   - [[Nudging and the Ethics of Nudging]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
+  - [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]]
   - [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]]
   - [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]]
   - [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]]
@@ -39,6 +40,8 @@ The fact that influence is unavoidable does not make all influence acceptable. T
 
 Preserving formal choice is therefore only the beginning. A design can leave all options technically available and still be ethically troubling if it serves the architect rather than the chooser, hides its mechanism, exploits vulnerability, imposes asymmetrical effort, or makes resistance unrealistic. Sunstein's [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]] gives the main value vocabulary for this assessment: welfare, autonomy, dignity, and self-government.
 
+The main review map for these worries is [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]]. Its contribution is to break the broad autonomy objection into more precise dimensions: external freedom of choice, volitional autonomy, rational agency, and freedom from domination. That map helps the course avoid the blunt question "does nudging violate autonomy?" and ask instead which dimension of agency is at stake.
+
 A further ethical question is whether nudging is sufficient for the problem. A light-touch intervention may be attractive because it preserves choice, but it can be too weak when the harm is structural, exploitative, or driven by externalities. In those cases, responsible policy may require nudges plus taxes, regulation, mandates, disclosure rules, or enforcement. Loewenstein and Chater make this policy-toolkit point in [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]].
 
 Digital nudging raises the burden again. When influence is data-driven, personalized, continuously updated, and proprietary, ordinary safeguards such as notice, consent, public defensibility, and easy opt-out may not be enough. Yeung's [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]] makes this system-level power problem visible.
@@ -51,6 +54,19 @@ For a longer course synthesis, see [[Nudging and the Ethics of Nudging]].
 - Autonomy: Does the nudge preserve meaningful agency, including usable information, reasonable effort, and practical exit?
 - Dignity: Does the nudge treat people respectfully rather than shaming, humiliating, infantilizing, exhausting, or exploiting them?
 - Self-government: Can affected people, publics, regulators, or institutions scrutinize and contest the design?
+
+## Autonomy dimensions
+
+Autonomy is not one objection. A nudge can preserve freedom of choice in the narrow sense because the option remains available, while still raising concerns about whether the resulting choice reflects the chooser's own ends, whether the intervention respects rational agency, or whether the architect exercises uncontrolled power.
+
+Schmidt and Engelen's [[Schmidt and Engelen, 2020|overview]] is useful here because it separates four questions:
+
+- Freedom of choice: are the options still externally available, and is resistance practically feasible?
+- Volitional autonomy: does the design help the chooser act on their own ends, or does it make the action less genuinely theirs?
+- Rational agency: does the intervention bypass deliberation in a way that disrespects the chooser, or does it improve the fit between limited agents and difficult environments?
+- Non-domination: is the architect's power transparent, democratically controlled, and contestable?
+
+This turns autonomy from a slogan into a diagnostic. The ethical problem may be practical exit, ownership of ends, rational respect, or institutional power; different problems require different safeguards.
 
 ## Working tests for the course
 
@@ -73,6 +89,8 @@ A second diagnostic is system-level. A digital nudge should be evaluated not onl
 ## Digital version
 
 Digital nudging makes the ethics harder because the architecture is programmable, measurable, personalized, and often proprietary. A digital design can steer behavior without looking like a policy, rule, or explicit request. It may be optimized continuously through A/B tests, hidden ranking systems, and engagement objectives.
+
+Schmidt and Engelen explicitly mark digital choice architecture as an underdeveloped ethical frontier. Digital systems can collect user data, test interface variants, personalize behavioral influence, and conceal the operative mechanism in algorithms or proprietary systems. The usual nudge reassurance that people can choose otherwise is therefore weaker when users cannot see what architecture was selected, why it was selected, or how it changes over time.
 
 That makes the following questions central:
 
@@ -97,6 +115,7 @@ That makes the following questions central:
 - [[Defaults]]
 - [[Sludge]]
 - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
+- [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]]
 - [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]]
 
 ## Open questions

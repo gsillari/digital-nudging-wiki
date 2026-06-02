@@ -8,13 +8,14 @@ tags:
   - digital-nudging
   - big-data
   - algorithmic-choice-architecture
-updated_on: 2026-05-30
-source_count: 3
+updated_on: 2026-06-02
+source_count: 4
 aliases:
   - Continuous Optimization and Experimentation
 related_pages:
   - [[Digital Nudging]]
   - [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]]
+  - [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]]
   - [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]]
   - [[Algorithmic Thought Partners]]
   - [[Nudge]]
@@ -50,6 +51,13 @@ The same digital capacities are ethically ambivalent. Personalization, feedback,
 
 Hypernudging works as a self-contained cybernetic system: it gathers information, sets or updates standards, modifies behavior through the choice environment, observes the response, and feeds the result back into the system. Yeung's account is the anchor for this feedback-loop model.
 
+Figure HN.1 makes the mechanism explicit. The distinctive point is not that a digital system can deliver a familiar nudge, but that behavioral traces can be converted into predictions, predictions into personalized choice architecture, and user responses into the next round of intervention.
+
+<figure class="wiki-figure">
+  <img src="../images/hypernudge/feedback-loop.svg" alt="Figure HN.1. Hypernudge feedback loop">
+  <figcaption><strong>Figure HN.1.</strong> Hypernudge feedback loop. Data traces feed profiles and predictions, which shape personalized rankings, prompts, defaults, recommendations, warnings, or friction; user behavior then becomes feedback for the next intervention.</figcaption>
+</figure>
+
 The central mechanism is informational choice architecture. Search rankings, feeds, recommendations, navigation suggestions, and predictive prompts determine which options are visible, salient, credible, easy, or framed as relevant.
 
 ## Continuous optimization and experimentation
@@ -61,6 +69,8 @@ This capacity is ethically ambivalent. It can improve guidance, timing, and rele
 ## Ethical stakes
 
 Hypernudging intensifies the usual ethics of nudging. A static default or prompt can be inspected and debated. A hypernudge may be personalized, experimental, and invisible to the user. It may also optimize for engagement, revenue, data extraction, or institutional convenience rather than [[Chooser Welfare]].
+
+Schmidt and Engelen's [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]] helps mark why this becomes a new ethics problem rather than only a new delivery channel. Digital choice architecture can combine user data, A/B testing, algorithms, personalization, and opacity, so freedom to choose otherwise may exist formally while users lack practical understanding or control over the architecture shaping the choice.
 
 This makes [[Transparency and Disclosure]], [[Privacy and Consent]], [[Algorithmic Fairness]], and [[Manipulation]] central to the concept.
 
