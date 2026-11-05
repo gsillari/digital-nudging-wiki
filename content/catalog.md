@@ -1,12 +1,12 @@
 # Wiki Catalog
 
-Updated: 2026-06-02
+Updated: 2026-11-05
 
 Read this file first when answering questions from the wiki. It is the machine-friendly catalog of durable pages and should stay current as the vault grows.
 
 ## Overview
 
-- Total pages: 116
+- Total pages: 117
 
 ## Sources
 
@@ -48,6 +48,7 @@ Read this file first when answering questions from the wiki. It is the machine-f
 - [[Sunstein, 2016]] - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]] is the main ethics framework for the course's opening treatment of nu...
 - [[Sunstein, 2022]] - [[Sunstein, 2022|Governing by Algorithm? No Noise and (Potentially) Less Bias]] gives the algorithmic-governance cluster a behavioral-law argument for why ad...
 - [[Sunstein, 2023]] - [[Sunstein, 2023|Behavioral Biases, Choice Engines, and Paternalistic AI]] asks how AI-powered "choice engines" might help consumers make better decisions wh...
+- [[Sunstein, 2026]] - Behavioral evidence of error challenges the assumption that leaving people alone always serves their welfare, but it does not establish a universal case for...
 - [[Thaler and Sunstein, 2021]] - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]] is the core popular statement of [[Richard H. Thaler]] and [[Cass R. Sunstein]]'s case for [[Nudge|nud...
 - [[Yeung, 2017]] - [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]] is the vault's cornerstone source for the shift from classic nudging to [[Digital Nudg...
 

@@ -7,8 +7,8 @@ tags:
   - ethics
   - nudging
   - behavioral-public-policy
-updated_on: 2026-06-02
-source_count: 6
+updated_on: 2026-11-05
+source_count: 7
 related_pages:
   - [[Digital Nudging]]
   - [[Nudging and the Ethics of Nudging]]
@@ -46,6 +46,8 @@ A further ethical question is whether nudging is sufficient for the problem. A l
 
 Digital nudging raises the burden again. When influence is data-driven, personalized, continuously updated, and proprietary, ordinary safeguards such as notice, consent, public defensibility, and easy opt-out may not be enough. Yeung's [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]] makes this system-level power problem visible.
 
+Instrument choice depends on both the distribution of error and the architect's knowledge. Widespread mistakes strengthen the welfare case for restrictions only if the architect knows how to improve the outcome. When needs differ and people have sensible reasons to reject assistance, preserving choice has an advantage. When planners know little or learning is feasible and valuable, nonintervention or competence-building may be preferable. Sunstein develops this conditional comparison in [[Sunstein, 2026|Paternalism after Behavioral Economics]] (section 5.1), while retaining autonomy and respect as distinct constraints.
+
 For a longer course synthesis, see [[Nudging and the Ethics of Nudging]].
 
 ## Ethical values
@@ -67,6 +69,8 @@ Schmidt and Engelen's [[Schmidt and Engelen, 2020|overview]] is useful here beca
 - Non-domination: is the architect's power transparent, democratically controlled, and contestable?
 
 This turns autonomy from a slogan into a diagnostic. The ethical problem may be practical exit, ownership of ends, rational respect, or institutional power; different problems require different safeguards.
+
+Agency also includes deciding how a choice should be made. A person may prefer to delegate to a default, expert, or AI rather than decide directly. Requiring active choice can override that preference and become paternalistic itself. Sunstein's distinction between first-order and second-order agency in [[Sunstein, 2026|Paternalism after Behavioral Economics]] (section 5.3) therefore complicates the assumption that more choosing always means more autonomy. For digital design, inferred willingness to delegate needs scrutiny where the provider benefits from user passivity.
 
 ## Working tests for the course
 

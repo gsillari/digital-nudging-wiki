@@ -8,7 +8,7 @@ tags:
   - behavioral-public-policy
   - law
   - author
-updated_on: 2026-05-28
+updated_on: 2026-11-05
 related_pages:
   - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
@@ -44,6 +44,8 @@ Sunstein connects nudging to law, regulation, disclosure, administrative burden,
 - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
 - [[Sunstein, 2022|Governing by Algorithm? No Noise and (Potentially) Less Bias]]
 - [[Sunstein, 2023|Behavioral Biases, Choice Engines, and Paternalistic AI]]
+
+- [[Sunstein, 2026|Paternalism after Behavioral Economics]] compares policy instruments through error, planner knowledge, heterogeneity, learning, and the agency involved in choosing to delegate.
 
 ## Open questions
 

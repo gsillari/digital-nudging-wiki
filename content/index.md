@@ -5,7 +5,7 @@ status: active
 tags:
   - index
   - digital-nudging
-updated_on: 2026-05-30
+updated_on: 2026-11-05
 related_pages:
   - [[Nudging and the Ethics of Nudging]]
   - [[AI as Choice Aid]]

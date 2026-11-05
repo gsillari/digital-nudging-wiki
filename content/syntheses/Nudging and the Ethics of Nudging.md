@@ -8,7 +8,7 @@ tags:
   - ethics
   - choice-architecture
   - digital-nudging
-updated_on: 2026-06-02
+updated_on: 2026-11-05
 related_pages:
   - [[Digital Nudging]]
   - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]]
@@ -64,6 +64,10 @@ This matters ethically. A nudge can be attractive because it is light-touch, che
 
 Schmidt and Engelen's [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]] reinforces this sufficiency point from within the ethics debate. The structural-reform objection is not that every nudge is bad, but that nudging can become a convenient substitute for addressing socioeconomic, institutional, or market causes of harm. The better position is to evaluate nudges inside a policy mix: sometimes they complement structural reform, sometimes they are second-best tools in nonideal contexts, and sometimes they are too weak for the problem.
 
+The distribution of error matters as well as its existence, but the architect's knowledge matters just as much. Widespread mistakes can strengthen the welfare case for coercion when planners know what would help and users cannot readily learn to choose well. Where needs differ, a nudge may help those who err while leaving others free to reject it for good reasons. Where users choose well or planners lack knowledge, nonintervention or competence-building may be preferable. Sunstein develops these conditions in [[Sunstein, 2026|Paternalism after Behavioral Economics]] (section 5.1). His framework requires evidence about both sides of the intervention: a diagnosis of user error is not proof of designer competence.
+
+The policy-toolkit debate also contains a disagreement that should remain visible. Sunstein accepts that nudges can complement mandates and bans, but regards the evidence that they crowd out support for justified coercion as weak (p. 4). This qualifies, rather than settles, the structural-reform concern. The adequacy of a nudge and its political effect on support for stronger measures are separate questions.
+
 ## Why people need nudges
 
 The behavioral foundation is not that people are foolish. It is that real decisions are often made under conditions that make unaided choice fragile.
@@ -113,6 +117,10 @@ Schmidt and Engelen's review is especially helpful because it prevents autonomy 
 Freedom of choice asks whether options remain available and resistance remains practically feasible. Volitional autonomy asks whether the user's action reflects their own ends rather than the architect's steering. Rational agency asks whether the intervention bypasses or exploits deliberation, or instead helps limited agents navigate difficult environments. Non-domination asks whether the architect's influence is transparent, controlled, and contestable.
 
 This map matters for digital nudging because different interface problems damage agency in different ways. A hidden opt-out attacks practical exit. A recommendation system optimized for engagement may misalign behavior with the user's own ends. A manipulative countdown may exploit rational agency. A proprietary ranking system may create uncontrolled influence that users cannot inspect or contest.
+
+There is also agency in choosing how to choose. Selecting a pension plan is a first-order decision; deciding to let a trusted adviser select it is a second-order decision. A person can exercise autonomy through either. Sunstein's [[Sunstein, 2026|Paternalism after Behavioral Economics]] (section 5.3) argues that requiring direct choice can itself become paternalistic when it overrides a preference to delegate. Device defaults and AI assistance are therefore not inherently opposed to agency.
+
+This makes delegation a further test for digital nudging. Does the user want assistance, a recommendation, or a decision made on their behalf? Can they revise that arrangement? These are course applications of the distinction. Sunstein allows that willingness to delegate may sometimes be inferred; in a commercial interface, the provider's incentive to mistake inactivity for endorsement makes that inference especially important to scrutinize.
 
 ## Transparency and manipulation
 

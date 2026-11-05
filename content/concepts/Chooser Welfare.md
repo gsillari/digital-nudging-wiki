@@ -7,8 +7,8 @@ tags:
   - welfare
   - preferences
   - nudging
-updated_on: 2026-05-30
-source_count: 10
+updated_on: 2026-11-05
+source_count: 11
 related_pages:
   - [[Digital Nudging]]
   - [[AI as Choice Aid]]
@@ -60,6 +60,8 @@ The second difficulty is metric substitution. A system may optimize engagement, 
 The constructive target is reflective endorsement rather than mere predicted compliance. Instead of inferring welfare from observed behavior or platform metrics, a digital tool should help users choose what they would endorse under feasible information and considered judgment. That is the direction of reflective equilibrium ([[Algorithmic Thought Partners]]) in Ludwig and coauthors' [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]].
 
 The practical instrument is the choice engine: an AI system that compares options, surfaces future costs, and recommends suitable alternatives while preserving meaningful choice. Sunstein's [[Sunstein, 2023|Behavioral Biases, Choice Engines, and Paternalistic AI]] frames the ethical question: whether such systems genuinely serve chooser welfare or merely replace one architect's objective with another.
+
+Delegation adds a further dimension to the welfare standard. Wanting a particular outcome is different from wanting to make every decision oneself. First-order agency concerns selecting an option; second-order agency concerns whether to choose directly, seek advice, or delegate. Sunstein develops this distinction in [[Sunstein, 2026|Paternalism after Behavioral Economics]] (section 5.3). It differs from the conflict between an immediate desire and a reflective desire about that desire: here the object of the preference is the decision process itself. An AI aid should therefore establish both what the user values and what authority the user wants to give it. Mere acceptance of a default does not by itself establish that delegation was endorsed.
 
 ## Related pages
 

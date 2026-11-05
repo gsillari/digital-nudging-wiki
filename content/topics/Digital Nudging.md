@@ -7,7 +7,7 @@ tags:
   - digital-nudging
   - behavioral-public-policy
   - digital-choice-architecture
-updated_on: 2026-05-30
+updated_on: 2026-11-05
 related_pages:
   - [[Digital Nudging Wiki]]
   - [[Nudging and the Ethics of Nudging]]
@@ -35,6 +35,8 @@ related_pages:
 [[Digital Nudging]] is the course hub for behavioral intervention in digital environments. It connects classic choice architecture to interface design, personalization, recommender systems, dark patterns, algorithmic fairness, privacy, experimentation, platform governance, and AI-mediated decision support.
 
 ## Source clusters
+
+The choice of instrument depends on user error, the architect's knowledge, heterogeneity, and opportunities for learning. Sunstein's [[Sunstein, 2026|Paternalism after Behavioral Economics]] connects that comparison to [[Ethics of Nudging]] and [[Chooser Welfare]], including the agency involved in deciding to delegate a choice to an expert or AI.
 
 The foundation is [[Thaler and Sunstein, 2021|Nudge: The Final Edition]], sharpened by [[EAST Framework]], [[Sunstein, 2016|The Ethics of Influence]], [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]], and [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]]. These sources give the opening vocabulary: [[Nudge]], [[Choice Architecture]], [[Behavioral Economics]], [[Chooser Welfare]], [[Manipulation]], [[Transparency and Disclosure]], and [[Sludge]].
 
