@@ -7,8 +7,8 @@ tags:
   - defaults
   - inertia
   - choice-architecture
-updated_on: 2026-05-30
-source_count: 4
+updated_on: 2026-11-06
+source_count: 5
 related_pages:
   - [[Digital Nudging]]
   - [[Nudge]]
@@ -49,6 +49,8 @@ The practical rule is to make beneficial action easy while checking whether the 
 The main ethical debate concerns when defaults respect autonomy. Active choice can be more respectful for contested or intimate choices, but it can also impose unnecessary cognitive costs. Personalized defaults may improve fit while raising data, privacy, error, and accountability concerns. [[The Ethics of Influence - Chapter 7 Green by Default]] is the main source for this distinction among defaults, active choosing, influenced active choice, and personalized defaults, within Sunstein's broader [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]].
 
 The transparency concern is that background defaults can influence automatic behavior without the user's recognition. Hansen and Jespersen's [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]] treats such cases as potentially non-transparent type 1 nudges. That does not make every default impermissible, but it raises responsibility, disclosure, and consent questions.
+
+An AI acting for a user may also be highly sensitive to a proposed default. In Cherep and coauthors' [[Cherep et al., 2026|AI Agents Are Sensitive to Nudges]], human selection of a designated basket rises from 51% without a default to 88% with it; several tested models reach 99-100%, while some stronger reasoning models do not differ significantly from humans. The task explicitly offers acceptance or rejection, so it does not directly measure default outcomes under inaction. Nor does the result establish human-like inertia in the agent. Its practical lesson is to test whether acceptance depends on suitability: high acceptance can produce good outcomes when the default is helpful while concealing indiscriminate responsiveness.
 
 ## Practical or policy relevance
 

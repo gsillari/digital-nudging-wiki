@@ -7,8 +7,8 @@ tags:
   - choice-architecture
   - interface-design
   - behavioral-design
-updated_on: 2026-05-30
-source_count: 6
+updated_on: 2026-11-06
+source_count: 7
 related_pages:
   - [[Digital Nudging]]
   - [[Nudging and the Ethics of Nudging]]
@@ -60,6 +60,8 @@ The practical toolkit begins with ordinary design choices: make beneficial actio
 The normative debate begins once unavoidable architecture becomes intentional architecture. The question shifts from whether to influence to how influence should be governed: whose welfare counts, how meaningful exit is, whether the design respects autonomy and dignity, whether it can be publicly justified, and whether it crosses into [[Manipulation]]. Sunstein's [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]] supplies the main value vocabulary for that debate.
 
 The digital debate adds scale, opacity, and adaptation. A paper form or cafeteria line can be inspected as a relatively stable environment. A digital choice architecture may be personalized, automated, continuously tested, and governed by proprietary objectives. That is why [[Transparency and Disclosure]], [[Privacy and Consent]], [[Hypernudge]], and [[Recommendation Systems]] become central to the concept.
+
+The recipient of digital choice architecture may also be an artificial agent acting for a person. Delegation changes the route of influence: the environment can shape the agent's search and selection, which then affects the human's outcome. Cherep and coauthors' [[Cherep et al., 2026|AI Agents Are Sensitive to Nudges]] shows such effects in a controlled task, often exceeding human sensitivity. This extends the empirical scope of choice architecture without establishing that agents share the human psychological mechanisms used to explain nudging. Some tested interventions also change information availability or acquisition costs, so their effects should not all be described as pure framing or salience.
 
 ## Practical or policy relevance
 

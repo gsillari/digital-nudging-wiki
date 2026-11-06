@@ -8,7 +8,7 @@ tags:
   - choice-aids
   - chooser-welfare
   - digital-nudging
-updated_on: 2026-05-28
+updated_on: 2026-11-06
 related_pages:
   - [[Digital Nudging]]
   - [[Sunstein, 2023|Behavioral Biases, Choice Engines, and Paternalistic AI]]
@@ -24,6 +24,8 @@ related_pages:
   - [[Recommendation Systems]]
   - [[Smart Disclosure]]
   - [[Chooser Welfare]]
+  - [[Cherep et al., 2026|AI Agents Are Sensitive to Nudges]]
+  - [[Sunstein, 2026|Paternalism after Behavioral Economics]]
 ---
 
 # AI as Choice Aid
@@ -60,6 +62,16 @@ This matters for digital nudging because many online interfaces are built around
 
 The danger is that the aid itself may be funded, ranked, or optimized by actors with conflicting incentives. A comparison tool can become a paid placement system. An AI assistant can become a sales agent. The ethics of choice aids therefore depends on institutional incentives as well as interface quality.
 
+## The aid can itself be nudged
+
+Delegating a decision does not remove the influence of choice architecture. It changes who encounters it. An assistant asked to compare options or implement a user's intentions may itself respond disproportionately to defaults, suggestions, and selectively available information. Even a system assigned a user-serving objective may therefore be steered by the environment it is supposed to help the user navigate.
+
+Cherep, Maes, and Singh's [[Cherep et al., 2026|AI Agents Are Sensitive to Nudges]] gives this concern an empirical basis. Across fourteen models in a controlled information-search task, many agents respond more strongly than human participants to ordinary choice cues. Some accept a proposed default almost universally; others acquire too much information, too little, or follow rigid search patterns. Human examples and chain-of-thought prompting do not reliably resolve the problem. Some stronger reasoning configurations improve robustness, with additional computational costs and uneven effects.
+
+The important test is whether the agent responds appropriately to the cue's value. A helpful default can produce a good payoff even when the system accepts it indiscriminately. An intervention that supplies genuinely useful information should influence a good decision-maker. Human-like behavior is therefore a comparison baseline, not the definition of success. Evaluation needs to examine how choices change when suggestions are arbitrary, information quality varies, or a helpful default becomes unsuitable, alongside the outcomes achieved.
+
+These findings qualify the promise of adaptive armor. The protective assistant must be able to evaluate the architecture's steering signals; a benign objective alone does not establish that ability. The controlled experiment does not measure the effects of every commercial interface, and its highlighting treatment changes information costs rather than visual salience alone. Nevertheless, it identifies a mechanism relevant to delegated choice. A firm's ability to steer a consumer through cues aimed at the consumer's agent is a plausible extension to [[Dark Patterns]], clearly distinguished from the behavior demonstrated here.
+
 ## From prediction to choice aid
 
 Digital choice aids often begin as prediction systems. They infer what a person might click, buy, watch, choose, or prefer from past behavior and from the behavior of similar users. That predictive capacity is useful, but it does not settle the welfare question.
@@ -75,6 +87,8 @@ For the course, this distinguishes ordinary [[Recommendation Systems]] from [[Al
 The hard question is paternalism. A choice engine may simply organize information, or it may recommend, default, warn, add friction, or block options. Some of these moves can be justified when options are dominated, shrouded, or predictably harmful. But the same moves become dangerous when the system is coarse, biased, self-interested, opaque, or overconfident about welfare.
 
 The design standard should therefore be stronger than behavioral effectiveness. A choice aid should improve decisions under conditions the user could endorse: better information, clearer comparisons, reduced manipulation, preserved exit, and explanation adequate for trust.
+
+Choosing to delegate can itself express agency. Sunstein develops that point in [[Sunstein, 2026|Paternalism after Behavioral Economics]]: people may reasonably prefer assistance or delegation to making every decision directly. The question raised by Cherep and coauthors concerns the reliability of the delegate. Respecting the choice to delegate and establishing that the agent will act competently are distinct requirements.
 
 ## Design principles
 
@@ -93,6 +107,8 @@ Fifth, explain enough for contestability. Users need to understand the relevant 
 Sixth, keep qualitative values in view. Simplification should not turn the easiest-to-number attribute into the only attribute that counts.
 
 Seventh, audit incentives. A choice aid built by a platform, seller, insurer, or affiliate network may optimize for conversion, revenue, or retention while presenting itself as user-serving assistance.
+
+Eighth, test the aid's susceptibility to choice architecture. Check whether it distinguishes useful information from arbitrary steering, and whether information-search costs are justified. A good payoff in one favorable environment is insufficient evidence of robustness.
 
 ## Course payoff
 

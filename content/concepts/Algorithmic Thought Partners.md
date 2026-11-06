@@ -8,8 +8,8 @@ tags:
   - decision-support
   - reflective-equilibrium
   - digital-nudging
-updated_on: 2026-05-30
-source_count: 6
+updated_on: 2026-11-06
+source_count: 7
 aliases:
   - Behavioral Economics 2.0
   - Reflective Equilibrium
@@ -47,6 +47,8 @@ Reflective equilibrium is the target state for a good thought partner. The syste
 Adaptive armor is the defensive version of algorithmic thought partnership. When firms shroud fees, complicate terms, or create confusing interfaces, a user-serving AI can translate, compare, flag risks, and surface hidden attributes. It is especially relevant to [[Shrouded Attributes]], [[Smart Disclosure]], [[Sludge]], and [[Dark Patterns]].
 
 Sunstein's [[Sunstein, 2023|Behavioral Biases, Choice Engines, and Paternalistic AI]] gives the closest legal-policy version of this idea: AI choice engines can help users navigate complexity and bias, provided they remain answerable to chooser welfare rather than platform objectives.
+
+Protective assistance also depends on the assistant's own behavioral robustness. A system can be assigned the user's objective yet respond excessively to defaults or suggestions in the environment it encounters. Cherep and coauthors demonstrate that vulnerability in a controlled decision task in [[Cherep et al., 2026|AI Agents Are Sensitive to Nudges]]. This qualifies the promise of adaptive armor: an agent must evaluate environmental cues in relation to their informational value rather than merely act on them. The finding concerns tested models and configurations, and does not imply that every AI aid is always more susceptible than a human.
 
 ## Functions
 
