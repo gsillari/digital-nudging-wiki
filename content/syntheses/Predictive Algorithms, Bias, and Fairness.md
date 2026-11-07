@@ -8,7 +8,7 @@ tags:
   - predictive-algorithms
   - bias
   - digital-nudging
-updated_on: 2026-05-26
+updated_on: 2026-11-07
 related_pages:
   - [[Algorithmic Fairness]]
   - [[Algorithmic Fairness]]
@@ -38,7 +38,7 @@ Predictive algorithms are powerful because many institutional and digital decisi
 
 The course should therefore treat predictive algorithms through a double lens. The efficiency lens asks whether algorithmic decision support can improve on noisy, biased, or inconsistent human judgment. The fairness lens asks how the benefits and burdens of prediction are distributed, justified, contested, and embedded in institutions. Neither lens is dispensable. Efficiency without fairness can rationalize harmful systems. Fairness without efficiency can ignore avoidable crime, detention, exclusion, or waste produced by human decision-making.
 
-The central hinge is the impossibility result. predictive parity ([[Fairness Impossibility Results]]) and error rate parity ([[Fairness Impossibility Results]]) express two compelling ideas: scores should mean the same thing across groups, and the burdens of mistakes should not fall differently across groups. But when base rates differ and prediction is imperfect, these demands generally cannot both be satisfied. That impossibility is what opens the fairness branch. We have to choose which fairness demand governs a setting, and that choice is legal, political, philosophical, and institutional, not merely technical.
+The central hinge is [[Fairness Impossibility Results]]: plausible fairness conditions can be jointly unavailable. For risk scores, calibration preserves the meaning of a probability across groups, but cannot coexist with both of Kleinberg and coauthors' score-balance conditions when base rates differ and prediction is imperfect. For binary decisions, predictive parity and equal false positive and false negative rates face a related, distinct incompatibility under nondegenerate conditions. These conflicts open the fairness branch. We have to justify which demands govern a setting, through legal, political, philosophical, and institutional reasoning rather than statistics alone.
 
 ## Why Predictive Algorithms Matter
 
@@ -58,7 +58,7 @@ The controversy also showed why "bias" is not one thing. A score can be criticiz
 
 This layered structure is why COMPAS should not be taught as a simple morality tale about bad algorithms. It is a case about prediction, measurement, legal burden, institutional authority, racialized error, proprietary opacity, and sociotechnical governance.
 
-But the pedagogical pivot comes immediately after the case: ProPublica's error-rate critique and Northpointe-style calibration defenses can each point to something real. [[Kleinberg et al., 2016|Inherent Trade-Offs in the Fair Determination of Risk Scores]] explains why that is not an accident. In ordinary conditions, a risk score cannot give scores the same meaning across groups and also equalize the relevant error burdens. The case therefore forces the question: if both ideals are attractive and jointly unavailable, which one should govern this domain?
+The pedagogical pivot comes immediately after the case: ProPublica's error-rate critique and calibration-based defenses need not contradict each other, because they measure different things. Kleinberg, Mullainathan, and Raghavan's [[Kleinberg et al., 2016|Inherent Trade-Offs in the Fair Determination of Risk Scores]] establishes a structural conflict among score-based criteria. It does not establish every claimed conflict between threshold-based error rates, nor show that COMPAS itself is justified. The case and the theorem together force the question: when attractive criteria conflict, which should govern this domain?
 
 That is the entry into fairness as a branch of inquiry. Not "which metric is the fair one?" but "what kind of fairness is at stake here, and what institutional choice follows when metrics conflict?"
 
@@ -68,7 +68,7 @@ In the algorithmic fairness branch, bias should be separated into at least five 
 
 First, there is measurement bias: are the data and labels themselves distorted by policing, surveillance, reporting, access, or historical inequality?
 
-Second, there is predictive meaning: does a score mean the same thing across groups? This is the concern behind predictive parity ([[Fairness Impossibility Results]]) and calibration.
+Second, there is predictive meaning: does a score, or a positive classification, mean the same thing across groups? Calibration and binary predictive parity address these respective questions ([[Fairness Impossibility Results]]).
 
 Third, there is error burden: who bears false positives and false negatives? This is the concern behind error rate parity ([[Fairness Impossibility Results]]), especially when mistakes lead to detention, exclusion, denial, surveillance, or loss of opportunity.
 
@@ -80,18 +80,18 @@ These questions overlap, but they are not interchangeable. A system can be well 
 
 ## The Impossibility Hinge
 
-The first formal lesson is the impossibility result from [[Kleinberg et al., 2016|Inherent Trade-Offs in the Fair Determination of Risk Scores]]. In the COMPAS setting, the relevant clash is between predictive meaning and error burden.
+The first formal lesson concerns scores, before any threshold turns them into decisions. Calibration within groups means that a probability score of 0.7 corresponds to a 70% observed outcome frequency in each group. Balance for the positive class means that people who experience the outcome receive the same average score across groups. Balance for the negative class requires the same for people who do not experience it. Kleinberg, Mullainathan, and Raghavan prove that satisfying all three requires either perfect prediction or equal group base rates. With unequal base rates and imperfect prediction, at least one must fail.
 
-predictive parity ([[Fairness Impossibility Results]]) says that scores should have the same evidential meaning across groups. For risk scores, the related condition is calibration within groups: among people assigned the same score, the observed outcome rate should be the same in each group. This is the Northpointe-style defense in the COMPAS debate and the view Hedden later strengthens philosophically: a score is not fair as evidence if the same number means different things for different groups.
+Binary decisions introduce different conditions. Predictive parity means equal positive predictive value: among those classified positive, the same fraction actually has the outcome in each group. Error-rate parity means equal false positive rates among actual negatives and equal false negative rates among actual positives. These are conditional rates, not raw counts or measures of the severity of harm. At equal nondegenerate error rates, the positive predictive value rises with the base rate, so unequal base rates preclude predictive parity. The formula and its exceptions are unpacked in [[Fairness Impossibility Results#What the impossibility results establish]].
 
-error rate parity ([[Fairness Impossibility Results]]) asks a different question. It asks whether false positives and false negatives are distributed similarly across groups. This is the ProPublica-style critique in the COMPAS debate and the view Hellman later strengthens legally: fairness often concerns action, burden, and treatment, not only evidential meaning.
+Keeping these statements separate matters. Calibrating each score does not guarantee predictive parity when several scores are pooled above a threshold. Nor are Kleinberg's average-score balance conditions identical to equalizing error rates at one threshold. Figure FIR.3 in [[Fairness Impossibility Results#A worked threshold example]] makes the distinction concrete: two calibrated groups have different false positive and false negative rates, but also different positive predictive values. The example illustrates a possible disparity; it is not a proof that its direction is inevitable.
 
-The impossibility result says that, outside special cases, these desiderata cannot all hold together. If groups have different base rates and prediction is imperfect, calibration or predictive parity will generally conflict with equalized error burdens. Perfect prediction would dissolve the conflict because there would be no errors to allocate. Equal base rates can also dissolve it. But in the real settings that motivate the course, neither condition can be assumed.
+The normative question begins where these statistical distinctions leave off. Hedden's [[Hedden, 2021|On Statistical Criteria of Algorithmic Fairness]] defends calibration's special evidential role. Hellman's [[Hellman, 2020|Measuring Algorithmic Fairness]] asks how errors translate into treatment and legal burdens, with particular attention to the balance between error types. Her argument is not simply a demand to equalize both error rates in every domain.
 
-This is crucial because it blocks the fantasy of a neutral technical fix. If predictive parity and error-rate parity cannot both be satisfied, the designer, court, regulator, platform, or public agency must choose. That choice decides what kind of unfairness is treated as most important:
+The conflict blocks the idea that technical improvement can always satisfy every attractive fairness demand. It does not say fairness is impossible, authorize arbitrary metric choice, or make existing base rates morally unproblematic. The institution must explain what each criterion protects and what is lost by relaxing it:
 
-- If we prioritize predictive parity, we prioritize the same evidential meaning of scores across groups.
-- If we prioritize error-rate parity, we prioritize the distribution of mistake burdens across groups.
+- If we prioritize calibration or predictive parity, we prioritize evidential consistency at the score or classification level respectively.
+- If we prioritize error-rate parity, we prioritize equal conditional exposure to specified types of mistake, while still investigating their consequences.
 - If we prioritize policy alignment, we ask which metric best serves the legitimate goal of the decision system.
 - If we prioritize sociotechnical fairness, we ask whether the whole decision system is the right object of reform.
 
@@ -103,7 +103,7 @@ The impossibility result is therefore not an abstract theorem on the side. It is
 
 [[Corbett-Davies et al., 2017|Algorithmic Decision Making and the Cost of Fairness]] adds a policy-design layer. A fairness constraint can reduce one disparity while worsening the decision system's stated objective. That does not mean fairness should be sacrificed to efficiency. It means the trade-off must be explicit: what goal is the system supposed to serve, what cost does the fairness constraint impose, and is that cost justified by the legal and moral stakes?
 
-Together, Hedden, Hellman, Binns, and Corbett-Davies et al. are best read as responses to the impossibility hinge. Hedden says predictive parity has a special epistemic role. Hellman says legal fairness usually cares more about the pragmatic distribution of errors. Binns says the choice among metrics requires political philosophy. Corbett-Davies et al. say the choice must also be assessed against policy goals and decision costs.
+Together, these arguments respond to the impossibility hinge without settling it by definition. Hedden gives calibration a special epistemic role. Hellman emphasizes the practical balance and consequences of errors. Binns makes the choice among metrics a question for political philosophy. Corbett-Davies and coauthors require attention to policy goals and decision costs.
 
 Metrics are therefore instruments. Their legitimacy depends on the theory of justice and the policy context in which they are used.
 
@@ -140,13 +140,23 @@ The course should therefore carry over four lessons:
 - Bias must be analyzed at the level of data, prediction, action, policy goal, and sociotechnical system.
 - Digital nudging systems should be audited as choice architectures, not just as models.
 
+### A worked ranking case
+
+Consider an invented online training marketplace that ranks subsidized courses for visitors. Its model predicts the probability of applying, not eligibility, completion, or benefit. Among 1,000 eligible visitors in each of two groups, the course appears in the first three results for 600 in A and 300 in B. Of those exposed, 120 in A and 60 in B apply. Both exposed groups have a 20% application rate, yet the groups receive very different access to a salient opportunity: 60% versus 30% exposure and 12% versus 6% applications across all eligible visitors.
+
+Those numbers do not establish that the ranking is unjust, or even that the prediction is calibrated across all visitors. They show why the denominator matters. Equal response among people selected for exposure can conceal unequal exposure itself. Past applications may reflect previous rankings, language barriers, or limited time; learning from them can reproduce those constraints rather than identify who would benefit. Applications from unexposed people also cannot simply be assumed to be zero under exposure. A randomized exposure study could help estimate that counterfactual, subject to the ethics of allocating opportunity.
+
+The competing judgments are substantive. A conversion objective rewards likely applicants. An access objective asks whether eligible people have a meaningful opportunity to discover the course. A benefit objective asks who would gain from attending, which requires evidence beyond predicted applications. Binns's political-philosophy argument, Corbett-Davies and coauthors' policy analysis, and Narayanan's system-level critique locate different parts of this disagreement. None dictates an automatic 50/50 allocation. Their common lesson is to justify the target, the eligible population, the distribution of visibility, and the way users can find or contest omitted opportunities.
+
+The [[Hypernudge#Worked example: testing a subscription recommendation|subscription experiment]] raises the same issue on the consumer side: an aggregate conversion gain can conceal subgroup differences in comprehension or regret. A fairness audit should examine who receives which design and who benefits, not only whether one predictor satisfies a parity equation. Neither teaching example is evidence reported by the cited papers.
+
 ## Teaching Sequence
 
 A clean teaching sequence would move in four stages.
 
 First, start with [[Angwin et al., 2016|Machine Bias]] and the COMPAS controversy ([[Algorithmic Fairness]]). Students see the concrete stakes: risk scores, race, errors, opacity, and liberty.
 
-Second, introduce [[Fairness Impossibility Results]] immediately, using predictive parity ([[Fairness Impossibility Results]]) and error rate parity ([[Fairness Impossibility Results]]) as the two live ideals. Students should see that the fairness branch exists because these two attractive demands generally cannot both be satisfied. The next question is not how to avoid choosing, but how to justify the choice.
+Second, introduce [[Fairness Impossibility Results]] immediately. Separate Kleinberg's score theorem from the binary conflict between predictive parity and equal error rates, then work through FIR.3's counts and denominators. Students should see both why some choices are unavoidable and why a precise theorem does not license a vague claim that all fairness criteria always conflict.
 
 Third, move to normative and policy interpretation: algorithmic fairness as political philosophy ([[Algorithmic Fairness]]), fairness as policy alignment ([[Algorithmic Fairness]]), and sociotechnical fairness ([[Algorithmic Fairness]]). Students learn that metrics require moral and institutional justification.
 

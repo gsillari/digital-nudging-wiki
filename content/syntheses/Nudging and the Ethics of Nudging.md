@@ -8,7 +8,7 @@ tags:
   - ethics
   - choice-architecture
   - digital-nudging
-updated_on: 2026-11-05
+updated_on: 2026-11-07
 related_pages:
   - [[Digital Nudging]]
   - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]]
@@ -50,7 +50,9 @@ Second, a nudge is behavioral. It is designed with the knowledge that people are
 
 Third, a nudge is liberty-preserving in form. People must remain able to choose otherwise, and avoidance should be easy and cheap. This is the libertarian side of libertarian paternalism.
 
-The paternalistic side is the harder one. Nudges are not merely attempts to change behavior. They are supposed to help people make choices that improve their lives by their own standards. A reminder to attend an appointment, a default contribution to a pension, a clearer energy label, or a well-timed medication prompt is a nudge in the morally interesting sense only if it plausibly serves the chooser rather than merely the architect.
+The paternalistic side supplies a justification, not an automatic consequence of the definition. In Thaler and Sunstein's project, nudges should help people make choices that improve their lives by their own standards. But identifying a default, reminder, or framing intervention as a nudge does not establish that it succeeds at this aim. Separate how it steers, what its architect seeks, and whether its means and consequences are defensible. A commercial goal can coexist with user benefit; a benevolent goal can coexist with harm.
+
+For example, highlighting an annual subscription as "Recommended" may reduce search effort and save a regular user money, while inducing an occasional user to overcommit. The behavioral mechanism is salience and endorsement; the provider's purpose may be mixed or unknown; the ethical judgment depends on evidence about suitability, comprehension, refusal, and exit. Calling it a nudge is the start of that inquiry, not its favorable conclusion.
 
 ## Nudges in the policy toolkit
 
@@ -146,7 +148,7 @@ Sunstein's discussion of active choice and personalized defaults keeps the issue
 
 ## Sludge and the negative boundary
 
-[[Sludge]] is the negative boundary of nudging. Where nudges make beneficial action easier, sludge makes beneficial action harder. It appears as friction, delay, paperwork, hidden settings, confusing cancellation paths, burdensome consent flows, and asymmetric effort between acceptance and refusal.
+[[Sludge]] highlights the burdens of friction rather than supplying a moral opposite to every nudge. It appears as delay, paperwork, hidden settings, confusing cancellation paths, burdensome consent flows, and asymmetric effort between acceptance and refusal. Some friction has a defensible role, such as checking before deleting valuable data; unnecessary or excessive friction can obstruct beneficial action. The relevant question is what the burden achieves, for whom, and at what cost.
 
 Sludge is ethically important because it can preserve formal choice while defeating practical choice. A user may be legally free to cancel, opt out, refuse tracking, or claim a benefit, but if the path is confusing, exhausting, or deliberately burdensome, freedom has been hollowed out.
 
@@ -175,6 +177,8 @@ Fifth, digital systems are often proprietary. Users, researchers, and regulators
 Schmidt and Engelen explicitly identify digital choice architecture as a fertile next stage for nudge ethics. Their warning is that digital nudges combine data collection, A/B testing, algorithms, personalization, and opacity. That combination makes digital nudging both more effective and harder to evaluate through the classical reassurance that people remain free to choose otherwise.
 
 This means classical nudge ethics must become system-level ethics. We should not evaluate only the visible interface element. We should evaluate the data pipeline, optimization target, experiment, personalization rule, audit trail, and institutional incentive behind the interface.
+
+The [[Hypernudge#Worked example: testing a subscription recommendation|subscription experiment]] gives this requirement a concrete form. Random assignment can establish that a highlighted annual plan increases purchases, but not that the additional buyers are better off. Understanding of the commitment, use over time, later endorsement, regret, and cancellation experience test different parts of the ethical case. These measures can disagree, so a platform must state which outcomes justify deployment and which harms would make it stop. Effectiveness is evidence about influence; legitimacy requires a further argument.
 
 ## A practical ethical checklist
 

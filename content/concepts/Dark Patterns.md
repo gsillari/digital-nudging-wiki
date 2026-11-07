@@ -8,7 +8,7 @@ tags:
   - manipulation
   - interface-design
   - digital-nudging
-updated_on: 2026-05-30
+updated_on: 2026-11-07
 source_count: 10
 aliases:
   - Adversarial Choice Architecture
@@ -36,18 +36,22 @@ related_pages:
 
 ## Core idea
 
-[[Dark Patterns]] are interface designs that steer users toward outcomes they would not reasonably choose under clearer, less pressured, or less asymmetric conditions. They are closely related to [[Sludge]] and [[Manipulation]], but the emphasis is on recurring digital design patterns that benefit the service by coercing, steering, deceiving, burdening, or confusing users.
+[[Dark Patterns]] are recurring interface designs that undermine users' ability to make informed, voluntary choices through deception, obstruction, pressure, or misleading presentation, often to the service's advantage. They are closely related to [[Sludge]] and [[Manipulation]]. Their identification requires attention to the design and its effects, not simply an assumption about what the designer intended.
 
-For the vault, dark patterns are the negative counterpart of user-serving [[Digital Nudging]]. They use the tools of [[Choice Architecture]] to serve the architect against the user's reflective interests. In that sense, the former concept "adversarial choice architecture" is now treated as the strategic orientation of dark patterns rather than as a separate page.
+For the vault, dark patterns are the negative counterpart of user-serving [[Digital Nudging]]. They show how the tools of [[Choice Architecture]] can undermine the user's reflective interests, commonly in ways aligned with the architect's incentives. In that sense, the former concept "adversarial choice architecture" is now treated as the strategic orientation of dark patterns rather than as a separate page.
 
 ## What makes them dark
 
-The "darkness" is not just that a pattern changes behavior. [[Nudge|Nudges]] also change behavior. The key issue is the relationship between mechanism and objective:
+The "darkness" is not just that a pattern changes behavior. [[Nudge|Nudges]] also change behavior. Separate the observable mechanism, the intended or incentivized objective, and the normative assessment:
 
 - the design modifies the user's decision space or information flow;
-- the design benefits the service, seller, or platform;
+- the design may benefit the service, seller, or platform, but commercial benefit alone does not establish harm;
 - the user is made less able to understand, refuse, compare, reverse, or exit;
 - the outcome is plausibly contrary to the user's welfare, autonomy, privacy, or actual preference.
+
+Definitions differ in how much weight they put on intention. Gray and coauthors foreground design responsibility; Mathur and coauthors' [[Mathur et al., 2021|What Makes a Dark Pattern... Dark?]] separates descriptive attributes from normative evaluation. In practice, hidden motives may be unknown while obstructed cancellation or misleading terms remain observable. Experiments, internal targets, complaints, and repeated design choices can help establish purpose or knowledge, but the ethical diagnosis should say which evidence it has. Lack of proven malice is not proof of harmlessness; a bad outcome alone is not proof of deliberate manipulation.
+
+A subscription recommendation illustrates the boundary. Highlighting an annual plan can benefit both the seller and a regular user. It becomes more troubling when the recommendation has no defensible basis, obscures the annual commitment, or makes refusal and cancellation difficult. The [[Hypernudge#Worked example: testing a subscription recommendation|worked subscription experiment]] raises conversion from 10% to 13%, but that invented result alone establishes neither improved welfare nor a dark pattern. Understanding, suitability, reversibility, and downstream outcomes decide what further claim the evidence supports.
 
 This is why [[Sludge]] is a method rather than the definition. Obstruction, cancellation mazes, and hard-to-refuse consent flows often work through sludge, but other dark patterns work through urgency, scarcity, social proof, hidden information, bad defaults, trick questions, emotional pressure, or forced disclosure. Figure DP.1 gives a schematic example of this asymmetry in a cookie-consent interface.
 

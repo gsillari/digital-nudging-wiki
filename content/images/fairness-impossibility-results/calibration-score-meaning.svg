@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="860" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
   <title id="title">Calibration as same score meaning</title>
-  <desc id="desc">A chart showing two groups with the same relation between risk score and observed outcome rate. A score of 7 has the same meaning for both groups.</desc>
+  <desc id="desc">Two groups lie on the calibration diagonal. A probability score of 0.7 corresponds to 70 percent observed outcomes in both groups. This is not the COMPAS ordinal rating scale.</desc>
   <defs>
     <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
       <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1f2937" flood-opacity="0.11"/>
@@ -26,7 +26,7 @@
   </defs>
 
   <rect class="bg" width="1400" height="860"/>
-  <text class="title" x="80" y="82">Predictive parity: same score, same meaning</text>
+  <text class="title" x="80" y="82">Calibration: same probability, same meaning</text>
   <text class="subtitle" x="80" y="120">Calibration asks whether a risk score carries the same evidential meaning across groups.</text>
 
   <g transform="translate(92 166)">
@@ -51,26 +51,27 @@
       <text class="tick" x="-66" y="6">100%</text>
 
       <text class="tick" x="-6" y="438">0</text>
-      <text class="tick" x="266" y="438">3</text>
-      <text class="tick" x="536" y="438">6</text>
-      <text class="tick" x="806" y="438">9</text>
+      <text class="tick" x="256" y="438">0.3</text>
+      <text class="tick" x="526" y="438">0.6</text>
+      <text class="tick" x="796" y="438">0.9</text>
+      <text class="tick" x="886" y="438">1.0</text>
 
-      <text class="label" x="312" y="492">Risk score</text>
+      <text class="label" x="312" y="492">Probability score</text>
       <text class="label" transform="translate(-88 274) rotate(-90)">Observed outcome rate</text>
 
-      <path class="groupA" d="M0 392 C130 374 225 328 315 280 C420 224 526 180 630 120 C725 68 810 42 900 20"/>
-      <path class="groupB" d="M0 392 C130 374 225 328 315 280 C420 224 526 180 630 120 C725 68 810 42 900 20"/>
+      <path class="groupA" d="M0 400 L900 0"/>
+      <path class="groupB" d="M0 400 L900 0"/>
 
       <line class="guide" x1="630" y1="400" x2="630" y2="120"/>
       <line class="guide" x1="0" y1="120" x2="630" y2="120"/>
       <circle class="pointA" cx="630" cy="120" r="14"/>
       <circle class="pointB" cx="630" cy="120" r="8"/>
 
-      <text class="tick" x="610" y="438">7</text>
+      <text class="tick" x="610" y="438">0.7</text>
       <text class="tick" x="-56" y="126">70%</text>
     </g>
 
-    <g transform="translate(830 92)">
+    <g transform="translate(180 60)">
       <rect class="legendBox" width="276" height="128" rx="18"/>
       <line class="groupA" x1="28" y1="38" x2="98" y2="38"/>
       <text class="small" x="120" y="45">Group A</text>
@@ -80,7 +81,7 @@
 
     <g transform="translate(780 300)">
       <rect class="callout" width="340" height="150" rx="20"/>
-      <text class="label" x="34" y="50">Score 7 means:</text>
+      <text class="label" x="34" y="50">Score 0.7 means:</text>
       <text class="small" x="34" y="88">about 70% observed risk</text>
       <text class="small" x="34" y="120">for both groups.</text>
     </g>

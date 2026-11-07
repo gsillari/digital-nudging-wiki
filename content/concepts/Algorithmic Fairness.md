@@ -8,7 +8,7 @@ tags:
   - algorithmic-accountability
   - bias
   - digital-governance
-updated_on: 2026-05-30
+updated_on: 2026-11-07
 source_count: 20
 aliases:
   - Algorithmic Accountability and Fairness
@@ -51,9 +51,9 @@ The case matters because it makes three points visible at once. First, a score c
 
 ## Metrics and impossibility
 
-Fairness metrics are diagnostics, not final verdicts. They ask whether scores or decisions satisfy formal criteria such as calibration, predictive parity, error-rate balance, statistical parity, or equality of opportunity. The course keeps the detailed tradeoff in [[Fairness Impossibility Results]], where predictive parity and error-rate parity are treated as the central pair.
+Fairness metrics are diagnostics, not final verdicts. Calibration concerns the outcome frequency at each probability score; predictive parity concerns the outcome frequency among positive classifications. Error-rate parity compares false positive rates among actual negatives and false negative rates among actual positives. These denominators differ. The definitions and worked calculations belong in [[Fairness Impossibility Results]].
 
-The important lesson is not that metrics are useless. It is that metrics answer different questions. Predictive parity asks whether a score has the same evidential meaning across groups. Error-rate parity asks whether false positives and false negatives impose comparable burdens across groups. When base rates differ and prediction is imperfect, these demands generally conflict, so the choice among them requires justification.
+The important lesson is not that metrics are useless. It is that metrics answer different questions, and some combinations are incompatible. Kleinberg's theorem concerns calibration and average-score balance for the two outcome classes. Binary predictive parity conflicts with equal FPR and FNR at unequal base rates under nondegenerate conditions. Neither statement makes score calibration identical to binary predictive parity, nor turns equal error rates into proof of equal harm.
 
 The formal conflict is anchored in Kleinberg, Mullainathan, and Raghavan's [[Kleinberg et al., 2016|Inherent Trade-Offs in the Fair Determination of Risk Scores]]. Hedden's [[Hedden, 2021|On Statistical Criteria of Algorithmic Fairness]] gives the strongest calibration-centered response, while Hellman, Binns, Corbett-Davies and coauthors, and Narayanan push the analysis toward burdens, philosophy, policy goals, and sociotechnical systems.
 
@@ -74,6 +74,8 @@ For the course, this means that model audits are necessary but incomplete. A sys
 ## Digital relevance
 
 Digital nudging systems can be unfair without issuing a denial. A recommender may hide opportunities, a feed may allocate attention unequally, a fraud screen may impose more friction on some users, a consent flow may pressure vulnerable groups differently, and an AI assistant may explain or withhold options in patterned ways.
+
+The [[Predictive Algorithms, Bias, and Fairness#A worked ranking case|worked training-course ranking case]] illustrates this: two groups can apply at the same rate when shown an opportunity while receiving very different levels of exposure. Evaluating only selected users misses part of the choice architecture's effect.
 
 The core audit questions are:
 

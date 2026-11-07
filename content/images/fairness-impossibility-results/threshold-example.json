@@ -1,0 +1,9 @@
+{
+  "description": "Invented teaching data, not COMPAS observations. Exact calibration within each score and group.",
+  "threshold": 0.5,
+  "scores": [0.2, 0.4, 0.6, 0.8],
+  "groups": [
+    {"name": "Group A", "outcome": [80, 120, 120, 80], "no_outcome": [320, 180, 80, 20]},
+    {"name": "Group B", "outcome": [20, 80, 180, 320], "no_outcome": [80, 120, 120, 80]}
+  ]
+}

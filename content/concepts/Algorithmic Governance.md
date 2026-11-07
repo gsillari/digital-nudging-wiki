@@ -8,7 +8,7 @@ tags:
   - administrative-law
   - ai-governance
   - management-based-regulation
-updated_on: 2026-05-30
+updated_on: 2026-11-07
 source_count: 7
 aliases:
   - Algorithmic Governance and the Automated State
@@ -42,7 +42,7 @@ This page now absorbs the former pages on the automated state, AI heterogeneity 
 
 The first governance question is whether algorithmic adjudication and rulemaking can fit existing administrative law. The answer is yes only if public institutions retain responsibility for objectives, validation, reasons, due process, and contestability. The algorithm is not an independent sovereign; it is an instrument inside a legal institution. Coglianese and Lehr develop this legal-compatibility argument in [[Coglianese and Lehr, 2017|Regulating by Robot]].
 
-The key doctrines are nondelegation, due process, equal protection, transparency, and reason-giving. Nondelegation concerns are softened when humans specify the intelligible principle: the statutory goal, prediction target, or policy criterion. Due process is analyzed pragmatically through the Mathews v. Eldridge balance: private interest, risk of error and value of safeguards, and government burden.
+This is an argument about U.S. public administration. Nondelegation concerns legally authorized public power; a human-selected objective is not sufficient unless it fits that authority. Due process is analyzed through the Mathews v. Eldridge balance: private interest, risk of error and value of safeguards, and government burden. Equal protection is not equivalent to error-rate parity: for facially neutral government action, unequal impact alone generally does not establish a constitutional violation. Ethical fairness, constitutional requirements, and statutory discrimination tests must be distinguished.
 
 Transparency does not require full intuitive access to every internal computation. The more important administrative-law demand is reasoned transparency: the agency must explain the system's objective, data, validation, limits, and role in the decision. Coglianese and Lehr develop that distinction in [[Coglianese and Lehr, 2019|Transparency and Algorithmic Governance]].
 
@@ -60,13 +60,15 @@ This is the multifunctionality problem. The risk is not only in the model family
 
 ## Management and oversight
 
-Management-based regulation is the governance response. Rather than prescribing every permitted output or banned design feature in advance, law can require organizations to maintain internal systems for identifying, assessing, mitigating, documenting, auditing, and revising risks.
+Management-based regulation is one governance response. Rather than attempting to prescribe every output in advance, law can require organizations to maintain internal systems for identifying, assessing, mitigating, documenting, auditing, and revising risks. But adaptability does not eliminate the need for substantive limits: a well-monitored system can still pursue an impermissible goal. The [[Algorithmic Governance, Management, and the Automated State#Where management needs boundaries|subscription governance exercise]] shows how a prohibition on concealing commitments can coexist with ongoing testing of permissible designs. This is a course-level qualification of the management argument, not a claim that the papers reject all prohibitions.
 
 Human oversight belongs across the lifecycle, not only after deployment. Human-guided training can shape what the system learns, what counts as success, which errors matter, what explanations it can support, and which domain values are treated as salient. Oversight after deployment still matters: auditing, contestability, escalation, documentation, monitoring, and revision keep the leash in human hands.
 
 ## Digital relevance
 
 Digital nudging becomes a governance problem when ranking models, recommender systems, defaults, prompts, experiments, or AI assistants generate choice architecture. The question is no longer only whether one visible nudge is transparent or welfare-promoting. It is whether the system that produces nudges has legitimate objectives, validation evidence, reasoned explanations, fairness monitoring, human oversight, and meaningful contestation.
+
+Applying these institutional questions to a private platform is a normative extension, not an automatic transfer of public-law duties. The legal requirements depend on the jurisdiction, activity, and applicable rules. Keep that distinction visible when moving from public benefit decisions to recommendations, subscriptions, or consent interfaces.
 
 ## Related pages
 

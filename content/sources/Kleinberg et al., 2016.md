@@ -10,7 +10,7 @@ tags:
   - fairness-impossibility
   - risk-scores
   - calibration
-updated_on: 2026-05-26
+updated_on: 2026-11-07
 related_pages:
   - [[Algorithmic Fairness]]
   - [[Fairness Impossibility Results]]
@@ -30,9 +30,9 @@ The paper is not a defense of any particular criminal justice tool. Its value fo
 
 ## Key claims
 
-- Calibration within groups means that a score has the same empirical meaning in each group. Among people assigned a given risk score, the same fraction should experience the target outcome in each group.
-- Balance for the negative class means that people who do not experience the target outcome receive the same average score across groups. In binary classification, this is closely related to equal false positive burdens.
-- Balance for the positive class means that people who do experience the target outcome receive the same average score across groups. In binary classification, this is closely related to equal false negative burdens.
+- Calibration within groups means that among people assigned a probability score, the outcome frequency matches that probability in each group.
+- Balance for the negative class means that people who do not experience the target outcome receive the same average score across groups. This is not the same as equal false positive rates after thresholding a continuous score.
+- Balance for the positive class means that people who experience the target outcome receive the same average score across groups. This is not the same as equal false negative rates after thresholding. For a genuinely binary 0/1 prediction, the two conditional averages correspond to FPR and TPR, but replacing a score with a thresholded decision changes the object being evaluated.
 - Except in special cases, these three conditions cannot all hold simultaneously.
 - The special cases are substantively narrow: prediction is perfect, or the groups have equal base rates for the target outcome.
 - Approximate versions of the fairness conditions still require approximate versions of those special cases.

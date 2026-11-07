@@ -38,11 +38,11 @@
     <rect class="card" width="410" height="210" rx="20"/>
     <circle class="blue" cx="64" cy="66" r="35"/>
     <path class="icon-line" d="M43 66h42M64 45v42"/>
-    <text class="card-title" x="120" y="58">Calibration within groups</text>
+    <text class="card-title" x="120" y="58">Calibrated scores</text>
     <text class="card-copy" x="120" y="92">Same score, same observed</text>
     <text class="card-copy" x="120" y="122">outcome rate across groups.</text>
     <rect class="pill" x="36" y="154" width="242" height="38" rx="19"/>
-    <text class="note" x="56" y="179">predictive parity idea</text>
+    <text class="note" x="56" y="179">score-level criterion</text>
   </g>
 
   <g transform="translate(120 610)">
@@ -84,6 +84,6 @@
 
   <g transform="translate(78 882)">
     <rect width="1244" height="46" rx="23" fill="#edf2f0" stroke="#b8c9c3" stroke-width="1.4"/>
-    <text class="subtitle" x="28" y="31">Special cases: perfect prediction or equal base rates. Outside those cases, satisfying one criterion can force violation of another.</text>
+    <text class="subtitle" x="28" y="31">Joint satisfaction requires perfect prediction or equal base rates. Otherwise, at least one condition must fail.</text>
   </g>
 </svg>

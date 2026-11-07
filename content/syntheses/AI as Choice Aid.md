@@ -8,7 +8,7 @@ tags:
   - choice-aids
   - chooser-welfare
   - digital-nudging
-updated_on: 2026-11-06
+updated_on: 2026-11-07
 related_pages:
   - [[Digital Nudging]]
   - [[Sunstein, 2023|Behavioral Biases, Choice Engines, and Paternalistic AI]]
@@ -87,6 +87,8 @@ For the course, this distinguishes ordinary [[Recommendation Systems]] from [[Al
 The hard question is paternalism. A choice engine may simply organize information, or it may recommend, default, warn, add friction, or block options. Some of these moves can be justified when options are dominated, shrouded, or predictably harmful. But the same moves become dangerous when the system is coarse, biased, self-interested, opaque, or overconfident about welfare.
 
 The design standard should therefore be stronger than behavioral effectiveness. A choice aid should improve decisions under conditions the user could endorse: better information, clearer comparisons, reduced manipulation, preserved exit, and explanation adequate for trust.
+
+The [[Hypernudge#Worked example: testing a subscription recommendation|worked subscription experiment]] shows what this changes in evaluation. A seller calls the highlighted annual plan successful because it increases purchases. A user-serving assistant must ask whether the plan fits the person's expected use and whether the commitment is understood. It could recommend the monthly plan to an uncertain user and the annual plan to a regular one, reducing aggregate annual conversion while improving fit. Evaluate understanding, total cost, later endorsement, and practical reversibility alongside choices. Do not compare only the users who purchased: the aid may have changed who buys at all. These are implications for the hypothetical example, not experimental results from the choice-aid papers.
 
 Choosing to delegate can itself express agency. Sunstein develops that point in [[Sunstein, 2026|Paternalism after Behavioral Economics]]: people may reasonably prefer assistance or delegation to making every decision directly. The question raised by Cherep and coauthors concerns the reliability of the delegate. Respecting the choice to delegate and establishing that the agent will act competently are distinct requirements.
 

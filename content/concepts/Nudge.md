@@ -7,7 +7,7 @@ tags:
   - nudging
   - choice-architecture
   - behavioral-public-policy
-updated_on: 2026-06-02
+updated_on: 2026-11-07
 source_count: 8
 aliases:
   - Nudge Typology
@@ -41,6 +41,8 @@ A [[Nudge]] is a behaviorally informed change to [[Choice Architecture]] that pr
 
 The concept is most useful when it is kept narrow. A nudge is not every contextual feature that happens to influence behavior; it is a deliberate attempt to shape choice through the design of the choice environment. That intentionality matters because responsibility attaches to the architect once influence is deliberate, a point emphasized by Hansen and Jespersen in [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]].
 
+Identifying the mechanism does not settle its purpose or its ethical status. A default may be intended to help a chooser, increase revenue, advance a public goal, or do several of these at once. Libertarian paternalism supplies a justification for user-serving nudges; it is not evidence that every intervention meeting the behavioral definition serves users. A welfare claim must be supported, and a harmful nudge does not cease to be behaviorally effective because its justification fails.
+
 Nudging should also not be mistaken for the whole of behavioral public policy. It is one important instrument in a wider toolkit, and it often works best when combined with taxes, subsidies, mandates, disclosure, enforcement, and regulation. Loewenstein and Chater make this policy-toolkit warning central in [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]].
 
 In digital environments, nudges appear in interface details such as defaults, reminders, prompts, ordering, salience, warnings, feedback, friction, recommendation structures, and simplified forms. But digital nudging can also exceed the classical model. When choice architecture becomes data-driven, personalized, dynamic, and continuously updated through feedback, it becomes a [[Hypernudge]], as Yeung argues in [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]].
@@ -53,7 +55,7 @@ For a synthesis of the concept and its ethical constraints, see [[Nudging and th
 
 - Nudge vs mandate: a mandate requires or forbids action; a nudge preserves the option to go another way.
 - Nudge vs incentive: incentives change payoffs; nudges often work by changing attention, effort, salience, framing, or default status.
-- Nudge vs [[Sludge]]: a nudge should help users by their own lights; sludge uses friction to block or burden welfare-enhancing action.
+- Nudge and [[Sludge]]: nudging identifies a mode of influence; sludge concerns burdensome friction. Their relationship cannot be settled simply by assigning benevolent motives to all nudges. Friction may steer behavior, but substantial obstruction can also defeat the easy-and-cheap avoidance condition.
 - Nudge vs boost: a boost improves competence or capability; a nudge changes the choice environment. Thaler and Sunstein argue that the two can and should often be combined.
 - Nudge vs policy mix: a nudge changes choice architecture, but a policy problem may also require incentives, regulation, legal duties, public provision, or enforcement.
 - Transparent nudge vs [[Manipulation]]: ethical nudging should be visible, publicly defensible, and compatible with reflective choice.
@@ -88,6 +90,8 @@ The main debates concern welfare, autonomy, transparency, manipulation, and suff
 The former nudge-typology page is now folded into this concept. A useful typology asks two questions. First, does the nudge work mainly through automatic cognition or reflective cognition? Second, can the person being nudged recognize the intervention and its purpose? This distinction matters because nudges that bypass awareness raise sharper concerns about manipulation, transparency, and autonomy.
 
 ## Practical or policy relevance
+
+A useful borderline case is a subscription page that highlights an annual plan as "Recommended." The mechanism is salience and an apparent endorsement. The provider may want revenue, while frequent users may genuinely save money. Whether the design is defensible depends on the basis of the recommendation, comprehension of the commitment, suitability for different users, and practical refusal and exit. Neither commercial benefit nor higher conversion alone makes it a dark pattern. Hidden renewal terms or deliberately obstructed cancellation supply different, substantive reasons for criticism. The [[Hypernudge#Worked example: testing a subscription recommendation|worked subscription experiment]] shows how to separate those questions empirically.
 
 In digital systems, nudges can improve welfare by helping users complete beneficial tasks, avoid errors, compare options, remember intentions, understand consequences, and resist harmful defaults. They can also be used for platform-serving goals such as retention, engagement, data capture, or upselling. The course should therefore ask not only "does it change behavior?" but "whose welfare does the design optimize, and how easy is it to resist?"
 
