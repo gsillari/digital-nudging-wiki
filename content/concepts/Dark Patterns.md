@@ -8,13 +8,14 @@ tags:
   - manipulation
   - interface-design
   - digital-nudging
-updated_on: 2026-11-07
+updated_on: 2026-11-13
 source_count: 10
 aliases:
   - Adversarial Choice Architecture
   - Dark Pattern Taxonomy
   - Dark Pattern Regulation
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Dark Patterns as Adversarial Choice Architecture]]
   - [[Gray et al., 2018|The Dark (Patterns) Side of UX Design]]
@@ -39,6 +40,8 @@ related_pages:
 [[Dark Patterns]] are recurring interface designs that undermine users' ability to make informed, voluntary choices through deception, obstruction, pressure, or misleading presentation, often to the service's advantage. They are closely related to [[Sludge]] and [[Manipulation]]. Their identification requires attention to the design and its effects, not simply an assumption about what the designer intended.
 
 For the vault, dark patterns are the negative counterpart of user-serving [[Digital Nudging]]. They show how the tools of [[Choice Architecture]] can undermine the user's reflective interests, commonly in ways aligned with the architect's incentives. In that sense, the former concept "adversarial choice architecture" is now treated as the strategic orientation of dark patterns rather than as a separate page.
+
+[[Libertarian Paternalism]] clarifies what is being subverted: the conjunction of assistance by the chooser's own lights and meaningful freedom to reject it. Dark patterns can defeat either commitment or both. But lacking a paternalistic purpose is not sufficient for a dark-pattern diagnosis; an ordinary commercial offer need not be designed for the buyer's good to remain honest and freely rejectable. The diagnosis depends on impaired agency and the design's effects.
 
 ## What makes them dark
 

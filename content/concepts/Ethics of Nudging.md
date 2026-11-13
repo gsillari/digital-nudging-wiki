@@ -7,9 +7,10 @@ tags:
   - ethics
   - nudging
   - behavioral-public-policy
-updated_on: 2026-11-05
+updated_on: 2026-11-13
 source_count: 7
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Nudging and the Ethics of Nudging]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
@@ -35,6 +36,8 @@ related_pages:
 [[Ethics of Nudging]] asks when behaviorally informed [[Choice Architecture]] is legitimate. The first problem is that influence cannot be avoided: defaults, salience, order, simplification, warnings, reminders, and friction are always present somewhere. The ethical task is therefore not to escape influence, but to justify and constrain it. Sunstein makes this the starting point of [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]].
 
 The baseline object is still the classical nudge: steering through choice architecture while leaving options available, incentives mostly unchanged, and avoidance easy and cheap. Thaler and Sunstein supply that boundary condition in [[Thaler and Sunstein, 2021|Nudge: The Final Edition]].
+
+[[Libertarian Paternalism]] adds a particular justification for using that instrument: assistance should improve the chooser's life by their own standards without making refusal costly. It is an important starting point, not the whole ethics of influence. A welfare gain does not answer every objection about manipulation or unaccountable power, and a nudge directed at protecting others needs a justification different from paternalism toward its recipient.
 
 The fact that influence is unavoidable does not make all influence acceptable. The ethical object is intentional steering: once an architect deliberately uses defaults, salience, order, simplification, warnings, reminders, or friction to shape behavior, the architect becomes responsible for the goal, mechanism, evidence, side effects, and practical avoidability of the design. This responsibility-centered way of narrowing the concept is central to Hansen and Jespersen's [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]].
 

@@ -12,8 +12,9 @@ tags:
   - behavioral-economics
   - choice-architecture
   - nudging
-updated_on: 2026-05-26
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Nudge]]
   - [[Choice Architecture]]
@@ -29,7 +30,7 @@ related_pages:
 
 ## Work overview
 
-[[Thaler and Sunstein, 2021|Nudge: The Final Edition]] is the core popular statement of [[Richard H. Thaler]] and [[Cass R. Sunstein]]'s case for [[Nudge|nudging]], [[Choice Architecture|choice architecture]], and libertarian paternalism. For the Digital Nudging course, its most reusable contribution is not the catalog of policy examples, but the framework: choices are always presented in some designed environment; Humans predictably depart from the Econ model; and private or public choice architects can use that knowledge either to help choosers or to exploit them.
+[[Thaler and Sunstein, 2021|Nudge: The Final Edition]] is the core popular statement of [[Richard H. Thaler]] and [[Cass R. Sunstein]]'s case for [[Nudge|nudging]], [[Choice Architecture|choice architecture]], and [[Libertarian Paternalism]]. For the Digital Nudging course, its most reusable contribution is not the catalog of policy examples, but the framework: choices are always presented in some designed environment; Humans predictably depart from the Econ model; and private or public choice architects can use that knowledge either to help choosers or to exploit them.
 
 The book defines nudges as choice-architectural interventions that predictably alter behavior while preserving options and avoiding large changes in economic incentives. It argues that the benchmark for welfare is what choosers would choose under fuller attention, information, cognitive ability, and self-control, not what the architect happens to prefer.
 
@@ -38,7 +39,7 @@ The book defines nudges as choice-architectural interventions that predictably a
 | Unit | Course priority | Ingest status | Course use |
 | --- | --- | --- | --- |
 | Preface to the Final Edition | important | mapped | Explains what changed in 2021: [[Smart Disclosure]], [[Sludge]], personalized defaults, curation, and updated digital examples. |
-| [[Nudge - Introduction]] | foundational | substantially ingested | Defines choice architecture, libertarian paternalism, and nudges. |
+| [[Nudge - Introduction]] | foundational | substantially ingested | Defines choice architecture, [[Libertarian Paternalism]], and nudges. |
 | [[Nudge - Part I Humans and Econs]] | foundational | substantially ingested | Provides the behavioral economics foundation: heuristics, self-control, and social influence. |
 | [[Nudge - Chapter 4 When Do We Need a Nudge]] | foundational | substantially ingested | Gives the diagnostic test for when nudges are useful. |
 | [[Nudge - Chapter 5 Choice Architecture]] | foundational | substantially ingested | Gives the main design toolkit for choice architects. |
@@ -60,6 +61,7 @@ The book defines nudges as choice-architectural interventions that predictably a
 
 ## Major concepts introduced
 
+- [[Libertarian Paternalism]]
 - [[Nudge]]
 - [[Choice Architecture]]
 - [[Behavioral Economics]]
@@ -67,7 +69,7 @@ The book defines nudges as choice-architectural interventions that predictably a
 - [[Smart Disclosure]]
 - [[Sludge]]
 
-The book also supplies reusable source-local ideas that may later deserve concept pages: libertarian paternalism, active choosing, prompted choice, mappings, channel factors, error-forgiving design, planner/doer conflict, mental accounting, social norms, choice engines, personalized defaults, curation, and the publicity principle.
+The book also supplies reusable source-local ideas: active choosing, prompted choice, mappings, channel factors, error-forgiving design, planner/doer conflict, mental accounting, social norms, choice engines, personalized defaults, curation, and the publicity principle. Libertarian paternalism now has a cross-source concept page because the conjunction of chooser welfare and preserved freedom anchors the opening module.
 
 ## Important units
 

@@ -7,9 +7,10 @@ tags:
   - welfare
   - preferences
   - nudging
-updated_on: 2026-11-05
+updated_on: 2026-11-13
 source_count: 11
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[AI as Choice Aid]]
   - [[Ethics of Nudging]]
@@ -32,7 +33,9 @@ related_pages:
 
 ## Core idea
 
-[[Chooser Welfare]] is the standard that a nudge should help people by their own lights. The point is to avoid two mistakes at once: treating every observed choice as welfare-revealing, and treating the planner's judgment as automatically superior to the chooser's. Sunstein's formulation in [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]] is the anchor: people should be made better off as judged by themselves.
+[[Chooser Welfare]] is the standard that user-serving assistance should help people by their own lights. The point is to avoid two mistakes at once: treating every observed choice as welfare-revealing, and treating the planner's judgment as automatically superior to the chooser's. Sunstein's formulation in [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]] is the anchor: people should be made better off as judged by themselves.
+
+This supplies the paternalistic side of [[Libertarian Paternalism]]; the libertarian side separately requires meaningful freedom to reject the intervention. The distinction matters because a beneficial restriction can fail the freedom condition, while an easily rejected recommendation can fail the welfare condition. Neither benefit nor exit alone establishes the combined justification.
 
 The concept matters because observed behavior may not equal welfare. People can click, consent, buy, scroll, or accept defaults while uninformed, rushed, confused, emotionally activated, or subject to self-control problems.
 

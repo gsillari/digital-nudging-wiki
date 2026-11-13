@@ -12,8 +12,9 @@ tags:
   - paternalism
   - nudging
   - welfare
-updated_on: 2026-11-05
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Ethics of Nudging]]
   - [[Chooser Welfare]]
   - [[Nudging and the Ethics of Nudging]]
@@ -24,7 +25,7 @@ related_pages:
 
 ## Summary
 
-Behavioral evidence of error challenges the assumption that leaving people alone always serves their welfare, but it does not establish a universal case for intervention. The relevant comparison is between fallible choosers and fallible architects, under particular conditions of knowledge, heterogeneity, learning, and agency. Sunstein brings coercive paternalism, libertarian paternalism, and antipaternalism into that comparison, defending nudges as often preferable without treating them as the right instrument in every setting.
+Behavioral evidence of error challenges the assumption that leaving people alone always serves their welfare, but it does not establish a universal case for intervention. The relevant comparison is between fallible choosers and fallible architects, under particular conditions of knowledge, heterogeneity, learning, and agency. Sunstein brings coercive paternalism, [[Libertarian Paternalism]], and antipaternalism into that comparison, defending nudges as often preferable without treating them as the right instrument in every setting.
 
 The paper's distinctive final move is to distinguish choosing an option from choosing how a decision will be made. People can exercise agency by delegating to a default, an expert, or AI. Requiring active choice can itself be paternalistic when it overrides a person's preference to delegate.
 

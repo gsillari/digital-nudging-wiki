@@ -8,12 +8,13 @@ tags:
   - targeting
   - choice-architecture
   - digital-nudging
-updated_on: 2026-05-30
+updated_on: 2026-11-13
 source_count: 6
 aliases:
   - Personalized Nudging
   - Precision Nudging
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Hypernudge]]
   - [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]]
@@ -55,6 +56,8 @@ The most important operational distinction is between two forms of personalizati
 - Content or target personalization: personalizing what the person is nudged toward, such as the selected default, option, date, product, behavior, or contribution rate.
 
 This distinction is central for digital nudging because the two forms have different welfare and accountability implications. Delivery personalization can be a tactic for effectiveness. Target personalization is a claim about what is good for this user.
+
+It also sharpens the test of [[Libertarian Paternalism]]. Tailoring the destination to a person's needs may address the heterogeneity that makes a uniform default unsuitable. Tailoring only the delivery can instead make the same unsuitable destination harder to resist. Neither form is justified merely by producing a stronger response: the target needs a chooser-welfare rationale, and rejection must remain easy. This is the course application of the delivery/content distinction, not a finding that personalization necessarily improves welfare.
 
 ## Precision nudging
 

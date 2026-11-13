@@ -8,8 +8,9 @@ tags:
   - ethics
   - choice-architecture
   - digital-nudging
-updated_on: 2026-11-07
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
@@ -48,11 +49,21 @@ First, a nudge is architectural. It works by changing the environment of choice 
 
 Second, a nudge is behavioral. It is designed with the knowledge that people are Humans rather than Econs: they have limited attention, use heuristics, follow defaults, respond to frames, procrastinate, mispredict future feelings, and are influenced by social cues.
 
-Third, a nudge is liberty-preserving in form. People must remain able to choose otherwise, and avoidance should be easy and cheap. This is the libertarian side of libertarian paternalism.
+Third, a nudge is liberty-preserving in form. People must remain able to choose otherwise, and avoidance should be easy and cheap. This is the libertarian side of [[Libertarian Paternalism]].
 
 The paternalistic side supplies a justification, not an automatic consequence of the definition. In Thaler and Sunstein's project, nudges should help people make choices that improve their lives by their own standards. But identifying a default, reminder, or framing intervention as a nudge does not establish that it succeeds at this aim. Separate how it steers, what its architect seeks, and whether its means and consequences are defensible. A commercial goal can coexist with user benefit; a benevolent goal can coexist with harm.
 
 For example, highlighting an annual subscription as "Recommended" may reduce search effort and save a regular user money, while inducing an occasional user to overcommit. The behavioral mechanism is salience and endorsement; the provider's purpose may be mixed or unknown; the ethical judgment depends on evidence about suitability, comprehension, refusal, and exit. Calling it a nudge is the start of that inquiry, not its favorable conclusion.
+
+## Libertarian paternalism: assistance without compulsion
+
+The canonical proposal joins two commitments that are easily separated in practice. The architect should help people achieve outcomes they themselves would endorse, and should preserve easy, cheap departure from the recommended path. Thaler and Sunstein call this [[Libertarian Paternalism]]. Paternalism names the welfare-directed rationale; libertarian names the freedom-preserving qualification, not an endorsement of libertarian political philosophy as a whole.
+
+The reason to join them is not simply that choice architecture is unavoidable. That establishes the presence of influence, not its legitimacy. The positive argument needs evidence that the existing environment frustrates people's aims and that a different arrangement could help. The reason to retain opt-out is that people differ and designers can be wrong. A pension default may assist someone who keeps postponing enrollment while allowing someone with urgent expenses to decline. The arrangement must be defensible for the people it guides and practically rejectable by those it does not suit.
+
+The phrase "as judged by themselves" limits the architect's authority. The aim is to help with means to the person's ends, not to install the designer's preferred way of life. Yet identifying those ends can require judgment when preferences conflict or change. Neither observed acceptance nor the designer's assurance of benevolence resolves that problem. The welfare standard developed below is therefore part of the argument, not a detail to be assumed away.
+
+This also clarifies the boundaries of the project. A ban defended for the affected person's own good is paternalistic but not libertarian in this sense. A choice-preserving prompt benefiting other people is not necessarily paternalistic toward its recipient. Hansen and Jespersen's [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]] makes the distinction between a behavioral instrument and its normative justification explicit. The wider ethics of nudging must evaluate both, including interventions whose purpose is not paternalistic.
 
 ## Nudges in the policy toolkit
 
@@ -90,7 +101,7 @@ This is an important hinge for the course. The claim "there is no neutral design
 
 ## The welfare standard
 
-The central ethical standard is [[Chooser Welfare]]: a nudge should generally make people better off as judged by themselves. This standard tries to avoid two failures at once.
+The central welfare standard within [[Libertarian Paternalism]] is [[Chooser Welfare]]: the intervention should make people better off as judged by themselves. This standard tries to avoid two failures at once.
 
 It rejects crude revealed preference. What people click, buy, accept, or fail to change in a designed environment may not reveal welfare. A person may be tired, confused, misinformed, addicted, rushed, or reacting to a default they never noticed.
 

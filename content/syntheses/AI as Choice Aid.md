@@ -8,8 +8,9 @@ tags:
   - choice-aids
   - chooser-welfare
   - digital-nudging
-updated_on: 2026-11-07
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Sunstein, 2023|Behavioral Biases, Choice Engines, and Paternalistic AI]]
   - [[Loewenstein et al., 2014|Disclosure: Psychology Changes Everything]]
@@ -85,6 +86,8 @@ For the course, this distinguishes ordinary [[Recommendation Systems]] from [[Al
 [[Sunstein, 2023|Behavioral Biases, Choice Engines, and Paternalistic AI]] names the constructive instrument: the choice engine. A choice engine can ask what matters to a user, compute the consequences of options, incorporate future costs, and present a simple set of recommendations such as Good, Better, and Best. It can be more personalized than a mass nudge and less coercive than a mandate.
 
 The hard question is paternalism. A choice engine may simply organize information, or it may recommend, default, warn, add friction, or block options. Some of these moves can be justified when options are dominated, shrouded, or predictably harmful. But the same moves become dangerous when the system is coarse, biased, self-interested, opaque, or overconfident about welfare.
+
+[[Libertarian Paternalism]] distinguishes the choice-preserving part of this spectrum from stronger restrictions. A recommendation or default may help users by their own lights while remaining easy to reject; blocking an option needs a different justification. Thought partnership adds a further possibility: instead of merely steering toward an architect-selected destination, the aid helps the user clarify what matters and revise the destination. This course comparison connects the classical welfare-and-freedom commitment to Ludwig and coauthors' [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]], without treating every form of AI assistance as a nudge.
 
 The design standard should therefore be stronger than behavioral effectiveness. A choice aid should improve decisions under conditions the user could endorse: better information, clearer comparisons, reduced manipulation, preserved exit, and explanation adequate for trust.
 

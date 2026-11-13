@@ -8,9 +8,10 @@ tags:
   - friction
   - dark-patterns
   - administrative-burden
-updated_on: 2026-05-30
+updated_on: 2026-11-13
 source_count: 9
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
@@ -38,11 +39,13 @@ related_pages:
 
 In digital settings, sludge often appears as confusing forms, hidden opt-outs, difficult cancellation paths, burdensome consent controls, unnecessary identity checks, long disclosures, shrouded fees, or asymmetric flows that make entry easy and exit hard.
 
+This puts pressure on the freedom-preserving promise of [[Libertarian Paternalism]]. If declining a default or leaving an arrangement requires disproportionate effort, the continued existence of an alternative is not enough. Sludge analysis tests whether the promised easy and cheap exit exists in practice, including for users with limited time, attention, or digital skills.
+
 In the dark-pattern cluster, sludge should be treated as a method, not the whole definition. [[Dark Patterns]] may use sludge, but they can also work through urgency, scarcity, social proof, trick questions, hidden costs, bad defaults, or emotional pressure. The deeper problem is not friction alone; it is friction used as adversarial choice architecture ([[Dark Patterns]]).
 
 ## Key distinctions
 
-- Sludge vs nudge: a nudge should help users choose well; sludge burdens beneficial action or easy exit.
+- Sludge vs nudge: nudging identifies a mode of influence, not guaranteed benefit; sludge identifies burdens that can obstruct beneficial action or easy exit. Substantial obstruction can defeat a nudge's easy-avoidance condition.
 - Intentional vs incidental sludge: firms may design retention friction on purpose, while agencies may produce burden through program-integrity rules or legacy processes.
 - Protective friction vs exploitative friction: some friction prevents fraud, error, or impulsive harm; exploitative friction serves the architect at the user's expense.
 - Administrative burden vs dark pattern: administrative burden can occur in public or private bureaucracy; dark patterns are manipulative interface designs, many of which work through sludge.

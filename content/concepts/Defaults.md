@@ -7,9 +7,10 @@ tags:
   - defaults
   - inertia
   - choice-architecture
-updated_on: 2026-11-06
+updated_on: 2026-11-13
 source_count: 5
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Nudge]]
   - [[Choice Architecture]]
@@ -29,6 +30,8 @@ related_pages:
 [[Defaults]] are the options or outcomes that apply if a chooser does nothing. They are central to [[Choice Architecture]] because every system needs a rule for inaction, and many users follow the path of least resistance.
 
 Defaults matter because they exploit or support inertia, status quo bias, limited attention, and the tendency to read a default as an implicit recommendation. Thaler and Sunstein's [[Thaler and Sunstein, 2021|Nudge: The Final Edition]] makes them the canonical nudge because they change behavior without removing options.
+
+They are also the central test of [[Libertarian Paternalism]]. A pension default may help people overcome postponement while allowing those with different needs to decline. But its justification requires both suitability and easy rejection: high enrollment does not prove welfare, and the presence of an opt-out does not prove that users can find and use it. The default's behavioral force and its ethical defense are separate claims.
 
 ## Key distinctions
 

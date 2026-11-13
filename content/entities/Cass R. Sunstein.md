@@ -8,8 +8,9 @@ tags:
   - behavioral-public-policy
   - law
   - author
-updated_on: 2026-11-05
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
   - [[Sunstein, 2022|Governing by Algorithm? No Noise and (Potentially) Less Bias]]
@@ -33,6 +34,7 @@ Sunstein connects nudging to law, regulation, disclosure, administrative burden,
 
 ## Key relationships
 
+- Co-developer, with [[Richard H. Thaler]], of [[Libertarian Paternalism]]: a chooser-welfare justification for steering that preserves easy rejection. His later ethics and paternalism work examines the limits of that justification.
 - Coauthor of [[Thaler and Sunstein, 2021|Nudge: The Final Edition]] with [[Richard H. Thaler]]
 - Author of [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
 - Author of [[Sunstein, 2022|Governing by Algorithm? No Noise and (Potentially) Less Bias]] and [[Sunstein, 2023|Behavioral Biases, Choice Engines, and Paternalistic AI]]

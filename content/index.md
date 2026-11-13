@@ -5,8 +5,9 @@ status: active
 tags:
   - index
   - digital-nudging
-updated_on: 2026-11-07
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Nudging and the Ethics of Nudging]]
   - [[AI as Choice Aid]]
   - [[Dark Patterns as Adversarial Choice Architecture]]
@@ -49,7 +50,7 @@ The reading route begins with nudging and its ethical limits, then examines dark
 
 When is steering choice legitimate?
 
-[[Nudge]], [[Choice Architecture]], [[Ethics of Nudging]]
+[[Nudge]], [[Libertarian Paternalism]], [[Ethics of Nudging]]
 
 ### 2. [[Dark Patterns as Adversarial Choice Architecture]]
 

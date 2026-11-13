@@ -10,8 +10,9 @@ tags:
   - manipulation
   - ethics
   - transparency
-updated_on: 2026-05-26
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Nudge]]
   - [[Ethics of Nudging]]
@@ -34,7 +35,7 @@ Their core contribution is a framework for distinguishing nudges by two dimensio
 - A nudge should be understood as an intentional attempt to influence behavior, not merely as any contextual feature that happens to affect behavior.
 - The fact that contexts always influence people does not dissolve responsibility. Intentional intervention adds agency, ends, and accountability.
 - Formal freedom to choose otherwise is not enough. Nudges are used precisely because people often do not act like hyper-rational agents, so practical avoidability matters.
-- Libertarian paternalism and the nudge approach are distinct. Nudging is a means; libertarian paternalism is a constraint on ends.
+- [[Libertarian Paternalism]] and the nudge approach are distinct. Nudging is a means; libertarian paternalism constrains the ends for which it is used. A behavioral technique's effectiveness does not establish that it serves the chooser's own interests (pp. 11-12).
 - Nudges are not always manipulations of choice. Some influence automatic behavior without engaging reflective choice.
 - Rawls-style publicity is not enough as an ethics test. A policy may be publicly defensible and still fail to be transparent to the person being nudged in the moment of intervention.
 - Epistemic transparency matters: a nudge is transparent when the person nudged can reasonably reconstruct the intention behind it and the means by which behavior change is pursued.

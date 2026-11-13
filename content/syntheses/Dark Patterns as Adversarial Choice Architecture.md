@@ -8,8 +8,9 @@ tags:
   - digital-nudging
   - manipulation
   - regulation
-updated_on: 2026-11-07
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Dark Patterns]]
   - [[Gray et al., 2018|The Dark (Patterns) Side of UX Design]]
@@ -27,13 +28,13 @@ related_pages:
 
 Dark patterns are best understood through the conflict they create between interface steering and meaningful user choice. Attention, inertia, trust, urgency, confusion, or fatigue can be converted into money, data, attention, or lock-in for the service. The central concern is not an ugly interface or commercial success as such, but deception, obstruction, pressure, or asymmetric design that impairs users' agency. Extraction is a recurring explanation, not a motive that can simply be inferred from every disliked screen.
 
-The classical nudge framework begins from the inevitability of choice architecture. Options must be ordered, defaults must be set, information must be framed, and processes must be made more or less easy. [[Thaler and Sunstein, 2021|Nudge: The Final Edition]] defends this power when it is constrained by libertarian paternalism: options remain open, and the intervention should help people choose in ways that make them better off by their own lights. The dark-pattern literature shows what happens when the interface tools remain but the paternalistic constraint disappears.
+The classical nudge framework begins from the inevitability of choice architecture. Options must be ordered, defaults must be set, information must be framed, and processes must be made more or less easy. Thaler and Sunstein's [[Thaler and Sunstein, 2021|Nudge: The Final Edition]] defends this power when it is constrained by [[Libertarian Paternalism]]: alternatives remain easy to choose, and the intervention should help people by their own lights. Dark patterns subvert this conjunction when interface tools undermine welfare or meaningful refusal. The problem is not merely the absence of a paternalistic aim: an honest commercial offer can lack that aim without impairing agency.
 
 ## The subversion of paternalism
 
 Gray and coauthors give the clean starting point. In [[Gray et al., 2018|The Dark (Patterns) Side of UX Design]], they describe dark patterns as a co-opting of human-centered design. UX methods are supposed to make systems more usable, intelligible, and responsive to users. In dark patterns, that expertise is used to make users act in ways that serve organizational goals while impairing the user's practical ability to understand, refuse, compare, or exit.
 
-Nudges and dark patterns can use the same levers: defaults, salience, framing, ordering, friction, social cues, or timing. Their relationship is therefore not a tidy division between good and bad technologies. Nudging describes a form of influence; libertarian paternalism proposes one justification for it. Dark-pattern analysis asks how a design undermines understanding, refusal, comparison, or exit. Some harmful nudges can be dark patterns; some dark patterns obstruct choice so substantially that the classical easy-avoidance condition no longer holds.
+Nudges and dark patterns can use the same levers: defaults, salience, framing, ordering, friction, social cues, or timing. Their relationship is therefore not a tidy division between good and bad technologies. Nudging describes a form of influence; [[Libertarian Paternalism]] proposes one justification for it. Dark-pattern analysis asks how a design undermines understanding, refusal, comparison, or exit. Some harmful nudges can be dark patterns; some dark patterns obstruct choice so substantially that the classical easy-avoidance condition no longer holds.
 
 Mechanism, purpose, and ethical verdict must remain distinct. Highlighting an annual subscription can reduce search costs and save frequent users money, while increasing revenue for the seller. It is not objectionable merely because both parties benefit. If the same page obscures the annual commitment or makes cancellation needlessly difficult, the grounds for criticism concern the impaired choice and its consequences. The designer's intentions may be mixed or unknown. Evidence of deceptive design can support criticism without a proven confession of intent; revenue gains alone do not prove deception.
 

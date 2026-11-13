@@ -14,8 +14,9 @@ tags:
   - dark-patterns
   - friction
   - digital-choice-architecture
-updated_on: 2026-05-26
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Sludge]]
   - [[Choice Architecture]]
@@ -62,7 +63,7 @@ Source-local concepts include dark patterns, friction, administrative burdens, r
 
 ## Relation to other units
 
-The chapter is the negative mirror of [[Nudge - Chapter 5 Choice Architecture]]. It also clarifies the ethical stakes of [[Nudge - Introduction]]: a design that preserves formal choice may still fail the spirit of libertarian paternalism if exit is hard, hidden, or costly. It pairs naturally with [[Nudge - Chapter 7 Smart Disclosure]], because better data and disclosure can reduce sludge.
+The chapter is the negative mirror of [[Nudge - Chapter 5 Choice Architecture]]. It also clarifies the ethical stakes of [[Nudge - Introduction]]: a design that preserves formal choice may still fail the easy-and-cheap avoidance requirement of [[Libertarian Paternalism]] if exit is hard, hidden, or costly. It pairs naturally with [[Nudge - Chapter 7 Smart Disclosure]], because better data and disclosure can reduce sludge.
 
 ## Why it matters for Digital Nudging
 

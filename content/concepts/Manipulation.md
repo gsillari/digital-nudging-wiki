@@ -8,9 +8,10 @@ tags:
   - dark-patterns
   - autonomy
   - ethics
-updated_on: 2026-06-02
+updated_on: 2026-11-13
 source_count: 11
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Ethics of Nudging]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
@@ -42,6 +43,8 @@ The strongest distinction is between manipulating behavior and manipulating choi
 
 Manipulation is also not a self-contained objection. Schmidt and Engelen's [[Schmidt and Engelen, 2020|overview]] treats manipulation and dignity worries as best analyzed through opacity, rational agency, autonomy, vulnerability exploitation, and domination. That makes the concept more diagnostic: the question is what kind of agency failure the influence creates.
 
+This is why [[Libertarian Paternalism]] does not settle the manipulation question merely by combining a welfare aim with an opt-out. Beneficial influence can still work through means that disrespect agency; conversely, automatic influence is not necessarily manipulative. Its intention, intelligibility, practical avoidability, and relation to the person's own ends must be assessed together.
+
 The digital version is opaque algorithmic manipulation. A system can continuously personalize rankings, feeds, recommendations, and prompts in ways that users cannot detect or reconstruct. Yeung's [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]] is the anchor for this adaptive version of the problem.
 
 The most concrete digital form is the dark pattern. [[Dark Patterns]] manipulate by modifying the decision space and information flow so that users are steered toward choices that benefit the service while frustrating their own welfare, privacy, or autonomy.
@@ -51,7 +54,7 @@ The most concrete digital form is the dark pattern. [[Dark Patterns]] manipulate
 - Influence vs manipulation: all choice architecture influences; only some influence bypasses, exploits, or undermines reflection in objectionable ways.
 - Transparency vs justification: transparency is a safeguard, but a transparent design can still manipulate if it predictably exploits vulnerability or inattention.
 - Consent vs permissibility: consent can reduce the ethical problem, but it does not automatically make manipulative treatment respectful.
-- Nudge vs dark pattern: a nudge should be defensible by reference to the chooser's welfare; a dark pattern uses behavioral insight to serve the architect at the user's expense.
+- Nudge vs dark pattern: nudging names a mode of influence; a dark pattern undermines meaningful choice. A chooser-welfare justification must be established rather than inferred from the nudge label.
 - Sludge vs manipulation: [[Sludge]] can manipulate when friction is strategically used to exhaust, confuse, or trap users.
 - Manipulation of behavior vs manipulation of choice: nudge typology ([[Nudge]]) treats non-transparent automatic-behavior nudges as manipulation of behavior and non-transparent reflective-choice nudges as manipulation of choice.
 - Dark patterns vs legitimate persuasion: legitimate persuasion can present reasons, benefits, or recommendations; dark patterns distort the conditions under which users can recognize, evaluate, refuse, or reverse the proposal.

@@ -10,8 +10,9 @@ tags:
   - digital-nudging
   - ai
   - reflective-equilibrium
-updated_on: 2026-05-26
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Algorithmic Thought Partners]]
   - [[Chooser Welfare]]
@@ -68,6 +69,7 @@ The paper also clarifies the relation to precision nudging. Precision nudging in
 
 ## Links into the wiki
 
+- [[Libertarian Paternalism]]: a course comparison highlights the shared concern for users' considered welfare, while distinguishing steering toward an architect-selected target from helping users develop and revise their judgments.
 - Behavioral Economics 2.0 ([[Algorithmic Thought Partners]]): the programmatic paradigm proposed by the paper.
 - [[Algorithmic Thought Partners]]: algorithms as user-facing tools for explanation, prediction, reflection, implementation, and practice.
 - reflective equilibrium ([[Algorithmic Thought Partners]]): the proposed target for user-serving algorithmic support.

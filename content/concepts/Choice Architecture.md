@@ -7,9 +7,10 @@ tags:
   - choice-architecture
   - interface-design
   - behavioral-design
-updated_on: 2026-11-06
+updated_on: 2026-11-13
 source_count: 7
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Nudging and the Ethics of Nudging]]
   - [[Nudge]]
@@ -36,6 +37,8 @@ related_pages:
 [[Choice Architecture]] is the organization of the context in which people make decisions. It includes which options appear, how they are ordered, what is preselected, what is salient, what is hidden, what requires effort, what feedback users receive, and how consequences are translated into meaningful terms.
 
 The foundational premise is that choice architecture is unavoidable. A cafeteria, ballot, website, benefit form, app settings page, recommender system, or consent banner must be arranged somehow. Thaler and Sunstein make this premise central in [[Thaler and Sunstein, 2021|Nudge: The Final Edition]].
+
+Unavoidability does not determine whose interests the arrangement should serve. [[Libertarian Paternalism]] supplies one answer: organize choices to help people by their own standards, while leaving them free to reject the guidance easily. This is a normative commitment, not a property of all choice architecture. An interface can be deliberately organized around an entirely different objective.
 
 A choice environment can influence behavior accidentally, but intentional design changes the ethical and practical question. Once an architect deliberately uses defaults, ordering, salience, friction, feedback, or framing to alter behavior, the design can be evaluated by its objective, mechanism, evidence, side effects, and practical avoidability. Hansen and Jespersen make this responsibility distinction central in [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]].
 

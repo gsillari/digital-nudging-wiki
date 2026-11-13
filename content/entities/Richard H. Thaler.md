@@ -7,8 +7,9 @@ tags:
   - entity
   - behavioral-economics
   - author
-updated_on: 2026-05-26
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]]
   - [[Behavioral Economics]]
   - [[Nudge]]
@@ -23,6 +24,8 @@ Richard H. Thaler is a behavioral economist and coauthor, with [[Cass R. Sunstei
 ## Why it matters here
 
 Thaler supplies much of the behavioral economics lineage behind [[Nudge]], including work on mental accounting, self-control, status quo bias, and practical choice architecture. His role matters for Digital Nudging because the course inherits a design-oriented version of behavioral economics rather than a purely descriptive one.
+
+With Sunstein, he develops [[Libertarian Paternalism]] as a justification for that design practice: help people achieve outcomes they would endorse while preserving easy and cheap choice of another path. The concept connects his behavioral account of error to the ethical question of whose interests an architect should serve.
 
 ## Key relationships
 

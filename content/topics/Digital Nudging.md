@@ -7,8 +7,9 @@ tags:
   - digital-nudging
   - behavioral-public-policy
   - digital-choice-architecture
-updated_on: 2026-11-06
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging Wiki]]
   - [[Nudging and the Ethics of Nudging]]
   - [[AI as Choice Aid]]
@@ -39,6 +40,8 @@ related_pages:
 The choice of instrument depends on user error, the architect's knowledge, heterogeneity, and opportunities for learning. Sunstein's [[Sunstein, 2026|Paternalism after Behavioral Economics]] connects that comparison to [[Ethics of Nudging]] and [[Chooser Welfare]], including the agency involved in deciding to delegate a choice to an expert or AI.
 
 The foundation is [[Thaler and Sunstein, 2021|Nudge: The Final Edition]], sharpened by [[EAST Framework]], [[Sunstein, 2016|The Ethics of Influence]], [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]], and [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]]. These sources give the opening vocabulary: [[Nudge]], [[Choice Architecture]], [[Behavioral Economics]], [[Chooser Welfare]], [[Manipulation]], [[Transparency and Disclosure]], and [[Sludge]].
+
+[[Libertarian Paternalism]] joins that vocabulary into the opening normative argument: help choosers by their own lights while preserving easy rejection. It links the nudge's behavioral mechanism to its possible justification without conflating them. The digital modules then test both commitments against platform incentives, opaque personalization, obstructed exit, and AI assistance that may help users formulate their own objectives.
 
 Loewenstein and Chater add the policy-toolkit frame for the opening module. Digital choice architecture can help, but digital nudging should not be treated as a substitute for conventional policy when harms arise from platform incentives, market structure, data extraction, privacy externalities, or deceptive design.
 

@@ -11,8 +11,9 @@ tags:
   - autonomy
   - manipulation
   - digital-choice-architecture
-updated_on: 2026-06-02
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Nudging and the Ethics of Nudging]]
   - [[Ethics of Nudging]]
@@ -53,6 +54,8 @@ The review divides autonomy objections into four dimensions:
 - Non-domination: is the architect's power transparent, democratically controlled, and contestable, or does it become uncontrolled influence over citizens or users?
 
 This map clarifies why "options remain open" is not enough. A nudge can preserve formal choice while still raising concerns about ownership of ends, rational respect, opacity, or domination.
+
+For [[Libertarian Paternalism]], the review therefore provides a map of objections beyond coercion: a welfare-directed purpose and retained options do not settle all the autonomy questions. This is the concept's role in the course; the review evaluates nudging more broadly, not only interventions defended on paternalistic grounds.
 
 The review then treats [[Manipulation]] and dignity as worries that are best decomposed through the earlier autonomy questions. If manipulation is troubling because it works behind people's backs, exploits vulnerability, bypasses rational capacities, or infantilizes adults, the response must address transparency, rational agency, autonomy, and non-domination rather than simply insisting that choice remains formally free.
 

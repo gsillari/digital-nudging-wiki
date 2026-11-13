@@ -13,8 +13,9 @@ tags:
   - nudging
   - choice-architecture
   - libertarian-paternalism
-updated_on: 2026-05-26
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Nudge]]
   - [[Choice Architecture]]
@@ -27,7 +28,7 @@ related_pages:
 
 ## Place in the work
 
-The introduction establishes the book's central vocabulary: [[Choice Architecture]], [[Nudge|nudges]], libertarian paternalism, Humans and Econs, and the claim that no decision environment is neutral. For the course, this is the primary unit for explaining what a nudge is before moving into digital settings.
+The introduction establishes the book's central vocabulary: [[Choice Architecture]], [[Nudge|nudges]], [[Libertarian Paternalism]], Humans and Econs, and the claim that no decision environment is neutral. For the course, this is the primary unit for explaining what a nudge is before moving into digital settings.
 
 ## Summary
 
@@ -35,7 +36,7 @@ The chapter begins with the cafeteria example: food choices change when the same
 
 Thaler and Sunstein call the person who organizes the decision context a choice architect. Their examples already point toward digital nudging: benefit websites, forms, ballots, product shelves, medical explanations, and sales scripts all structure what people notice, understand, and do.
 
-The introduction then defends libertarian paternalism. It is libertarian because people should remain free to choose and to opt out. It is paternalistic because the architect may legitimately try to help people make choices that improve their lives by their own standards. The chapter's definition of a nudge turns on four criteria: it is part of the choice architecture; it changes behavior predictably; it does not forbid options or substantially alter economic incentives; and it is easy and cheap to avoid.
+The introduction then defends [[Libertarian Paternalism]]. It is libertarian because people should remain free to choose and to opt out without significant burden. It is paternalistic because the architect may legitimately try to help people make choices that improve their lives by their own standards. The authors call this paternalism of means rather than ends: assistance toward the chooser's destination. They apply it to private as well as public architects. The chapter's definition of a nudge turns on four criteria: it is part of the choice architecture; it changes behavior predictably; it does not forbid options or substantially alter economic incentives; and it is easy and cheap to avoid.
 
 The chapter closes by contrasting Econs and Humans. Econs respond mainly to incentives and choose well under standard economic assumptions. Humans also respond to incentives, but their choices are shaped by attention, framing, default effects, self-control, limited information, and social context. This makes nudges useful, especially where choice is complex or feedback is weak.
 
@@ -56,13 +57,14 @@ For this course, only a few examples need to be retained: cafeteria layout for n
 
 ## Concepts touched
 
+- [[Libertarian Paternalism]]
 - [[Nudge]]
 - [[Choice Architecture]]
 - [[Behavioral Economics]]
 - [[Defaults]]
 - [[Sludge]]
 
-Source-local concepts include libertarian paternalism, Humans and Econs, paternalism of means, active choosing, the "Just Maximize Choices" objection, and the idea that freedom to choose can be a safeguard against bad architecture.
+Source-local ideas include Humans and Econs, active choosing, and the "Just Maximize Choices" objection. Paternalism of means and freedom to choose as a safeguard against bad architecture are developed in [[Libertarian Paternalism]].
 
 ## Relation to other units
 

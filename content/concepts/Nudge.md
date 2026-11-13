@@ -7,11 +7,12 @@ tags:
   - nudging
   - choice-architecture
   - behavioral-public-policy
-updated_on: 2026-11-07
+updated_on: 2026-11-13
 source_count: 8
 aliases:
   - Nudge Typology
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Nudging and the Ethics of Nudging]]
   - [[Thaler and Sunstein, 2021|Nudge: The Final Edition]]
@@ -41,7 +42,7 @@ A [[Nudge]] is a behaviorally informed change to [[Choice Architecture]] that pr
 
 The concept is most useful when it is kept narrow. A nudge is not every contextual feature that happens to influence behavior; it is a deliberate attempt to shape choice through the design of the choice environment. That intentionality matters because responsibility attaches to the architect once influence is deliberate, a point emphasized by Hansen and Jespersen in [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]].
 
-Identifying the mechanism does not settle its purpose or its ethical status. A default may be intended to help a chooser, increase revenue, advance a public goal, or do several of these at once. Libertarian paternalism supplies a justification for user-serving nudges; it is not evidence that every intervention meeting the behavioral definition serves users. A welfare claim must be supported, and a harmful nudge does not cease to be behaviorally effective because its justification fails.
+Identifying the mechanism does not settle its purpose or its ethical status. A default may be intended to help a chooser, increase revenue, advance a public goal, or do several of these at once. [[Libertarian Paternalism]] supplies a justification for user-serving nudges: help people by their own lights while preserving easy and cheap rejection. It is not evidence that every intervention meeting the behavioral definition serves users. A welfare claim must be supported, and a harmful nudge does not cease to be behaviorally effective because its justification fails.
 
 Nudging should also not be mistaken for the whole of behavioral public policy. It is one important instrument in a wider toolkit, and it often works best when combined with taxes, subsidies, mandates, disclosure, enforcement, and regulation. Loewenstein and Chater make this policy-toolkit warning central in [[Loewenstein and Chater, 2017|Putting Nudges in Perspective]].
 

@@ -10,8 +10,9 @@ tags:
   - behavioral-public-policy
   - regulation
   - policy-toolkit
-updated_on: 2026-05-30
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Nudging and the Ethics of Nudging]]
   - [[Nudge]]
@@ -71,6 +72,8 @@ Retirement saving shows the genuine power of nudges while also revealing their l
 The paper helps keep two claims together. First, nudges really can work, especially when they address inertia, complexity, and poor timing. Second, the success of a few prominent nudges should not lead policymakers to ignore structural causes, firm incentives, regulation, taxation, or mandates.
 
 This is also an ethics point. A weak, choice-preserving nudge may be less intrusive than regulation, but it may also be less responsible if the harm is serious, the cause is structural, or powerful actors profit from users' predictable mistakes.
+
+In the course, this limits what follows from a defense of [[Libertarian Paternalism]]. Showing that an intervention can help while preserving choice does not show that it adequately addresses the policy problem. The paper is a corrective to treating light-touch design as the whole policy agenda, not a rejection of all welfare-oriented nudging.
 
 ## Why it matters for Digital Nudging
 

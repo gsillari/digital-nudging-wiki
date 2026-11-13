@@ -8,11 +8,12 @@ tags:
   - digital-nudging
   - big-data
   - algorithmic-choice-architecture
-updated_on: 2026-11-07
+updated_on: 2026-11-13
 source_count: 4
 aliases:
   - Continuous Optimization and Experimentation
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Yeung, 2017|Hypernudge: Big Data as a Mode of Regulation by Design]]
   - [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]]
@@ -93,6 +94,8 @@ The substantive distinction is between learning what changes behavior and decidi
 ## Ethical stakes
 
 Hypernudging intensifies the usual ethics of nudging. A static default or prompt can be inspected and debated. A hypernudge may be personalized, experimental, and invisible to the user. It may also optimize for engagement, revenue, data extraction, or institutional convenience rather than [[Chooser Welfare]].
+
+The connection to [[Libertarian Paternalism]] is therefore a test, not an equivalence. Retaining the final click does not establish meaningful freedom, and personalization does not establish benefit by the user's own lights. Applying that standard to a changing system requires examining whether its objective remains user-serving and whether users can still understand and reject its steering as it adapts. This is the course's normative application of the hypernudge account.
 
 Schmidt and Engelen's [[Schmidt and Engelen, 2020|The Ethics of Nudging: An Overview]] helps mark why this becomes a new ethics problem rather than only a new delivery channel. Digital choice architecture can combine user data, A/B testing, algorithms, personalization, and opacity, so freedom to choose otherwise may exist formally while users lack practical understanding or control over the architecture shaping the choice.
 

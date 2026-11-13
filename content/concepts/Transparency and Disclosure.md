@@ -8,12 +8,13 @@ tags:
   - disclosure
   - accountability
   - governance
-updated_on: 2026-06-02
+updated_on: 2026-11-13
 source_count: 11
 aliases:
   - Transparency and Publicity
   - Reasoned Transparency
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Ethics of Nudging]]
   - [[Smart Disclosure]]
@@ -40,6 +41,8 @@ This page absorbs the former page on transparency and publicity and the former p
 Publicity is an ethical test, not merely a notice requirement. A nudge should be visible enough, publicly defensible, and compatible with autonomy, dignity, welfare, and self-government. Sunstein's [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]] supplies this publicity standard.
 
 Epistemic transparency is narrower and more immediate: can the target recognize the intervention and its purpose while choosing? A nudge may be publicly announced while the target still cannot recognize its intention or mechanism in context. Hansen and Jespersen's [[Hansen and Jespersen, 2013|Nudge and the Manipulation of Choice]] is the anchor for this distinction between public defensibility and transparency at the point of influence.
+
+For [[Libertarian Paternalism]], this distinction exposes a gap between a formally available alternative and an intelligible opportunity to reject steering. Announcing a welfare objective does not establish that users understand the intervention or can resist it. Transparency supports meaningful freedom, but does not itself establish that the chosen goal serves users or that the means are acceptable.
 
 Transparency also matters because it controls power. In Schmidt and Engelen's [[Schmidt and Engelen, 2020|overview]], the non-domination worry is that nudging can give architects uncontrolled influence over citizens or users. The response is not mere notice, but transparency plus democratic control, accountability, and contestability.
 

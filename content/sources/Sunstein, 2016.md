@@ -8,12 +8,13 @@ tags:
   - ethics
   - nudging
   - behavioral-public-policy
-updated_on: 2026-05-26
+updated_on: 2026-11-13
 source_path: raw/books/Sunstein, 2016.pdf
 work_type: book
 coverage_status: partially ingested
 priority: foundational
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Ethics of Nudging]]
   - [[Chooser Welfare]]
@@ -49,6 +50,8 @@ The book is especially useful for [[Digital Nudging]] because digital interfaces
 Sunstein's starting point is that [[Choice Architecture]] cannot be avoided. A government, platform, institution, or firm must decide what to show, what to default, what to simplify, what to make salient, and what happens if people do nothing. The ethical question is therefore not whether influence exists, but how influence is justified and constrained.
 
 The central normative standard is that many nudges should make people better off as judged by themselves. This becomes [[Chooser Welfare]] in the vault: interventions should not merely increase compliance, engagement, revenue, or behavior change, but should plausibly help people pursue ends they would endorse under conditions of adequate information and reflection.
+
+This develops the welfare commitment of [[Libertarian Paternalism]] while placing it within a broader ethics of influence. Preserving easy exit and pursuing the chooser's good do not eliminate the need to consider how the intervention treats agency or how its architect is held accountable.
 
 Sunstein organizes the ethics of nudging around four values: welfare, autonomy, dignity, and self-government. Welfare asks whether the intervention improves people's lives. Autonomy asks whether people retain meaningful agency, not just formal option sets. Dignity asks whether people are treated respectfully rather than as objects of control or humiliation. Self-government asks whether public influence is transparent, accountable, and open to scrutiny.
 

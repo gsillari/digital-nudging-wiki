@@ -8,13 +8,14 @@ tags:
   - decision-support
   - reflective-equilibrium
   - digital-nudging
-updated_on: 2026-11-06
+updated_on: 2026-11-13
 source_count: 7
 aliases:
   - Behavioral Economics 2.0
   - Reflective Equilibrium
   - Adaptive Armor
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[AI as Choice Aid]]
   - [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]]
@@ -31,6 +32,8 @@ related_pages:
 [[Algorithmic Thought Partners]] are AI or algorithmic systems that help people reason, understand, predict, compare, implement, and practice decisions. The point is to shift digital nudging from intervention design toward tool-building: not only arranging the user's environment, but helping the user think and act under better conditions. Ludwig and coauthors make this the central mechanism of [[Ludwig et al., 2025|Algorithms as a Vehicle to Reflective Equilibrium: Behavioral Economics 2.0]].
 
 A thought partner does not simply choose for the user or push the user toward a preselected behavior. Its ideal role is to help the user approach reflective equilibrium.
+
+The comparison with [[Libertarian Paternalism]] reveals both continuity and change. Both can aim at the user's considered welfare without coercion. Thought partnership, however, can help the user formulate and revise the objective, rather than treating the architect's selected target as settled. In this course comparison, agency concerns not only the ability to reject guidance but also participation in deciding what the guidance is for.
 
 The same idea extends across disclosure, insurance, shrouded attributes, recommendations, and engagement optimization. The common problem is that users often need help making sense of a choice, not merely a prediction of what they are likely to do. That broader application is developed in [[AI as Choice Aid]].
 

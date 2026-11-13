@@ -7,7 +7,7 @@ tags:
   - ethics
   - welfare
   - nudging
-updated_on: 2026-05-26
+updated_on: 2026-11-13
 parent_work: "[[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]"
 unit_type: chapter
 unit_number: 3
@@ -15,6 +15,7 @@ source_path: raw/books/Sunstein, 2016.pdf
 coverage_status: ingested
 priority: foundational
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Sunstein, 2016|The Ethics of Influence: Government in the Age of Behavioral Science]]
   - [[Chooser Welfare]]
   - [[Ethics of Nudging]]
@@ -28,7 +29,7 @@ related_pages:
 
 Chapter 3 develops the welfare criterion behind [[Ethics of Nudging]]: a nudge should generally make choosers better off as judged by themselves. This is not the same as satisfying whatever people happen to choose in a poorly informed, impulsive, or manipulated moment. It asks what people would endorse under better conditions of information, attention, reflection, and self-control.
 
-The chapter is the main source for [[Chooser Welfare]] in the vault.
+The chapter is the main source for [[Chooser Welfare]] in the vault and develops the welfare commitment behind [[Libertarian Paternalism]]. Its caution about the architect's knowledge explains why preserving choice cannot compensate for an unsupported claim about what is good for the chooser.
 
 ## Key claims
 

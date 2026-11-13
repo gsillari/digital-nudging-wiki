@@ -10,8 +10,9 @@ tags:
   - digital-nudging
   - big-data
   - platform-governance
-updated_on: 2026-05-26
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[Digital Nudging]]
   - [[Hypernudge]]
   - [[Personalized Choice Architecture]]
@@ -70,6 +71,7 @@ For the course, the key move is that digital nudging is not just "nudging on scr
 
 ## Links into the wiki
 
+- [[Libertarian Paternalism]]: the course uses the hypernudge account to test whether dynamically personalized steering actually serves chooser welfare and preserves meaningful rejection; neither follows from retaining the user's final decision.
 - [[Hypernudge]]: main concept extracted from the article.
 - [[Personalized Choice Architecture]]: captures personalization as a core feature of digital nudging.
 - continuous optimization and experimentation ([[Hypernudge]]): captures recursive feedback, A/B testing, and real-time modification.

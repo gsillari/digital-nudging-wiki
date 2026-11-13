@@ -11,8 +11,9 @@ tags:
   - choice-engines
   - paternalism
   - chooser-welfare
-updated_on: 2026-05-28
+updated_on: 2026-11-13
 related_pages:
+  - [[Libertarian Paternalism]]
   - [[AI as Choice Aid]]
   - [[Algorithmic Thought Partners]]
   - [[Behavior-Welfare Gap]]
@@ -32,6 +33,8 @@ related_pages:
 The paper starts from the problem of [[Chooser Welfare]] under heterogeneity. Average behavioral interventions can help some people and hurt others. Home energy reports, graphic labels, calorie labels, defaults, taxes, mandates, and bans may have different effects across groups. The fact that an intervention improves average behavior does not show that it improves each chooser's welfare.
 
 Choice engines are Sunstein's constructive response. A user-facing AI tool could recommend products, plans, or defaults that fit a person's own situation, values, and constraints. It could offer simple rankings such as Good, Better, and Best; explain relevant tradeoffs; make future costs salient; and help users incorporate internalities and, where appropriate, externalities.
+
+The spectrum matters for [[Libertarian Paternalism]]: a welfare-oriented recommendation that is easy to reject differs from a system that screens out or blocks options. The course should not treat every paternalistic AI intervention discussed here as libertarian merely because the instrument is an assistant.
 
 ## Key claims
 
